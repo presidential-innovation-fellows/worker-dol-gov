@@ -2,25 +2,25 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background-color: $worker-blue;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 34px;
     font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    line-height: 70px;
+    letter-spacing: 1px;
     margin-bottom: 0;
     float: left;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $worker-white;
+        text-decoration:none;
     }
 }
 
@@ -100,11 +100,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,

@@ -37,6 +37,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p {
+    color: #58595b;
+}
+
+li {
+    color: #58595b;
+}
 
 
 /**
@@ -91,16 +98,17 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+    color: $worker-blue;
+    text-decoration: underline;
+
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($worker-blue, 20%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 

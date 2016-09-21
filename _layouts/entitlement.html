@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<section class="mad-lib">
+<div class="usa-grid">
+	<div class="usa-grid-one-whole">
+		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and <span class="underline">{{ page.experience }}</span>.</h1>
+	</div>
+</div>
+</section>
+
+<section class="content">
+
+<div class="entitlement">
+	<div class="usa-grid">
+		<div class="usa-width-one-third">
+			<div class="rights-grouping">
+				{% if page.right == "wage-rights" %}
+					<img src="/assets/img/icons/right-wage-lg.png">
+					<a href="/rights/wage-rights">my wage rights</a>
+				{% elsif page.right == "equality-rights" %}
+					<img src="/assets/img/icons/right-equality-lg.png">
+					<a href="/rights/equality-rights">my equality rights</a>
+				{% elsif page.right == "safety-rights" %}
+					<img src="/assets/img/icons/right-safety-lg.png">
+					<a href="/rights/safety-rights">my safety rights</a>
+				{% elsif page.right == "organizing-rights" %}				
+					<img src="/assets/img/icons/right-organize-lg.png">
+					<a href="/rights/organzing-rights">my organizing rights</a>
+				{% endif %}	
+			</div>
+		</div>
+		<div class="usa-width-two-thirds">
+			<div class="entitlement-description">
+			{% for entitlement in page.entitlement %}
+				<h1>{{ entitlement.header }}</h1>
+				<p>{{ entitlement.description }}</p>
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="experiences">
+	
+	{% for action in page.actions %}
+
+	<div class="usa-grid">
+		<div class="usa-width-two-thirds">
+			<h2>{{ action.header }}</h2>
+			<p>{{ action.description }}</p>
+		</div>
+		<div class="usa-width-one-third">
+			<a href="/actions/{{ action.whd-claim }}">
+			<button class="usa-button-big usa-button-secondary">
+				{% if action.cta %}
+  					{{ action.cta }}
+				{% else %}
+					Take Action
+				{% endif %}	
+			</button>
+			</a>
+		</div>
+	</div>
+
+	{% endfor %}
+
+</div>
+
+
+
+
+{{ content }}
+
+</section>
+

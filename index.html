@@ -2,22 +2,37 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="page-content home-page">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="wrapper">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div class="index">
+
+  <ul class="icons">
+          <li><a href="https://www.dol.gov/"><img src="/assets/img/icons-workers.png"></a></li>
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h1 class="page-heading">We work for you.</h1>
+  <h4>You have rights and we’ll help you exercise them. This site is dedicated to the needs
+of workers and is built in a new way designed to improve based on your input.</h4>
+
+<select class="chosen-select" data-placeholder="Select your job...">
+    {% for profile in site.profiles %}
+      {% if profile.layout == "profiles" %}
+      <option value="{{ profile.url }}">{{ profile.name }}</option>
+      {% endif %}
+    {% endfor %}
+</select>
+
+  <div class="button_wrapper">
+
+    <a class="learn-rights"><button class="usa-button-big usa-button-secondary">Learn My Rights</button></a>
+  </div>
+  <a href="">Explore all rights</a>
+
+</div>
+
+</div>
 
 </div>

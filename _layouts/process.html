@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<section class="content">
+
+<div class="usa-grid">
+	<div class="usa-width-two-thirds">
+
+		<a href="back">< Back to my entitlement</a>
+
+		<h1>{{page.header}}</h1>
+
+{% if page.before-you-file-markup %}
+	<div class="process-section">
+		<h2>Before you file</h2>
+		{{ page.before-you-file-markup }}
+	</div>
+{% endif %}
+	<div class="process-section">
+		<h2>What can I expect?</h2>
+		<div class="steps">
+			  {% for step in page.steps %}
+			<div class="usa-grid">
+				<div class="usa-width-one-third step-icon">
+					<img src="{{step.img}}">
+				</div>
+				<div class="usa-width-two-thirds">
+					<h4>Step {{ forloop.index }}</h4>
+					<p>{{step.text}}</p>
+				</div>		
+			</div>
+  			{% endfor %}
+
+		</div>
+	</div>
+
+			<a href="/actions/whd-claim"><button class="usa-button-big usa-button-secondary">File Now</button></a>
+
+	</div>
+	<div class="usa-width-one-third process-sidebar">
+		<h2>We're here to help</h2>
+		<ul>
+		{% for help in page.here-to-help %}
+			<li>{{help}}</li>
+		{% endfor %}
+		</ul>
+
+		<hr class="seperator">
+		{% for profile in page.worker-profile %}
+			<img src="{{ profile.img }}">
+			<h4>Worker Profile</h4>
+			<p>{{ profile.description }}</p>
+			<a href="" class="usa-button usa-button-primary">{{ profile.cta }}</a>
+		{% endfor %}
+	</div>
+</div>
+
+
+{{ content }}
+
+</section>
+

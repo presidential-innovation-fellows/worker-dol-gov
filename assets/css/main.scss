@@ -1,0 +1,238 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #222222;
+$alt-text-color:   #ffffff;
+
+$background-color: #fdfdfd;
+
+$brand-color:      #ffffff;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$worker-blue:	   #1766a3; 
+$worker-blue-dark: #072849;
+$worker-cta:	   #d0213d;
+$worker-white:	   #ffffff;
+$light-gray-back:  #f3f3f4;
+$worker-light-blue: #5da5da;
+
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+// Header Styles
+
+.usa p {
+    margin: 0;
+    padding: 5px 0;
+    color: #7d7e81;
+}
+
+.usa img {
+    margin-right: 4px;
+}
+
+.usa a:visited {
+    color: $worker-blue-dark;
+}
+
+.usa {
+    background-color: #e7e7e8;
+    color: #fff;
+    font-size: 0.65em;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.site-title {
+    padding: 10px 0;
+}
+
+a.site-title img {
+    max-width:250px;
+}
+
+// Footer Styles
+
+.footer-heading {
+    font-size: 14px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+ul.agencies {
+    text-align: left;
+}
+
+ul.agencies li {
+    display: inline-block;
+    max-width: 75px;
+}
+
+// Homepage Styles
+
+ul.icons {
+    text-align: center;
+    list-style: none;
+}
+
+ul.agencies li {
+    display: inline-block;
+    max-width: 100px;
+}
+
+.home-page {
+    background-color: $worker-blue;
+    color: $worker-white;
+    text-align: center;
+}
+
+.home-page h1 {
+    font-size: 58px;
+}
+
+.home-page a {
+    color: $worker-white
+}
+
+// Other Styles
+
+.mad-lib {
+    background-color: $worker-blue;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.mad-lib h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+section.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    color: $worker-blue;
+    font-size: 28px;
+    line-height: 52px;
+}
+
+.content h2 {
+    color: $worker-blue;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+div.priority-rights {
+    margin: 50px 0;
+}
+
+.content ul.experience-list {
+    list-style: none;
+}
+
+.experiences {
+    padding: 40px 0;
+    background: $light-gray-back;
+}
+
+.experiences img {
+    padding-right: 10px;
+}
+
+.usa-grid.seperator {
+    padding: 25px 0;
+}
+
+// Entitlement
+
+.entitlement {
+    padding: 30px 0;
+}
+
+.entitlement .rights-grouping {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.entitlement .rights-grouping img {
+    display:block;
+    margin: auto auto;
+}
+
+.entitlement .entitlement-description h1 {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.process-sidebar {
+    background-color: $light-gray-back;
+    padding:10px 15px;
+}
+
+.content h4{
+    font-size: 14px;
+    line-height: 31px;
+    margin-bottom:0px;
+    color: $worker-light-blue;
+    text-transform: uppercase;
+}
+
+.steps .step-icon {
+    text-align: center;
+}
+
+hr.seperator {
+    margin: 20px 0;
+}
+
+div.process-section {
+    margin: 30px 0;
+}
