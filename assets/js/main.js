@@ -9,4 +9,14 @@ $(function() {
     $("a.learn-rights").attr("href", params["selected"])
   });
 
+  $('input.index-input').on('input propertychange paste', function() {
+  		var url = $("#workerprofiles option[value='" + $('input.index-input').val() + "']").attr('data-url');
+        if(url !== undefined && url !== null) { 
+        	$("a.learn-rights").attr("href", url)
+        }	
+        else { 
+    		$("a.learn-rights").attr("href", "profiles/explorerights.html")
+		}
+  });
+
 });

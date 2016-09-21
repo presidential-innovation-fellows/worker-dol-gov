@@ -16,6 +16,6 @@ here-to-help:
   - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with NLRB.
 
 worker-profile:
-  - { description: "These workers went through something similar and exercised their rights with NLRB.", img: "/assets/img/workers/worker-story-balt.png", cta: "Read Their Story" }
+  - { description: "These workers went through something similar and exercised their rights with NLRB.", img: "/assets/img/workers/Baltazar_Thumb.jpg", cta: "Read Their Story" }
   
 ---

@@ -17,17 +17,23 @@ layout: default
   <h4>You have rights and we’ll help you exercise them. This site is dedicated to the needs
 of workers and is built in a new way designed to improve based on your input.</h4>
 
-<select class="chosen-select" data-placeholder="Select your job...">
-    {% for profile in site.profiles %}
+  <div class="usa-grid">  
+    <div class="usa-width-two-thirds">
+      <label for="worker-profile">I am a:</label>
+      <input name="worker-profile" class="index-input" list="workerprofiles" placeholder="enter your job title" />
+      <datalist id="workerprofiles">
+      {% for profile in site.profiles %}
       {% if profile.layout == "profiles" %}
-      <option value="{{ profile.url }}">{{ profile.name }}</option>
+      <option value="{{ profile.name }}" data-url="{{ profile.url }}">{{ profile.name }}</option>
       {% endif %}
-    {% endfor %}
-</select>
-
-  <div class="button_wrapper">
-
-    <a class="learn-rights"><button class="usa-button-big usa-button-secondary">Learn My Rights</button></a>
+      {% endfor %}
+  </datalist>
+    </div>
+    <div class="usa-width-one-third">
+       <div class="button_wrapper">
+        <a class="learn-rights"><button class="usa-button-big usa-button-secondary">Learn My Rights</button></a>
+       </div>
+    </div>
   </div>
   <a href="">Explore all rights</a>
 

@@ -112,6 +112,39 @@ ul.agencies li {
 
 // Homepage Styles
 
+label {
+    /* Other styling.. */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    margin-top:0px;
+}
+
+input.index-input {
+    background-color: $worker-blue;
+    border:0px;
+    border-bottom: 1px solid $worker-white;
+    font-style: italic;
+    color: $worker-white
+}
+
+input.index-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $light-gray-back;
+}
+input.index-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $light-gray-back;
+   opacity:  1;
+}
+input.index-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $light-gray-back;
+   opacity:  1;
+}
+input.index-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    $light-gray-back;
+}
+
+
 ul.icons {
     text-align: center;
     list-style: none;
