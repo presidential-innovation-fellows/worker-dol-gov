@@ -6,8 +6,6 @@ layout: default
 <div class="usa-grid">
 	<div class="usa-grid-one-whole">
 		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and 
-
-
 		<div class="awesomplete">
 			<input list="mylist" class="dropdown-input" autocomplete="off" aria-autocomplete="list" placeholder="{{ page.experience }}" maxlength="75">
 			<datalist id="mylist">
@@ -71,16 +69,23 @@ layout: default
 	</div>
 </div>
 
-<div class="experiences">
+<div class="usa-grid">
+	<div class="usa-width-one-whole">
+		<hr class="seperator">
+	</div>
+</div>
+
+<div class="entitlement-action">
 	
 	{% for action in page.actions %}
 
 	<div class="usa-grid">
+		<div class="usa-width-one-third">
+			<br>
+		</div>
 		<div class="usa-width-two-thirds">
 			<h2>{{ action.header }}</h2>
 			<p>{{ action.description }}</p>
-		</div>
-		<div class="usa-width-one-third">
 			<a href="/actions/{{ action.id }}">
 			<button class="usa-button-big usa-button-secondary">
 				{% if action.cta %}

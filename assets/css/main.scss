@@ -26,8 +26,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $worker-blue:	   #1766a3; 
 $worker-blue-dark: #072849;
+$worker-light-blue:#5ca3dc;
 $worker-cta:	   #d0213d;
 $worker-white:	   #ffffff;
+$off-white:        #eee;
 $light-gray-back:  #f3f3f4;
 $worker-light-blue: #5da5da;
 
@@ -112,6 +114,17 @@ ul.agencies li {
 }
 
 // Homepage Styles
+
+.home-page a.explore-rights {
+    color: $worker-light-blue;
+}
+
+.home-page h4 {
+    font-weight: 300;
+    font-family: $base-font-family;
+    letter-spacing: .8px;
+    color: $off-white;
+}
 
  label {
     /* Other styling.. */
@@ -211,6 +224,10 @@ h3.usa-alert-heading {
     line-height: 40px;
 }
 
+p.mission {
+    font-size: 0.85em;
+}
+
 .usa-grid.seperator {
     padding: 25px 0;
 }
@@ -218,12 +235,20 @@ h3.usa-alert-heading {
 // Entitlement
 
 .entitlement {
-    padding: 30px 0;
+    padding: 10px 0;
+}
+
+.entitlement-action {
+    padding: 20px 0 60px 0;    
 }
 
 .entitlement .rights-grouping {
     margin: 30px auto;
     text-align: center;
+}
+
+.entitlement .rights-grouping a {
+    font-size: .9em;
 }
 
 .entitlement .rights-grouping img {
@@ -255,6 +280,8 @@ h3.usa-alert-heading {
 
 hr.seperator {
     margin: 20px 0;
+    height: 0px;
+    border-top: 1px solid #e8e8e8;
 }
 
 div.process-section {
