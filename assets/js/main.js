@@ -15,7 +15,7 @@ $(function() {
         	$("a.learn-rights").attr("href", url)
         }	
         else { 
-    		$("a.learn-rights").attr("href", "profiles/explorerights.html")
+    		$("a.learn-rights").attr("href", "profiles/all.html")
 		}
   });
 
