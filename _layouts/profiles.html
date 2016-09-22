@@ -5,16 +5,17 @@ layout: default
 <section class="mad-lib">
 <div class="usa-grid">
 	<div class="usa-grid-one-whole">
-		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and I want to know my rights.</h1>
-
-<div class="awesomplete">
-	
-	
-	<input data-list="CSS, JavaScript, HTML, SVG, ARIA, MathML" class="dropdown-input" autocomplete="off" aria-autocomplete="list" placeholder="{{ page.name }}">
-
-
+		<h1>I am a 	<div class="awesomplete">
+		<input list="mylist" class="dropdown-input" autocomplete="off" aria-autocomplete="list" placeholder="{{page.name}}">
+		<datalist id="mylist">
+		{% for profile in site.profiles %}
+		{% if profile.layout == "profiles" %}
+			<option value="{{ profile.name }}" data-url="{{ profile.url }}">{{ profile.name }}</option>
+		{% endif %}
+		{% endfor %}
+		</ul>
 	</div>
-	<button class="dropdown-btn" type="button"><span class="caret"></span></button>
+	<button class="dropdown-btn" type="button"><span class="caret"></span></button><br>and I want to know my rights.</h1>
 
 	</div>
 </div>

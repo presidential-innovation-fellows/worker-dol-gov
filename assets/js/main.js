@@ -22,6 +22,7 @@ $(function() {
   var comboplete = new Awesomplete('input.dropdown-input', {
   minChars: 0,
   });
+  
   Awesomplete.$('.dropdown-btn').addEventListener("click", function() {
   if (comboplete.ul.childNodes.length === 0) {
     comboplete.minChars = 0;
@@ -34,5 +35,11 @@ $(function() {
     comboplete.close();
   }
 });
+
+  document.querySelector('input.dropdown-input').addEventListener('awesomplete-selectcomplete', function(evt){
+    var url = $("#mylist option[value='" + $('input.dropdown-input').val() + "']").attr('data-url');
+    window.location.href = url;
+  })
+
 
 });

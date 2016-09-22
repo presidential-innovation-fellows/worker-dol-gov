@@ -122,30 +122,6 @@ ul.agencies li {
     margin-top:0px;
 }
 
-input.index-input {
-    background-color: $worker-blue;
-    border:0px;
-    border-bottom: 1px solid $worker-white;
-    font-style: italic;
-    color: $worker-white;
-}
-
-input.index-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    $light-gray-back;
-}
-input.index-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    $light-gray-back;
-   opacity:  1;
-}
-input.index-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    $light-gray-back;
-   opacity:  1;
-}
-input.index-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    $light-gray-back;
-}
-
-
 ul.icons {
     text-align: center;
     list-style: none;
@@ -310,9 +286,21 @@ button.dropdown-btn {
 input.dropdown-input {
     background-color: $worker-blue;
     border:0px;
-    border-bottom: 1px solid $worker-white;
-    font-style: italic;
-    color: $worker-white
+    border-bottom: 3px solid $worker-white;
+    color: $worker-white;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+}
+
+.awesomplete > ul > li {
+    font-size: 16px;
+    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+}
+
+input.dropdown-input::-webkit-calendar-picker-indicator {
+  display: none;
 }
 
 input.dropdown-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
