@@ -5,7 +5,36 @@ layout: default
 <section class="mad-lib">
 <div class="usa-grid">
 	<div class="usa-grid-one-whole">
-		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and <span class="underline">{{ page.experience }}</span>.</h1>
+		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and 
+
+
+		<div class="awesomplete">
+			<input list="mylist" class="dropdown-input" autocomplete="off" aria-autocomplete="list" placeholder="{{ page.experience }}" maxlength="75">
+			<datalist id="mylist">
+			{% for profile in site.profiles %}
+			{% if profile.layout == "profiles" %}
+				{% if profile.name == page.name %}
+					{% for top-rights in profile.priority-rights %}
+						<option value="{{ top-rights.text }}" data-url="/profiles/{{ profile.val}}/{{ top-rights.id }}">{{ top-rights.text }}</option>
+					{% endfor %}
+					{% for wage-rights in profile.wage-rights %}
+						<option value="{{ wage-rights.text }}" data-url="/profiles/{{ profile.val}}/{{ wage-rights.id }}">{{ wage-rights.text }}</option>
+					{% endfor %}
+					{% for equality-rights in profile.equality-rights %}
+						<option value="{{ equality-rights.text }}" data-url="/profiles/{{ profile.val}}/{{ equality-rights.id }}">{{ equality-rights.text }}</option>
+					{% endfor %}
+					{% for safety-rights in profile.safety-rights %}
+						<option value="{{ safety-rights.text }}" data-url="/profiles/{{ profile.val}}/{{ safety-rights.id }}">{{ safety-rights.text }}</option>
+					{% endfor %}
+					{% for organizing-rights in profile.organizing-rights %}
+						<option value="{{ organizing-rights.text }}" data-url="/profiles/{{ profile.val}}/{{ organizing-rights.id }}">{{ organizing-rights.text }}</option>
+					{% endfor %}
+				{% endif %}	
+			{% endif %}
+			{% endfor %}
+		</ul>
+		</div>
+		<button class="dropdown-btn" type="button"><span class="caret"></span></button>.</h1>
 	</div>
 </div>
 </section>
