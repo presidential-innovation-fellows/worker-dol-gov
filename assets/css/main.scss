@@ -199,6 +199,11 @@ section.content {
 
 div.priority-rights {
     margin: 50px 0;
+/*    background: url('../img/workers/ElSuper.png') no-repeat bottom right; */
+}
+
+div.priority-rights h1 {
+    margin-left: 68px;
 }
 
 .content ul.experience-list {
@@ -268,6 +273,7 @@ p.mission {
 .process-sidebar {
     background-color: $light-gray-back;
     padding:10px 15px;
+    font-size: .9em;
 }
 
 .process-sidebar img {
@@ -301,6 +307,11 @@ hr.seperator {
 
 div.process-section {
     margin: 30px 0;
+}
+
+
+div.worker-sidebar {
+    margin: 10px 10px 10px 30px;
 }
 
 

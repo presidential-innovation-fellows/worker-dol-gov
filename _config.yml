@@ -33,3 +33,5 @@ collections:
     output: true
   rights:
     output: true
+  worker-profiles:
+    output: true

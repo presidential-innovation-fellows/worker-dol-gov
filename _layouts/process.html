@@ -45,12 +45,14 @@ layout: default
 		</ul>
 
 		<hr class="seperator">
+		<div class="worker-sidebar">
 		{% for profile in page.worker-profile %}
 			<img src="{{ profile.img }}">
 			<h4>Worker Profile</h4>
 			<p>{{ profile.description }}</p>
-			<a href="" class="usa-button usa-button-primary">{{ profile.cta }}</a>
+			<a href="/worker-profiles/{{profile.id}}" class="usa-button usa-button-primary">{{ profile.cta }}</a>
 		{% endfor %}
+		</div>
 	</div>
 </div>
 <div class="action-area">
