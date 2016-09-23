@@ -379,3 +379,7 @@ input.dropdown-input::-moz-placeholder { /* Mozilla Firefox 19+ */
 input.drop-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    $light-gray-back;
 }
+
+a.back {
+    font-size: .8em;
+}
