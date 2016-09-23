@@ -150,6 +150,7 @@ ul.agencies li {
     color: $worker-white;
     text-align: center;
     background: url('../img/Waves2.png') no-repeat bottom right, linear-gradient(to bottom, rgba(23,102,163,1) 0%, rgba(74,132,176,1) 100%);
+    padding-bottom: 50px;
 }
 
 
@@ -273,12 +274,19 @@ p.mission {
     max-height: 175px;
 }
 
+.action-area {
+    background-color: #fadee2;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
 .content h4{
     font-size: 14px;
     line-height: 31px;
     margin-bottom:0px;
     color: $worker-light-blue;
     text-transform: uppercase;
+    font-weight: 800;
 }
 
 .steps .step-icon {
