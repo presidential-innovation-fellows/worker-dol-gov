@@ -116,7 +116,7 @@ ul.agencies li {
 // Homepage Styles
 
 .home-page a.explore-rights {
-    color: $worker-light-blue;
+    color: $worker-white;
 }
 
 .home-page h4 {
@@ -149,6 +149,7 @@ ul.agencies li {
     background-color: $worker-blue;
     color: $worker-white;
     text-align: center;
+    background: url('../img/Waves2.png') no-repeat bottom right, linear-gradient(to bottom, rgba(23,102,163,1) 0%, rgba(74,132,176,1) 100%);
 }
 
 
@@ -167,6 +168,7 @@ ul.agencies li {
     color: white;
     text-align: center;
     padding: 40px 0px;
+    background: url('../img/Waves2.png') no-repeat bottom right, linear-gradient(to bottom, rgba(23,102,163,1) 0%, rgba(74,132,176,1) 100%);
 }
 
 .mad-lib h1 {
@@ -235,11 +237,12 @@ p.mission {
 // Entitlement
 
 .entitlement {
-    padding: 10px 0;
+    padding: 40px 0;
 }
 
 .entitlement-action {
-    padding: 20px 0 60px 0;    
+    padding: 40px 0 60px 0; 
+    background: $light-gray-back;   
 }
 
 .entitlement .rights-grouping {
@@ -264,6 +267,10 @@ p.mission {
 .process-sidebar {
     background-color: $light-gray-back;
     padding:10px 15px;
+}
+
+.process-sidebar img {
+    max-height: 175px;
 }
 
 .content h4{
@@ -325,6 +332,9 @@ input.dropdown-input {
     line-height: 50px;
     font-weight: 400;
     font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+}
+
+input.dropdown-input-index {
 }
 
 .awesomplete > ul > li {

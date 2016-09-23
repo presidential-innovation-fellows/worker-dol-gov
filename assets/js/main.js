@@ -19,6 +19,26 @@ $(function() {
 		}
   });
 
+  var comboplete = new Awesomplete('input.dropdown-input-index', {
+  minChars: 0,
+  });
+  
+  Awesomplete.$('.dropdown-btn').addEventListener("click", function() {
+  if (comboplete.ul.childNodes.length === 0) {
+    comboplete.minChars = 0;
+    comboplete.evaluate();
+  }
+  else if (comboplete.ul.hasAttribute('hidden')) {
+    comboplete.open();
+  }
+  else {
+    comboplete.close();
+  }
+});
+
+
+
+
   var comboplete = new Awesomplete('input.dropdown-input', {
   minChars: 0,
   });
@@ -40,6 +60,5 @@ $(function() {
     var url = $("#mylist option[value='" + $('input.dropdown-input').val() + "']").attr('data-url');
     window.location.href = url;
   })
-
 
 });
