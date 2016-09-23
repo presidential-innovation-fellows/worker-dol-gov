@@ -52,22 +52,22 @@ layout: default
 			<ul class="experience-list">
 			{% if right.val == "equality-rights" %}
 				{% for equality-right in page.equality-rights %}
-				<li><a href="hi">{{ equality-right.text }}</a></li>
+				<li><a href="{{ page.id }}/{{equality-right.id}}">{{ equality-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "safety-rights" %}
 				{% for safety-right in page.safety-rights %}
-				<li><a href="hi">{{ safety-right.text }}</a></li>
+				<li><a href="{{ page.id }}/{{safety-right.id}}">{{ safety-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "organizing-rights" %}
 				{% for organizing-right in page.organizing-rights %}
-				<li><a href="hi">{{ organizing-right.text }}</a></li>
+				<li><a href="{{ page.id }}/{{organizing-right.id}}">{{ organizing-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "wage-rights" %}
 				{% for wage-right in page.wage-rights %}
-				<li><a href="hi">{{ wage-right.text }}</a></li>
+				<li><a href="{{ page.id }}/{{wage-right.id}}">{{ wage-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% endif %}
