@@ -74,6 +74,10 @@ $on-laptop:        800px;
 
 // Header Styles
 
+.top-menu {
+    background: url('../img/icon-texture-tile.png') repeat bottom right,
+}
+
 .usa p {
     margin: 0;
     padding: 5px 0;
@@ -163,8 +167,8 @@ ul.agencies li {
     color: $worker-white;
     text-align: center;
     background:
-        linear-gradient(to bottom, $worker-blue 0%, rgba(23,102,163,0) 10%),
-        url('../img/icon-texture.png') repeat-x bottom right,
+        linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture-tile.png') repeat top right,
         linear-gradient(to bottom, $worker-blue 0%, 
         lighten($worker-blue, 5%) 100%);
     padding-bottom: 50px;
@@ -181,6 +185,7 @@ ul.agencies li {
 
 a.learn-rights button {
     min-width: 200px;
+    margin-top: 0px;
 }
 
 // Other Styles
@@ -191,8 +196,8 @@ a.learn-rights button {
     text-align: center;
     padding: 40px 0px;
     background: 
-        linear-gradient(to bottom, $worker-blue 0%, rgba(23,102,163,0) 10%),
-        url('../img/icon-texture.png') repeat-x bottom right,
+        linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture-tile.png') repeat top right,
         linear-gradient(to bottom, $worker-blue 0%, 
         lighten($worker-blue, 5%) 100%);
 }
@@ -413,7 +418,7 @@ input.dropdown-input-index {
 
 .awesomplete > ul > li {
     font-size: 16px;
-    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+    font-family: $base-font-family;
 }
 
 input.dropdown-input-index::-webkit-calendar-picker-indicator {
