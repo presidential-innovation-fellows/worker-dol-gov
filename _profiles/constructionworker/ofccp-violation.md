@@ -1,7 +1,7 @@
 ---
 title: Equality Rights
 layout: entitlement
-name: Day Laborer
+name: Construction Worker
 experience: "My employer is doing business with the federal government and I was discriminated against."
 right: equality-rights
 
