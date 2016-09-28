@@ -22,5 +22,8 @@ here-to-help:
 worker-profile:
   - { description: "Baltazar went through something similar, and exercised his rights to receive back pay.", img: "/assets/img/workers/Baltazar_Thumb.jpg", cta: "Read Baltazar's Story", id: "baltazar" }
 
+file:
+- { url: "https://www.dol.gov/wecanhelp/howtofilecomplaint.htm", action-cta: "File a Claim", cta: "File Now" }
+
 
 ---

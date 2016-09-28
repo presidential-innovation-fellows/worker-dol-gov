@@ -3,10 +3,18 @@
 ---
 @charset "utf-8";
 
+// New fonts
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
 
 
 // Our variables
+
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font-family: 'Montserrat', "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -115,6 +123,12 @@ ul.agencies li {
 
 // Homepage Styles
 
+.home-page h1.page-heading {
+    text-transform: uppercase;
+    font-family: $header-font-family;
+    font-weight: 400;
+}
+
 .home-page a.explore-rights {
     color: $worker-white;
 }
@@ -148,7 +162,11 @@ ul.agencies li {
     background-color: $worker-blue;
     color: $worker-white;
     text-align: center;
-    background: url('../img/Waves2.png') no-repeat bottom right, linear-gradient(to bottom, rgba(23,102,163,1) 0%, rgba(74,132,176,1) 100%);
+    background:
+        linear-gradient(to bottom, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture.png') repeat-x bottom right,
+        linear-gradient(to bottom, $worker-blue 0%, 
+        lighten($worker-blue, 5%) 100%);
     padding-bottom: 50px;
 }
 
@@ -161,6 +179,10 @@ ul.agencies li {
     color: $worker-white
 }
 
+a.learn-rights button {
+    min-width: 200px;
+}
+
 // Other Styles
 
 .mad-lib {
@@ -168,12 +190,17 @@ ul.agencies li {
     color: white;
     text-align: center;
     padding: 40px 0px;
-    background: url('../img/Waves2.png') no-repeat bottom right, linear-gradient(to bottom, rgba(23,102,163,1) 0%, rgba(74,132,176,1) 100%);
+    background: 
+        linear-gradient(to bottom, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture.png') repeat-x bottom right,
+        linear-gradient(to bottom, $worker-blue 0%, 
+        lighten($worker-blue, 5%) 100%);
 }
 
 .mad-lib h1 {
     font-size: 30px;
     line-height: 50px;
+    font-family: $header-font-family;
 }
 
 span.underline {
@@ -186,12 +213,14 @@ section.content {
 
 .content h1 {
     color: $worker-blue;
+    font-family: $header-font-family;
     font-size: 28px;
     line-height: 52px;
 }
 
 .content h2 {
     color: $worker-blue;
+    font-family: $header-font-family;
     font-size: 25px;
     line-height: 37px;
 }
@@ -221,6 +250,7 @@ div.priority-rights h1 {
 
 
 h3.usa-alert-heading {
+    font-family: $header-font-family;
     font-size: 2rem;
     font-weight: 700;   
 }
@@ -286,6 +316,7 @@ p.mission {
 }
 
 .content h4{
+    font-family: $header-font-family;
     font-size: 14px;
     line-height: 31px;
     margin-bottom:0px;
@@ -306,6 +337,10 @@ hr.seperator {
 
 div.process-section {
     margin: 30px 0;
+}
+
+.process-section h2 {
+    border-bottom: 1px solid $worker-light-blue;
 }
 
 
@@ -373,8 +408,6 @@ input.dropdown-input-index {
     background: #a8d1ff;
 }
 
-
-
 .profile-wrapper {
 }
 
@@ -405,3 +438,30 @@ input.drop-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
 a.back {
     font-size: .8em;
 }
+
+.steps img {
+}
+
+.steps li {
+    list-style: none;
+    padding: 5px;
+}
+
+.steps h4 {
+    clear: none;
+}
+
+.steps div.step-content {
+    margin-left: 90px;
+}
+
+.steps div.step-img {
+    float:left;
+    width:90px;
+}
+
+section.action-bar {
+    background-color: $light-gray-back;
+    text-align: right;
+}
+

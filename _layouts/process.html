@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<section class="action-bar">
+	<div class="usa-grid">
+		<div class="usa-width-one-whole">
+			{% for file in page.file %}
+			<a href="{{ file.url }}"><button class="usa-button usa-button-secondary">{{ file.action-cta }}</button></a>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
 
 <section class="content">
 
@@ -20,18 +30,19 @@ layout: default
 	<div class="process-section">
 		<h2>What can I expect?</h2>
 		<div class="steps">
+			<ul class="usa-unstyled-list">
 			  {% for step in page.steps %}
-			<div class="usa-grid">
-				<div class="usa-width-one-third step-icon">
-					<img src="{{step.img}}">
-				</div>
-				<div class="usa-width-two-thirds">
-					<h4>Step {{ forloop.index }}</h4>
-					<p>{{step.text}}</p>
-				</div>		
-			</div>
-  			{% endfor %}
-
+				<li>
+					<div class="step-img">
+    					<img src="{{step.img}}"/>
+    				</div>
+  					<div class="step-content">
+    					<h4>Step {{ forloop.index }}</h4>
+    					<p>{{step.text}}</p>
+  					</div>
+				</li>
+  			   {% endfor %}
+			</ul>
 		</div>
 	</div>
 
@@ -50,7 +61,7 @@ layout: default
 			<img src="{{ profile.img }}">
 			<h4>Worker Profile</h4>
 			<p>{{ profile.description }}</p>
-			<a href="/worker-profiles/{{profile.id}}" class="usa-button usa-button-primary">{{ profile.cta }}</a>
+			<a href="/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
 		{% endfor %}
 		</div>
 	</div>
