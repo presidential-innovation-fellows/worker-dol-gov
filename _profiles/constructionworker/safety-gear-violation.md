@@ -2,7 +2,7 @@
 title: Safety Rights
 layout: entitlement
 name: Construction Worker
-experience: "I am not being provided required safety gear, such as gloves or a harness and lifeline for falls."
+experience: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals."
 right: safety-rights
 entitlement:
   - header: You have the right to a safe and healthy work environment.
