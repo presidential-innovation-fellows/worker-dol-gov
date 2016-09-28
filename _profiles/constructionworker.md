@@ -8,6 +8,7 @@ priority-rights:
   - { text: "I’m not being paid $7.25 or more for my work.", id: "min-wage-violation" }
   - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation." }
   - { text: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals.", id: "safety-gear-violation." }
+  - { text: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals.", id: "safety-gear-violation." }
 
 wage-rights:
   - { text: "I did not get paid for time I worked.", id: "hours-worked-violation" }
