@@ -20,18 +20,24 @@ of workers and is built in a new way designed to improve based on your input.</h
   <div class="usa-grid">  
     <div class="usa-width-two-thirds">
       <label for="worker-profile">I am a:</label>
-      <input name="worker-profile" class="index-input" list="workerprofiles" placeholder="enter your job title" />
+      <div class="profile-wrapper">
+      <div class="awesomplete">
+      <span style="display:block"><input list="workerprofiles" class="dropdown-input-index" autocomplete="off" aria-autocomplete="list" placeholder="enter your job title"></span>
       <datalist id="workerprofiles">
       {% for profile in site.profiles %}
       {% if profile.layout == "profiles" %}
-      <option value="{{ profile.name }}" data-url="{{ profile.url }}">{{ profile.name }}</option>
+            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>        
       {% endif %}
       {% endfor %}
-  </datalist>
+    </ul>
     </div>
+    <button class="dropdown-btn" type="button"><span class="caret"></span></button></h1>
+    </div>
+    </div>
+    
     <div class="usa-width-one-third">
        <div class="button_wrapper">
-        <a class="learn-rights"><button class="usa-button-big usa-button-secondary">Learn My Rights</button></a>
+        <a class="learn-rights" href="profiles/all.html"><button class="usa-button-big usa-button-secondary">Learn My Rights</button></a>
        </div>
     </div>
   </div>
