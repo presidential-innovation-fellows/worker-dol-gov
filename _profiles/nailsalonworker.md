@@ -5,8 +5,8 @@ layout: profiles
 name: Nail Salon Worker
 
 priority-rights:
-  - { text: "I’m being paid below $7.25 for work I performed.", id: "minimum wage violation" }
-  - { text: "I am not being protected from toxic chemicals.", id: "OSH violation" }
+  - { text: "I’m being paid below $7.25 for work I performed.", id: "min-wage-violation" }
+  - { text: "I am not being protected from toxic chemicals.", id: "osha-violation" }
   - { text: "I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired.", id: "Labor Law violation" }
 
 wage-rights:
