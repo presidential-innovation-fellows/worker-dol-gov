@@ -1,7 +1,7 @@
 ---
 title: Equality Rights
 layout: entitlement
-name: Day Laborer
+name: Restaurant Worker
 experience: "I am being treated differently based on my citizenship or immigration status."
 right: equality-rights
 

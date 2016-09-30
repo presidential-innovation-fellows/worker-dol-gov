@@ -2,7 +2,7 @@
 title: Equality Rights
 layout: entitlement
 name: Restaurant Worker
-experience: "I was discriminated against based on my race."
+experience: "I was laid off, my hours were reduced, or I was fired because I complained about my wages."
 right: equality-rights
 
 entitlement:

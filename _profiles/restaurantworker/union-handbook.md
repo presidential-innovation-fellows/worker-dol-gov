@@ -2,7 +2,7 @@
 title: Organizing Rights
 layout: entitlement
 name: Restaurant Worker
-experience: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation."
+experience: "We are afraid to talk to one another about our wages and working conditions because our employer has a handbook rule prohibiting release of confidential information."
 right: organizing-rights
 entitlement:
   - header: You have the right to engage with others to improve wages and working conditions.

@@ -1,7 +1,7 @@
 ---
 title: Equality Rights
 layout: entitlement
-name: Day Laborer
+name: Restaurant Worker
 experience: "I am being asked to show too much documentation."
 right: equality-rights
 

@@ -1,7 +1,7 @@
 ---
 title: Wage Rights
 layout: entitlement
-name: Day Laborer
+name: Restaurant Worker
 experience: "I did not get paid above $7.25 for work I performed"
 right: wage-rights
 

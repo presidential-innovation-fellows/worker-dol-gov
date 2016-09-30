@@ -1,7 +1,7 @@
 ---
 title: Safety Rights
 layout: entitlement
-name: Day Laborer
+name: Restaurant Worker
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."
 right: safety-rights
 entitlement:
