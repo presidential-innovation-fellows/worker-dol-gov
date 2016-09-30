@@ -1,8 +1,8 @@
 ---
 title: Wage Rights
 layout: entitlement
-name: Day Laborer
-experience: "I did not get paid above $7.25 for work I performed"
+name: Office Worker
+experience: "I’m not being paid $7.25 or more for my work"
 right: wage-rights
 
 entitlement:

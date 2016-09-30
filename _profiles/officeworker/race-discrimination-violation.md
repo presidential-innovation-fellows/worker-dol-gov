@@ -1,8 +1,8 @@
 ---
 title: Equality Rights
 layout: entitlement
-name: Day Laborer
-experience: "I was discriminated against based on my national origin"
+name: Office Worker
+experience: "I was discriminated against based on my race"
 right: equality-rights
 
 entitlement:

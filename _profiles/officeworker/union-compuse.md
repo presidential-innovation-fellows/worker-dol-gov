@@ -2,14 +2,11 @@
 title: Organizing Rights
 layout: entitlement
 name: Office Worker
-experience: "I am being prevented from engaging with others to improve my working conditions"
+experience: "I sent an email to my co-workers during break time about seeking a raise and my employer suspended me for unauthorized use of its computer system."
 right: organizing-rights
-
 entitlement:
   - header: You have the right to engage with others to improve wages and working conditions.
   - description: You have the right to exercise your rights related to forming, joining, or assisting a labor organization for collective bargaining purposes or working together without a union to improve terms and conditions of employment. You have a right to participate or not participate in any of these activities. You have a right to not be restrained or coerced by employers or labor organizations in exercising these rights..
-
 actions:
-  - { header: "File a charge to protect your rights.", description: "You have a right to be treated equally, start by filing a charge with the National Labor Relations Board.", id: "nlrb-claim", cta: "File Now" }
-
+  - { header: "File a charge to protect your right.", description: "You have the right to be protected and you can start by filing a charge with the National Labor Relations Board who is here to help.", id: "nlrb-claim", cta: "File a Charge" }
 ---

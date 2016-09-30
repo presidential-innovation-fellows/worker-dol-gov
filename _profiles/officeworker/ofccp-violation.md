@@ -1,8 +1,8 @@
 ---
 title: Equality Rights
 layout: entitlement
-name: Day Laborer
-experience: "My employer is doing business with the federal government and I was discriminated against."
+name: Office Worker
+experience: "I was discriminated against and my employer does business with the federal government."
 right: equality-rights
 
 entitlement:

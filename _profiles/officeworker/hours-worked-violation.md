@@ -1,7 +1,7 @@
 ---
 title: Wage Rights
 layout: entitlement
-name: Day Laborer
+name: Office Worker
 experience: "I didn't get paid for work I performed."
 right: wage-rights
 

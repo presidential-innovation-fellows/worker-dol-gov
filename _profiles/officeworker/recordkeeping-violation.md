@@ -1,8 +1,8 @@
 ---
 title: Wage Rights
 layout: entitlement
-name: Day Laborer
-experience: "My employer is not keeping accurate records of my wages and hours."
+name: Office Worker
+experience: "records are not being kept of my hours worked or payment."
 right: wage-rights
 
 entitlement:
