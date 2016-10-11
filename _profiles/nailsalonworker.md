@@ -6,13 +6,8 @@ name: Nail Salon Worker
 
 priority-rights:
   - { text: "I’m being paid below $7.25 for work I performed.", id: "min-wage-violation" }
-<<<<<<< Updated upstream
-  - { text: "I am not being protected from toxic chemicals.", id: "osha-violation" }
-  - { text: "I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired.", id: "Labor Law violation" }
-=======
   - { text: "I am not being protected from toxic chemicals.", id: "health-safety-violation" }
   - { text: "I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired.", id: "union-formation-retaliation" }
->>>>>>> Stashed changes
 
 wage-rights:
   - { text: "I did not get paid for time I worked.", id: "hours-worked-violation" }
