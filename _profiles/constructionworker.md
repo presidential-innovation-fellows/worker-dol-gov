@@ -15,8 +15,8 @@ wage-rights:
   - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation." }
 
 equality-rights:
-  - { text: "I was discriminated against based on my race.", id: "discrimination-violation" }
-  - { text: "I’m being asked to show too much documentation.", id: "documentation-violation" }
+  - { text: "I was discriminated against based on my age.", id: "discrimination-violation" }
+  - { text: "My employer is doing business with the federal government and I was discriminated against.", id: "ofccp-violation" }
   - { text: "I am being treated differently based on my citizenship or immigration status.", id: "citizenship-discrimination-violation" }
 
 safety-rights:
