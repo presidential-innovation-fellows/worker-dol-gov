@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-
+{% if page.name or page.experience %}
 <section class="mad-lib">
 <div class="usa-grid">
 	<div class="usa-grid-one-whole">
-		<h1>I am a <span class="underline">{{ page.name }}</span> <br>and 
+		<h1>
+			{% if page.name %}
+			I am a <span class="underline">{{ page.name }}</span> <br>and 
+			{% endif %}	
 		<span class="underline">{{ page.experience }}</span>
 </div>
 </section>
+{% endif %}
 
 <section class="content">
 

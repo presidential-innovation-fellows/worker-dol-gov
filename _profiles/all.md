@@ -1,13 +1,7 @@
 ---
 title: Explore My Rights
-val: daylaborer
 layout: all
 name: Explore Rights
-
-priority-rights:
-  - { text: "I did not get paid for time I worked.", id: "overtime-violation" }
-  - { text: "I was injured on the job and didn’t get pay.", id: "wage-theft" }
-  - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation" }
 
 wage-rights:
   - { text: "I’m not being paid $7.25 or more for my work.", id: "minimum wage violation" }
@@ -15,7 +9,7 @@ wage-rights:
   - { text: "An employer is employing minors.", id: "child labor violation" }
 
 equality-rights:
-  - { text: "I was discriminated against based on my national origin.", id: "discrimination violation" }
+  - { text: "I was discriminated against based on my national origin.", id: "discrimination-violation" }
   - { text: "I’m being asked to show too much documentation.", id: "INA violation" }
   - { text: "I am being treated differently based on my citizenship or immigration status.", id: "INA violation" }
 
