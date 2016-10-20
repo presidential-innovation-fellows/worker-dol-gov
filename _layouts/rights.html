@@ -46,9 +46,9 @@ layout: default
       			{% if profile.layout != "profiles" %}
       			{% unless profile.name %}
       			{% if profile.right == page.right %}
-      				{% for action in profile.actions %}
-            		<li><a href="/all/{{action.id}}">{{profile.experience}}</a></li>
-            		{% endfor %}
+
+            		<li><a href="{{profile.url}}">{{profile.experience}}</a></li>
+            		
             	{% endif %}
       			{% endunless %}
       			{% endif %}
