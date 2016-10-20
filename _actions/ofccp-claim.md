@@ -13,7 +13,7 @@ Korean
 Spanish
 Vietnamese
 .", img: "/assets/img/icon-step-fill.png" }
-  - { text: "Complete the form and submit it the way you prefer out of these 3 options 1) filing the complaint form electronically with the appropriate OFCCP Regional Office or 2) mailing or faxing the complaint form to the appropriate OFCCP Regional Office or 3) filing the complaint form in person with any OFCCP District or Area office.", img: "/assets/img/icons/steps/LegalForm_Icon.png" }
+  - { text: "Complete the form and submit it the way you prefer out of these 3 options: 1) filing the complaint form electronically with the appropriate OFCCP Regional Office or 2) mailing or faxing the complaint form to the appropriate OFCCP Regional Office or 3) filing the complaint form in person with any OFCCP District or Area office.", img: "/assets/img/icons/steps/LegalForm_Icon.png" }
   - { text: "We will review your complaint form, or letter of complaint, and contact you if we need more information", img: "/assets/img/icons/steps/Phone_Icon.png" }
   - { text: "We will work with you to answer your questions and determine if setting up an investigation is the best course of action", img: "/assets/img/icons/steps/SpeechBubble_Icon.png" }
   - { text: "If an investigation is set up and finds sufficient evidence, you may be entitled to monetary relief and/or other remedies", img: "/assets/img/icons/steps/Check_Icon.png" }

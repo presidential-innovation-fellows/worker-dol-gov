@@ -28,7 +28,7 @@ and lifeline for falls.", id: "health-safety-violation" }
   - { text: "I wasn’t trained in a language I understand.", id: "language-violation" }
 
 organizing-rights:
-  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation.md" }
+  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation" }
   - { text: "My boss threatened to fire us if we vote for the union.", id: "union-voting-violation" }
   - { text: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation.", id: "union-formation-retaliation" }
   - { text: "I can’t get hired because the industry knows me as a union supporter.", id: "union-formation-retaliation-hiring" }
