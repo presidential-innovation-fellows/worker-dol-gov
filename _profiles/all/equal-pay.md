@@ -1,7 +1,7 @@
 ---
 title: Equality Rights
 layout: entitlement
-experience: "I was discriminated against based on my race."
+experience: "I am a woman being paid less than a man for the same work in the same workplace"
 right: equality-rights
 
 entitlement:
