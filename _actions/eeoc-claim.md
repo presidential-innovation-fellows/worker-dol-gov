@@ -1,6 +1,7 @@
 ---
 title: EEOC Claim
 layout: process
+exit: https://www.eeoc.gov/employees/howtofile.cfm
 header: File a Claim with EEOC
 before-you-file-markup: "<p>The information below is useful to know when filing a complaint with EEOC:</p><ul><li>The EEOC only accepts filing in person at any one of the EEOC's 53 field offices</li><li>In general, you need to file a charge within 180 calendar days from the day the discrimination took place</li><li>The name of the company where you work(ed)</li>"
 steps:

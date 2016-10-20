@@ -1,6 +1,7 @@
 ---
 title: DOJ Claim
 layout: process
+exit: https://www.justice.gov/crt/filing-charge
 header: File a Claim with DOJ
 
 before-you-file-markup: "<p>If you believe you have been discriminated against based on your national origin or immigration status, here’s how to file a charge: </p>"

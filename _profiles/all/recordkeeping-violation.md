@@ -1,5 +1,6 @@
 ---
 title: Wage Rights
+layout: entitlement
 experience: "records are not being kept of my hours worked or payment."
 right: wage-rights
 

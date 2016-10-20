@@ -1,7 +1,7 @@
 ---
 title: WHD Claim
 layout: process
-
+exit: https://webapps.dol.gov/contactwhd/default.aspx
 header: Start the filing process with DOL's Wage and Hour Division
 
 before-you-file-markup: "<p>The information below is useful to have on hand when 

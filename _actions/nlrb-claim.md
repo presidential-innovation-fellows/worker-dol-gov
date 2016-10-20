@@ -1,6 +1,7 @@
 ---
 title: NLRB Claim
 layout: process
+exit: https://apps.nlrb.gov/eservice/efileterm.aspx
 header: File a Claim with NLRB
 
 before-you-file-markup: "<p>If you have questions before filing a charge or petition, you can call us at 1-866-667-NLRB or find the office nearest you at Regional Offices</p>"

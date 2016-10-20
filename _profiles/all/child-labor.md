@@ -1,5 +1,6 @@
 ---
 title: Wage Rights
+layout: entitlement
 experience: "I think someone is employing children unlawfully."
 right: wage-rights
 

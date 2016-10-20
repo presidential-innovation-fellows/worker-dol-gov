@@ -8,7 +8,6 @@ wage-rights:
   - { text: "I did not get paid for time I worked.", id: "hours-worked-violation" }
   - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation." }
   - { text: "Records are not being kept of my hours worked or payment.", id: "recordkeeping-violation" }
-  - { text: "I think someone is employing children unlawfully.", id: "child-labor" }
 
 equality-rights:
   - { text: "I was discriminated against and my employer does business with the federal government.", id: "ofccp-violation" }
