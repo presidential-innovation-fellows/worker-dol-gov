@@ -1,13 +1,68 @@
 ---
 layout: default
-skip_index: true
 ---
-<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images/projects/{{page.id}}/{{page.cover_art}}');">
-  <div class="project-banner-content">
-    <div class="container-fluid">
-      <h1 class="impact-statement">
-        <span>{{page.title}}:</span> {{page.subtitle}}
-      </h1>
-    </div>
-  </div>
+
+<section class="content">
+
+<div class="entitlement">
+	<div class="usa-grid">
+		<div class="usa-width-one-third">
+			<div class="rights-grouping">
+				{% if page.right == "wage-rights" %}
+					<img src="/assets/img/icons/right-wage-lg.png">
+					<a href="/rights/wage-rights">my wage rights</a>
+				{% elsif page.right == "equality-rights" %}
+					<img src="/assets/img/icons/right-equality-lg.png">
+					<a href="/rights/equality-rights">my equality rights</a>
+				{% elsif page.right == "safety-rights" %}
+					<img src="/assets/img/icons/right-safety-lg.png">
+					<a href="/rights/safety-rights">my safety rights</a>
+				{% elsif page.right == "organizing-rights" %}				
+					<img src="/assets/img/icons/right-organize-lg.png">
+					<a href="/rights/organzing-rights">my organizing rights</a>
+				{% endif %}	
+
+				<br>
+				<div class="more-rights">
+					More Rights:
+      				{% for right in site.rights %}
+      					{% if right.right != page.right %}
+      					<a href="hi">{{right.title}}</a>
+      					{% if forloop.index == 4 %}
+      					{% else %}
+      					 | 
+      					{% endif %}
+      					{% endif %}
+      				{% endfor %}
+      			</div>
+			</div>
+		</div>
+		<div class="usa-width-two-thirds">
+			<div class="entitlement-description">
+				<h1>{{page.statement}}</h1>
+				<p>{{page.mission}}</p>
+				<ul>
+			    {% for profile in site.profiles %}
+      			{% if profile.layout != "profiles" %}
+      			{% unless profile.name %}
+      			{% if profile.right == page.right %}
+      				{% for action in profile.actions %}
+            		<li><a href="/all/{{action.id}}">{{profile.experience}}</a></li>
+            		{% endfor %}
+            	{% endif %}
+      			{% endunless %}
+      			{% endif %}
+      			{% endfor %}
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+{{ content }}
+
 </section>
+
