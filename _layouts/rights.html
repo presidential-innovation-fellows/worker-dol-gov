@@ -27,7 +27,7 @@ layout: default
 					More Rights:
       				{% for right in site.rights %}
       					{% if right.right != page.right %}
-      					<a href="hi">{{right.title}}</a>
+      					<a href="/rights/{{right.val}}">{{right.title}}</a>
       					{% if forloop.index == 4 %}
       					{% else %}
       					 | 
