@@ -1,6 +1,7 @@
 ---
 title: OSHA Claim
 layout: process
+exit: http://www.whistleblowers.gov/complaint_page.html
 header: File a Complaint with OSHA
 
 before-you-file-markup: "<p>If you have been punished or retaliated against for exercising your rights under the OSH Act, you must file a complaint with OSHA within 30 days of the alleged reprisal.</p>"
