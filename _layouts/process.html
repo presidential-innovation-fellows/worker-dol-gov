@@ -52,7 +52,7 @@ layout: default
 			<li>{{help}}</li>
 		{% endfor %}
 		</ul>
-
+		{% if page.worker-profile %}
 		<hr class="seperator">
 		<div class="worker-sidebar">
 		{% for profile in page.worker-profile %}
@@ -62,6 +62,7 @@ layout: default
 			<a href="/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
 		{% endfor %}
 		</div>
+		{% endif %}
 	</div>
 </div>
 <div class="action-area">
