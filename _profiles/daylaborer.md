@@ -15,8 +15,8 @@ wage-rights:
 
 equality-rights:
   - { text: "I was discriminated against based on my national origin.", id: "discrimination-violation" }
-  - { text: "I’m being asked to show too much documentation.", id: "citizen-discrimination-violation" }
-  - { text: "I am being treated differently based on my citizenship or immigration status.", id: "citizen-discrimination-violation" }
+  - { text: "I’m being asked to show too much documentation.", id: "documentation-violation" }
+  - { text: "I am being treated differently based on my citizenship or immigration status.", id: "citizenship-discrimination-violation" }
 
 safety-rights:
   - { text: "I am working on machines that are unsafe.", id: "health-safety-violation" }
