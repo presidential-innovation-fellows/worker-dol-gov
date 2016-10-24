@@ -1,14 +1,14 @@
 ---
 title: Laudente's Worker Journey
 layout: worker-profile
-hero-img: "/assets/img/workers/laudente.jpg"
+hero-img: "/assets/img/workers/laudente.png"
 header: "Laudente's journey to fairness"
 
 journey-steps:
   - "<b>Violation</b>: Laudente experienced harassment based on his national origin."
   - "<b>Action</b>: The EEOC launched an investigation and filed a charge against Laudente’s employer which the company settled."
   - "<b>Resolution</b>: The company settled the case for $1.2 million and an agreement to put training and anonymous helplines in place for workers to report their concerns and ensure that they do not face discrimination going forward."
-  - "If you are concerned about your company’s equality practices, let us know about it.
+  - "If you are concerned about your company’s equality practices, let us know about it."
 
 sidebar-header: "Laudente’s Journey"
 
