@@ -16,7 +16,5 @@ here-to-help:
   - All services are free and confidential, whether you are documented or not.
   - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with OSHA.
 
-worker-profile:
-  - { description: "These workers went through something similar and exercised their rights with OSHA.", img: "/assets/img/workers/Baltazar_Thumb.jpg", cta: "Read Their Story" }
   
 ---

@@ -21,6 +21,5 @@ Vietnamese
 here-to-help:
   - All services are free and confidential, whether you are documented or not. Information obtained from individuals who contact OFCCP will not be revealed to the employer until the individual files a charge of discrimination.
   - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with OFCCP.
-worker-profile:
-  - { description: "Baltazar went through something similar and exercised his rights.", img: "/assets/img/workers/Baltazar_Thumb.jpg", cta: "Read Baltazar's Story" }
+
 ---
