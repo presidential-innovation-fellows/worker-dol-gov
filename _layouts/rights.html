@@ -8,16 +8,16 @@ layout: content
 			<div class="rights-grouping">
 				{% if page.right == "wage-rights" %}
 					<img src="/assets/img/icons/right-wage-lg.png">
-					<a href="/rights/wage-rights">my wage rights</a>
+					<a href="/rights/wage-rights.html">my wage rights</a>
 				{% elsif page.right == "equality-rights" %}
 					<img src="/assets/img/icons/right-equality-lg.png">
-					<a href="/rights/equality-rights">my equality rights</a>
+					<a href="/rights/equality-rights.html">my equality rights</a>
 				{% elsif page.right == "safety-rights" %}
 					<img src="/assets/img/icons/right-safety-lg.png">
-					<a href="/rights/safety-rights">my safety rights</a>
+					<a href="/rights/safety-rights.html">my safety rights</a>
 				{% elsif page.right == "organizing-rights" %}				
 					<img src="/assets/img/icons/right-organize-lg.png">
-					<a href="/rights/organzing-rights">my organizing rights</a>
+					<a href="/rights/organzing-rights.html">my organizing rights</a>
 				{% endif %}	
 
 				<br>
@@ -25,7 +25,7 @@ layout: content
 					More Rights:
       				{% for right in site.rights %}
       					{% if right.right != page.right %}
-      					<a href="/rights/{{right.val}}">{{right.title}}</a>
+      					<a href="/rights/{{right.val}}.html">{{right.title}}</a>
       					{% if forloop.index == 4 %}
       					{% else %}
       					 | 
