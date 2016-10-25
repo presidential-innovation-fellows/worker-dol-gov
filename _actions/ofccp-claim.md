@@ -1,7 +1,7 @@
 ---
 title: OFCCP Claim
 layout: process
-exit: https://www.dol.gov/ofccp/regs/compliance/pdf/ComplaintForms/CC-4%20Form%20Revised%2020%20June%202014%20final-English.pdf
+exit: https://www.dol.gov/ofccp/regs/compliance/pdf/pdfstart.htm
 header: File a Claim with OFCCP
 before-you-file-markup: "<p>We at the Office of Federal Contract Compliance Programs enforce, for the benefit of job seekers and wage earners, the contractual promise of affirmative action and equal employment opportunity required of those who do business with the Federal government.</p>"
 steps:

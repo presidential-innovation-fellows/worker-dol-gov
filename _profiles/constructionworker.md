@@ -23,6 +23,7 @@ equality-rights:
 safety-rights:
   - { text: "I wasn’t trained in a language I understand.", id: "language-violation" }
   - { text: "I’m afraid I’ll be fired for reporting something.", id: "whistleblower-retaliation" }
+  - { text: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals.", id: "safety-gear-violation" }
 
 organizing-rights:
   - { text: "I can’t get hired because the industry knows me as a union supporter.", id: "union-formation-retaliation-hiring" }

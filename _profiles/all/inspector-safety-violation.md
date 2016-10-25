@@ -1,7 +1,7 @@
 ---
 title: Explore All Rights | Inspector Safety Violation
 layout: entitlement
-experience: "I am being kept from requesting an OSHA inspection, and speak to the inspector."
+experience: "I am being kept from requesting an OSHA inspection, or from speaking to the inspector."
 right: safety-rights
 entitlement:
   - header: You have the right to a safe and healthy work environment.

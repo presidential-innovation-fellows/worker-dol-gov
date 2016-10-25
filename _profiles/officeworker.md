@@ -5,7 +5,7 @@ layout: profiles
 name: Office Worker
 
 priority-rights:
-  - { text: "I was discriminated against based on my age.", id: "age-discrimination-violation" }
+  - { text: "I am a woman being paid less than a man for the same work in the same workplace.", id: "equal-pay" }
   - { text: "I feel like I am not getting the leave I am entitled to.", id: "fmla-violation" }
   - { text: "I experienced harassment based on my sex.", id: "sex-harassment-violation" }
 
@@ -17,7 +17,8 @@ wage-rights:
 equality-rights:
   - { text: "I was discriminated against and my employer does business with the federal government.", id: "ofccp-violation" }
   - { text: "I was discriminated against based on my race.", id: "race-discrimination-violation" }
-  - { text: "I am a woman being paid less than a man for the same work in the same workplace.", id: "equal-pay" }
+
+  - { text: "I was discriminated against based on my age.", id: "age-discrimination-violation" }
 
 safety-rights:
   - { text: "I am being kept from requesting an OSHA inspection, and speak to the inspector.", id: "inspector-safety-violation" }
