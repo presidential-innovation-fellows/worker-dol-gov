@@ -1,7 +1,7 @@
 ---
 title: Sujhey's Worker Journey
 layout: worker-profile
-hero-img: "/assets/img/workers/Suhjey_Lg.jpg"
+hero-img: "/assets/img/workers/Sujhey_Lg.jpg"
 header: "Sujhey went from serving food to fixing smiles"
 
 journey-steps:
