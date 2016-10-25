@@ -25,7 +25,7 @@ safety-rights:
   - { text: "I’m afraid I’ll be fired for reporting a problem in my workplace.", id: "whistleblower-retaliation" }
 
 organizing-rights:
-  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation.md" }
+  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation" }
   - { text: "My boss threatened to fire us if we vote for the union.", id: "union-voting-violation" }
   - { text: "We formed a union and are trying to bargain with management, but they refuse to meet with us.", id: "union-meet-violation" }
 

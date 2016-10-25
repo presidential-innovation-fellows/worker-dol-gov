@@ -6,14 +6,14 @@ name: Construction Worker
 
 priority-rights:
   - { text: "I’m not being paid $7.25 or more for my work.", id: "min-wage-violation" }
-  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation." }
-  - { text: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals.", id: "safety-gear-violation." }
+  - { text: "I am being prevented from engaging with others to improve my working conditions.", id: "union-engagement-violation" }
+  - { text: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals.", id: "safety-gear-violation" }
 
 wage-rights:
   - { text: "I did not get paid for time I worked.", id: "hours-worked-violation" }
-  - { text: "My employer is doing business with the federal government and I was not paid the appropriate amount.", id: "hours-worked-violation" }
+  - { text: "My employer is doing business with the federal government and I was not paid the appropriate amount.", id: "fed-wage-violation" }
   - { text: "Records are not being kept of my hours worked or payment.", id: "recordkeeping-violation" }
-  - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation." }
+  - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation" }
 
 equality-rights:
   - { text: "I was discriminated against based on my age.", id: "discrimination-violation" }
