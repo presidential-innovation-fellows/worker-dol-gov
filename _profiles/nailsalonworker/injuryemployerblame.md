@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Nail Salon Worker Rights | Injury Employer Blame
 layout: entitlement
 name: Nail Salon Worker
 experience: "My employer blames me for getting hurt doing my job."

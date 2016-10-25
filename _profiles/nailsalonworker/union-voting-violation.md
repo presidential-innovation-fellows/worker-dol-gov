@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Nail Salon Worker Rights | Union Voting Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "My boss threatened to fire us if we vote for the union"

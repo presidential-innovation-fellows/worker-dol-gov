@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Construction Worker | Recordkeeping Violation
 layout: entitlement
 name: Construction Worker
 experience: "Records are not being kept of my hours or payment."

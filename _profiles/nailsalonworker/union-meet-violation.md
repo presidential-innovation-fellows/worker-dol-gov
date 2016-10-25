@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Nail Salon Worker Rights | Union Meeting Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "We formed a union and are trying to bargain with management, but they refuse to meet with us"

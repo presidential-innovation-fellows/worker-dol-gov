@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Nail Salon Worker Rights | Citizenship Discimination Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am being treated differently based on my citizenship or immigration status."

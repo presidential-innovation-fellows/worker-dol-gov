@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Nail Salon Worker Rights | Hours Worked Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I didn't get paid for work I performed."

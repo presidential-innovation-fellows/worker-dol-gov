@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | Race Discrimination
 layout: entitlement
 name: Office Worker
 experience: "I was discriminated against based on my race"

@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Office Worker Rights | Union Formation Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation."

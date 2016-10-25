@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | Sexual Harassment Violation
 layout: entitlement
 name: Office Worker
 experience: "I experienced harassment based on my sex"

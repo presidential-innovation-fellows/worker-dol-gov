@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Daylaborer Rights | Union Participation Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation"

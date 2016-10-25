@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | Documentation Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being asked to show too much documentation."

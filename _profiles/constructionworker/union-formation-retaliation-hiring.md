@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Construction Worker | Union Hiring Retaliation
 layout: entitlement
 name: Construction Worker
 experience: "I can't get hired because the industry knows me as a union supporter."

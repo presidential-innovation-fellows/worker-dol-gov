@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Daylaborer Rights | Safety Gear Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am not being provided required safety gear, such as gloves or a harness and lifeline for falls."

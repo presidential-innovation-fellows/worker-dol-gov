@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Construction Worker | Whistleblower Retaliation
 layout: entitlement
 name: Construction Worker
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."

@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Nail Salon Worker Rights | Job Discrimination
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am being retaliated against because I complained about job discrimination, or assisted with a job discrimination investigation or lawsuit"

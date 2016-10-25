@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Office Worker Rights | Union Social Media Violation
 layout: entitlement
 name: Office Worker
 experience: "I was fired for chatting about my supervisor with other coworkers on Facebook."

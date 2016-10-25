@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Construction Worker | Minimum Wage Violation
 layout: entitlement
 name: Construction Worker
 experience: "I did not get paid above $7.25 for work I performed"

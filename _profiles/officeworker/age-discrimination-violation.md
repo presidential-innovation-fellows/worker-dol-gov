@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | Age Discrimination Violation
 layout: entitlement
 name: Office Worker
 experience: "I was discriminated against based on my age"

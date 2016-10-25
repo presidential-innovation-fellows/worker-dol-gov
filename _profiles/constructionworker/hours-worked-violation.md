@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Construction Worker | Hours Worked Violation
 layout: entitlement
 name: Construction Worker
 

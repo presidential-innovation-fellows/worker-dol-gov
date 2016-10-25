@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | Equal Pay Violation
 layout: entitlement
 name: Office Worker
 experience: "I am a woman being paid less than a man for the same work in the same workplace"

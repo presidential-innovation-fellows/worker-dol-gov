@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Office Worker Rights | Union Engagement Violation
 layout: entitlement
 name: Office Worker
 experience: "I am being prevented from engaging with others to improve my working conditions"

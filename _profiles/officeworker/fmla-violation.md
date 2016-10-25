@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Office Worker Rights | FMLA Violation
 layout: entitlement
 name: Office Worker
 experience: "I feel like I am not getting the leave I am entitled to."

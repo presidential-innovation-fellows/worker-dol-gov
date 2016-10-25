@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Nail Salon Worker Rights | Minimum Wage Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am being paid below $7.25 for work I performed"

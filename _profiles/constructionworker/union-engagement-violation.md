@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Construction Worker | Union Engagement Violation
 layout: entitlement
 name: Construction Worker
 experience: "I am being prevented from engaging with others to improve my working conditions"

@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Office Worker Rights | OFCCP Violation
 layout: entitlement
 name: Office Worker
 experience: "I was discriminated against and my employer does business with the federal government."

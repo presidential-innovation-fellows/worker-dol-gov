@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Office Worker Rights | Injury Employer Blame
 layout: entitlement
 name: Office Worker
 experience: "My employer blames me for getting hurt doing my job."

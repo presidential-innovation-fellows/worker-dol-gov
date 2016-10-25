@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Daylaborer Rights | OFCCP Violation
 layout: entitlement
 name: Day Laborer
 experience: "My employer is doing business with the federal government and I was discriminated against."

@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Office Worker Rights | Whistleblower Retaliation
 layout: entitlement
 name: Office Worker
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."

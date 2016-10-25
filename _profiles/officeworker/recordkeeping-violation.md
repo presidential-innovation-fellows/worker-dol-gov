@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Office Worker Rights | Recordkeeping Violation
 layout: entitlement
 name: Office Worker
 experience: "records are not being kept of my hours worked or payment."

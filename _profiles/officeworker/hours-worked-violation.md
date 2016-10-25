@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Office Worker Rights | Hours Worked Violation
 layout: entitlement
 name: Office Worker
 experience: "I didn't get paid for work I performed."

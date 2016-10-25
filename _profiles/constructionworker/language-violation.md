@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Construction Worker | Language Violation
 layout: entitlement
 name: Construction Worker
 experience: "I wasn't trained in a language that I understand."

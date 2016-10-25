@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Nail Salon Worker Rights | Health Safety Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am not being protected from toxic chemicals."

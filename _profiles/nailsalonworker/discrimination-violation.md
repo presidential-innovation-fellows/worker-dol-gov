@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Nail Salon Worker Rights | Discrimination Violation
 layout: entitlement
 name: Day Laborer
 experience: "I was discriminated against based on my national origin"

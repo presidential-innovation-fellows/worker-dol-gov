@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Construction Worker | Documentation Violation
 layout: entitlement
 name: Construction Worker
 experience: "I am being asked to show too much documentation."

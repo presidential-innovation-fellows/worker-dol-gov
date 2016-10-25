@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Nail Salon Worker Rights | OSHA Inspection Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am being kept from requesting an OSHA inspection, and speak to the inspector."

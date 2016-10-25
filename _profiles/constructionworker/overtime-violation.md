@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Construction Worker | Overtime Violation
 layout: entitlement
 name: Construction Worker
 experience: "I didn't get paid overtime when I worked more than 40 hours in a 7-day period."

@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Construction Worker | Discrimination Violation
 layout: entitlement
 name: Construction Worker
 experience: "I was discriminated against based on my race"

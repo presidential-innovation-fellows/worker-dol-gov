@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Nail Salon Worker Rights | Union Engagement Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I am being prevented from engaging with others to improve my working conditions"

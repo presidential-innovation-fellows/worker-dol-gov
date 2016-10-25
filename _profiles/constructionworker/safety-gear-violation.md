@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Construction Worker | Safety Gear Violation
 layout: entitlement
 name: Construction Worker
 experience: "I am working on machines that are unsafe, not being provided required safety gear, such as gloves or a harness and lifeline for falls, or not being protected from toxic chemicals."

@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Office Worker Rights | Minimum Wage Violation
 layout: entitlement
 name: Office Worker
 experience: "I’m not being paid $7.25 or more for my work"

@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Nail Salon Worker Rights | Overtime Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I didn’t get overtime when I worked more than 40 hours in a 7-day period."

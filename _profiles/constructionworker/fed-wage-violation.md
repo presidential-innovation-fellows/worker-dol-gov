@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Construction Worker | Federal Wage Violation
 layout: entitlement
 name: Construction Worker
 experience: "My employer is doing business with the federal government and I was not paid the appropriate amount"

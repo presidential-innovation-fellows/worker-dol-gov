@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Nail Salon Worker Rights | Union Formation Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired."

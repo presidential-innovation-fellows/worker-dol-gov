@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Nail Salon Worker Rights | Recordkeeping Violation
 layout: entitlement
 name: Nail Salon Worker
 experience: "Records are not being kept of my hours or payment."
