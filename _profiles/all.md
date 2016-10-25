@@ -32,7 +32,7 @@ organizing-rights:
   - { text: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation.", id: "union-formation-retaliation" }
   - { text: "I can’t get hired because the industry knows me as a union supporter.", id: "union-formation-retaliation-hiring" }
   - { text: "We formed a union and are trying to bargain with management, but they refuse to meet with us.", id: "union-meet-violation" }
-  - { text: "I brought complaints to our union steward and to our foreman about the crew not having adequate safety goggles and the foreman retaliated against me by changing my hours.", id: "union-steward-retaliation" }
+  - { text: "I brought complaints to our union steward and/or foreman about the crew not having adequate safety equipment and they retaliated.", id: "union-steward-retaliation" }
   - { text: "We are afraid to talk to one another about our wages and working conditions because our employer has a handbook rule prohibiting release of confidential information.", id: "union-handbook" }
   - { text: "I sent an email to my co-workers during break time about seeking a raise and my employer suspended me for unauthorized use of its computer system.", id: "union-compuse" }
   - { text: "I was fired for chatting about my supervisor with other coworkers on Facebook.", id: "union-compuse2" }

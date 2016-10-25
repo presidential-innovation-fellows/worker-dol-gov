@@ -1,7 +1,7 @@
 ---
 title: Organizing Rights
 layout: entitlement
-experience: "I brought complaints to our union steward and to our foreman about the crew not having adequate safety goggles and the foreman retaliated against me by changing my hours."
+experience: "I brought complaints to our union steward and/or foreman about the crew not having adequate safety equipment and they retaliated."
 right: organizing-rights
 entitlement:
   - header: You have the right to engage with others to improve wages and working conditions.

@@ -11,6 +11,7 @@ priority-rights:
 
 wage-rights:
   - { text: "I did not get paid for time I worked.", id: "hours-worked-violation" }
+  - { text: "My employer is doing business with the federal government and I was not paid the appropriate amount.", id: "hours-worked-violation" }
   - { text: "Records are not being kept of my hours worked or payment.", id: "recordkeeping-violation" }
   - { text: "I worked more than 40 hours a week and did not receive overtime pay.", id: "overtime-violation." }
 
