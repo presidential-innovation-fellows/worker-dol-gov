@@ -1,5 +1,5 @@
 ---
-title: Explore All Rights
+title: Restaurant Worker Rights
 val: restaurantworker
 layout: profiles
 name: Restaurant Worker

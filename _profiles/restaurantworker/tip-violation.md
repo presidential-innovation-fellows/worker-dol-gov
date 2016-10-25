@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Restaurant Worker Rights | Tip Policy Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "We complained about the tip policy and our boss threatened to fire us"

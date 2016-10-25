@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Restaurant Worker Rights | Inspector Safety Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I am being kept from requesting an OSHA inspection, and speak to the inspector."

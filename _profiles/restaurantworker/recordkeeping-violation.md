@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Restaurant Worker Rights | Recordkeeping Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "records are not being kept of my hours worked or payment."

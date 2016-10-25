@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Restaurant Worker Rights | Citizenship Discrimination
 layout: entitlement
 name: Restaurant Worker
 experience: "I am being treated differently based on my citizenship or immigration status."

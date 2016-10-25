@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Restaurant Worker Rights | Minimum Wage Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I did not get paid above $7.25 for work I performed"

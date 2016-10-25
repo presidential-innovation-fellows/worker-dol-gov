@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Restaurant Worker Rights | Union Engagement Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being prevented from engaging with others to improve my working conditions"

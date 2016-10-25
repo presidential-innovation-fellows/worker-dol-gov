@@ -1,5 +1,5 @@
 ---
-title: Construction Worker
+title: Construction Worker Rights
 val: constructionworker
 layout: profiles
 name: Construction Worker

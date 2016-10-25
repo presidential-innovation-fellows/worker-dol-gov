@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Restaurant Worker Rights | Discrimination
 layout: entitlement
 name: Restaurant Worker
 experience: "I was discriminated against based on my race."

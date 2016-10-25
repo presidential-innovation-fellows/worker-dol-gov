@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Restaurant Worker Rights | Documentation Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I am being asked to show too much documentation."

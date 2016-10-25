@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Restaurant Worker Rights | Whistleblower Retaliation
 layout: entitlement
 name: Restaurant Worker
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."

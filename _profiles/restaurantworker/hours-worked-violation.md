@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Restaurant Worker Rights | Hours Worked Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I didn't get paid for work I performed."

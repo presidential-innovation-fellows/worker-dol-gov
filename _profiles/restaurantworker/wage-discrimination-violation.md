@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Restaurant Worker Rights | Wage Discrimination Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I was laid off, my hours were reduced, or I was fired because I complained about my wages."

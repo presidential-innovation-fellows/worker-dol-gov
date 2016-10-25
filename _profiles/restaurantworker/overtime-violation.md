@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Restaurant Worker Rights | Overtime Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I didn't get paid overtime when I worked more than 40 hours in a 7-day period."

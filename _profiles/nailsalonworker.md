@@ -1,5 +1,5 @@
 ---
-title: Nail Salon Worker
+title: Nail Salon Worker Rights
 val: nailsalonworker
 layout: profiles
 name: Nail Salon Worker

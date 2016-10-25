@@ -1,5 +1,5 @@
 ---
-title: Office Worker
+title: Office Worker Rights
 val: officeworker
 layout: profiles
 name: Office Worker

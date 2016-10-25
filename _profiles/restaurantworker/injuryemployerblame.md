@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Restaurant Worker Rights | Injury Employer Blame
 layout: entitlement
 name: Restaurant Worker
 experience: "My employer blames me for getting hurt doing my job."

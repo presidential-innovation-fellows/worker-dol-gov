@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Restaurant Worker Rights | Wage Theft
 layout: entitlement
 name: Day Laborer
 experience: "I did not get paid for work I performed"

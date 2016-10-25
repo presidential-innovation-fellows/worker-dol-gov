@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Restaurant Worker Rights | Union Formation Retaliation
 layout: entitlement
 name: Restaurant Worker
 experience: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation."

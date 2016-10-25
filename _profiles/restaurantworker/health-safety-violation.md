@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Restaurant Worker Rights | Health Safety Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am working on machines that are unsafe."

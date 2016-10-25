@@ -1,5 +1,5 @@
 ---
-title: Explore My Rights
+title: Explore All Rights
 layout: all
 name: Explore Rights
 

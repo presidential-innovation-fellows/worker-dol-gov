@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Restaurant Worker Rights | Union Supporter Violation
 layout: entitlement
 name: Restaurant Worker
 experience: "I can’t get hired because the industry knows me as a union supporter."
