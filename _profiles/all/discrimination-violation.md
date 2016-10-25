@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Discrimination Violation
 layout: entitlement
 experience: "I was discriminated against based on my race."
 right: equality-rights

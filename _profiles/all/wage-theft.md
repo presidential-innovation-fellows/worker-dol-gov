@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Explore All Rights | Wage Theft
 layout: entitlement
 experience: "I did not get paid for work I performed"
 right: wage-rights

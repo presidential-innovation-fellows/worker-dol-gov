@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Meeting Violation
 layout: entitlement
 experience: "We formed a union and are trying to bargain with management, but they refuse to meet with us"
 right: organizing-rights

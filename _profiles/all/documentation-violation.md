@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Documentation Violation
 layout: entitlement
 experience: "I am being asked to show too much documentation."
 right: equality-rights

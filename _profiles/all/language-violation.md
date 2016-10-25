@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | Language Violation
 layout: entitlement
 experience: "I wasn't trained in a language that I understand."
 right: safety-rights

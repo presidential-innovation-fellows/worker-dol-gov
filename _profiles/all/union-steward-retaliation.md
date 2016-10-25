@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Steward Safety Violation
 layout: entitlement
 experience: "I brought complaints to our union steward and/or foreman about the crew not having adequate safety equipment and they retaliated."
 right: organizing-rights

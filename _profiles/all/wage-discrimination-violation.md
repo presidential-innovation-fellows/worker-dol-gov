@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Wage Discrimination Violation
 layout: entitlement
 experience: "I was laid off, my hours were reduced, or I was fired because I complained about my wages."
 right: equality-rights

@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Engagement Violation
 layout: entitlement
 experience: "I am being prevented from engaging with others to improve my working conditions"
 right: organizing-rights

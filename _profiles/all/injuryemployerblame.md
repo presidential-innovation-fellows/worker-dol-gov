@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | Injury Employer Blame
 layout: entitlement
 experience: "My employer blames me for getting hurt doing my job."
 right: safety-rights

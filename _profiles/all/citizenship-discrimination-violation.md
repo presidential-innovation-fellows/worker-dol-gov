@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Citizenship Discrimination Violation
 layout: entitlement
 experience: "I am being treated differently based on my citizenship or immigration status."
 right: equality-rights

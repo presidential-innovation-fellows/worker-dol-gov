@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | Whistleblower Retaliation
 layout: entitlement
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."
 right: safety-rights

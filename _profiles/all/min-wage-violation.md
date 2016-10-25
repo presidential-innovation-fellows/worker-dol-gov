@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Explore All Rights | Minimum Wage Violation
 layout: entitlement
 experience: "I’m not being paid $7.25 or more for my work"
 right: wage-rights

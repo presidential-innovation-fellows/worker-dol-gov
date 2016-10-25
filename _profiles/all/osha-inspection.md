@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | OSHA Inspection Violation
 layout: entitlement
 experience: "I am being kept from requesting an OSHA inspection, and speak to the inspector."
 right: safety-rights

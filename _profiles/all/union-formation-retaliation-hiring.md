@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Hiring Retaliation
 layout: entitlement
 experience: "I can't get hired because the industry knows me as a union supporter."
 right: organizing-rights

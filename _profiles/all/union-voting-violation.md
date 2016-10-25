@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Voting Violation
 layout: entitlement
 experience: "My boss threatened to fire us if we vote for the union"
 right: organizing-rights

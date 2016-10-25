@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Nail Tech Violation
 layout: entitlement
 experience: "I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired."
 right: organizing-rights

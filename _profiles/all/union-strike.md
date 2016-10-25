@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Strike Retaliation
 layout: entitlement
 experience: "We were on strike and the employer fired and replaced us all."
 right: organizing-rights

@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Equal Pay Violation
 layout: entitlement
 experience: "I am a woman being paid less than a man for the same work in the same workplace"
 right: equality-rights

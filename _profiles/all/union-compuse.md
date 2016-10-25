@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Computer Use Violation
 layout: entitlement
 experience: "I sent an email to my co-workers during break time about seeking a raise and my employer suspended me for unauthorized use of its computer system."
 right: organizing-rights

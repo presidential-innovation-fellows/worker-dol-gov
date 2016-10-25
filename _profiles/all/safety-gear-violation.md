@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | Safety Gear Violation
 layout: entitlement
 experience: "I am not being provided required safety gear, such as gloves or a harness and lifeline for falls."
 right: safety-rights

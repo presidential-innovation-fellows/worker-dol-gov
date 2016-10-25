@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Handbook Violation
 layout: entitlement
 experience: "We are afraid to talk to one another about our wages and working conditions because our employer has a handbook rule prohibiting release of confidential information."
 right: organizing-rights

@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | Job Discrimination
 layout: entitlement
 experience: "I am being retaliated against because I complained about job discrimination, or assisted with a job discrimination investigation or lawsuit"
 right: equality-rights

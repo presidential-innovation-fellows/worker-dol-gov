@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Tip Policy Violation
 layout: entitlement
 experience: "We complained about the tip policy and our boss threatened to fire us"
 right: organizing-rights

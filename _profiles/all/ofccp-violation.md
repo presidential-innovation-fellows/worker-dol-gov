@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Explore All Rights | OFCCP Violation
 layout: entitlement
 experience: "I was discriminated against and my employer does business with the federal government."
 right: equality-rights

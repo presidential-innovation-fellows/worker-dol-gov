@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Social Media Violation
 layout: entitlement
 experience: "I was fired for chatting about my supervisor with other coworkers on Facebook."
 right: organizing-rights

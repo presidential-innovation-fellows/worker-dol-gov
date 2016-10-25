@@ -1,5 +1,5 @@
 ---
-title: Organizing Rights
+title: Explore All Rights | Union Demotion Violation
 layout: entitlement
 experience: "I filed a charge with the NLRB and was demoted as a result."
 right: organizing-rights

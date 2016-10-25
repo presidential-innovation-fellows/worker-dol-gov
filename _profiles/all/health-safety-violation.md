@@ -1,5 +1,5 @@
 ---
-title: Safety Rights
+title: Explore All Rights | Health Safety Violation
 layout: entitlement
 experience: "I am working on machines that are unsafe."
 right: safety-rights

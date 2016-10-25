@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Explore All Rights | Recordkeeping Violation
 layout: entitlement
 experience: "records are not being kept of my hours worked or payment."
 right: wage-rights

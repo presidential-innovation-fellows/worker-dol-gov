@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Explore All Rights | Hours Worked Violation
 layout: entitlement
 experience: "I didn't get paid for work I performed."
 right: wage-rights

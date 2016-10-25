@@ -1,5 +1,5 @@
 ---
-title: Wage Rights
+title: Explore All Rights | Child Labor Violation
 layout: entitlement
 experience: "I think someone is employing children unlawfully."
 right: wage-rights
