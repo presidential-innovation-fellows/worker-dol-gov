@@ -20,7 +20,7 @@ here-to-help:
   - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with WHD.
 
 worker-profile:
-  - { description: "Suhjey went through something similar, and exercised her rights to receive back pay.", img: "/assets/img/workers/Suhjey_Thumb.jpg", cta: "Read Suhjey's Story", id: "suhjey" }
+  - { description: "Suhjey went through something similar, and exercised her rights to receive back pay.", img: "/assets/img/workers/Sujhey_Thumb.jpg", cta: "Read Sujhey's Story", id: "sujhey" }
 
 file:
 - { url: "https://www.dol.gov/wecanhelp/howtofilecomplaint.htm", action-cta: "File a Complaint", cta: "File Now" }
