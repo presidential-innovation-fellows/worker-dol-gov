@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Worker.DOL.gov
+title: worker.gov
 description: > # this means to ignore newlines until "baseurl:"
   A better way for American workers to protect their rights.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,3 +15,23 @@ twitter_username: USDOL
 
 # Build settings
 markdown: kramdown
+
+# page_gen:
+#  - data: 'daylaborer'
+#    template: 'rights'
+#    name: 'id'
+#    dir: 'daylaborer'
+#  - data: 'rights'
+#    template: 'rights'
+#    name: 'id'
+#    dir: 'rights'
+
+collections:
+  profiles:
+    output: true
+  actions:
+    output: true
+  rights:
+    output: true
+  worker-profiles:
+    output: true

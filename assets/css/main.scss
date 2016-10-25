@@ -1,0 +1,492 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// New fonts
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+// Our variables
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font-family: 'Montserrat', "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #222222;
+$alt-text-color:   #ffffff;
+
+$background-color: #fdfdfd;
+
+$brand-color:      #ffffff;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$worker-blue:	   #1766a3; 
+$worker-blue-dark: #072849;
+$worker-light-blue:#5ca3dc;
+$worker-cta:	   #d0213d;
+$worker-white:	   #ffffff;
+$off-white:        #eee;
+$light-gray-back:  #f3f3f4;
+$worker-light-blue: #5da5da;
+
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+// Header Styles
+
+.top-menu {
+    background: url('../img/icon-texture-tile.png') repeat-x bottom right,
+}
+
+.usa p {
+    margin: 0;
+    padding: 5px 0;
+    color: #7d7e81;
+}
+
+.usa img {
+    margin-right: 4px;
+}
+
+.usa a:visited {
+    color: $worker-blue-dark;
+}
+
+.usa {
+    background-color: #e7e7e8;
+    color: #fff;
+    font-size: 0.65em;
+    padding: 0.25em 0;
+    text-align: center;
+}
+
+.site-title {
+    padding: 10px 0;
+}
+
+a.site-title img {
+    max-width:250px;
+}
+
+// Footer Styles
+
+.footer-heading {
+    font-size: 14px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+ul.agencies {
+    text-align: left;
+    margin-left: 0px;
+}
+
+ul.agencies li {
+    display: inline-block;
+    max-width: 75px;
+}
+
+// Homepage Styles
+
+.home-page h1.page-heading {
+    text-transform: uppercase;
+    font-family: $header-font-family;
+    font-weight: 400;
+}
+
+.home-page a.explore-rights {
+    color: $off-white;
+    font-family: $header-font-family;
+    font-style: italic;
+}
+
+.home-page h4 {
+    font-weight: 300;
+    font-family: $base-font-family;
+    letter-spacing: .8px;
+    color: $off-white;
+}
+
+ label {
+    /* Other styling.. */
+    text-align: left;
+    clear: both;
+    margin-right:15px;
+    margin-top:0px;
+}
+
+ul.icons {
+    text-align: center;
+    list-style: none;
+}
+
+ul.agencies li {
+    display: inline-block;
+    max-width: 100px;
+}
+
+.home-page {
+    background-color: $worker-blue;
+    color: $worker-white;
+    text-align: center;
+    background:
+        linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture-tile.png') repeat top right,
+        linear-gradient(to bottom, $worker-blue 0%, 
+        lighten($worker-blue, 5%) 100%);
+    padding-bottom: 50px;
+}
+
+
+.home-page h1 {
+    font-size: 58px;
+}
+
+.home-page a {
+    color: $worker-white
+}
+
+a.learn-rights button {
+    min-width: 200px;
+    margin-top: 0px;
+}
+
+// Other Styles
+
+.mad-lib {
+    background-color: $worker-blue;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    background: 
+        linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
+        url('../img/icon-texture-tile.png') repeat top right,
+        linear-gradient(to bottom, $worker-blue 0%, 
+        lighten($worker-blue, 5%) 100%);
+}
+
+.mad-lib h1 {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: $header-font-family;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+section.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    color: $worker-blue;
+    font-family: $header-font-family;
+    font-size: 28px;
+    line-height: 52px;
+}
+
+.content h2 {
+    color: $worker-blue;
+    font-family: $header-font-family;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+div.priority-rights {
+    margin: 50px 0;
+/*    background: url('../img/workers/ElSuper.png') no-repeat bottom right; */
+}
+
+div.priority-rights h1 {
+    margin-left: 68px;
+}
+
+.content ul.experience-list {
+    list-style: none;
+    margin-left: 68px;
+}
+
+.experiences {
+    padding: 40px 0;
+    background: $light-gray-back;
+}
+
+.experiences img {
+    padding-right: 10px;
+}
+
+
+h3.usa-alert-heading {
+    font-family: $header-font-family;
+    font-size: 2rem;
+    font-weight: 700;   
+}
+
+.experiences h1 {
+    padding-left: 68px;
+    text-indent: -68px;
+    line-height: 40px;
+}
+
+p.mission {
+    font-size: 0.85em;
+}
+
+.usa-grid.seperator {
+    padding: 25px 0;
+}
+
+// Entitlement
+
+.entitlement {
+    padding: 40px 0;
+}
+
+.entitlement-action {
+    padding: 40px 0 60px 0; 
+    background: $light-gray-back;   
+}
+
+.entitlement .rights-grouping {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.entitlement .rights-grouping a {
+    font-size: .9em;
+}
+
+.entitlement .rights-grouping div.more-rights {
+    margin: 25px 5px;
+    font-size: .8em;
+}
+
+
+.entitlement .rights-grouping img {
+    display:block;
+    margin: auto auto;
+}
+
+.entitlement .entitlement-description h1 {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.process-sidebar {
+    background-color: $light-gray-back;
+    padding:10px 15px;
+    font-size: .9em;
+}
+
+.process-sidebar img {
+    max-height: 175px;
+}
+
+.action-area {
+    background-color: #fadee2;
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
+.content h4{
+    font-family: $header-font-family;
+    font-size: 14px;
+    line-height: 31px;
+    margin-bottom:0px;
+    color: $worker-light-blue;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.steps .step-icon {
+    text-align: center;
+}
+
+hr.seperator {
+    margin: 20px 0;
+    height: 0px;
+    border-top: 1px solid #e8e8e8;
+}
+
+div.process-section {
+    margin: 30px 0;
+}
+
+.process-section h2 {
+    border-bottom: 1px solid $worker-light-blue;
+}
+
+
+div.worker-sidebar {
+    margin: 10px 10px 10px 30px;
+}
+
+
+
+// Autocomplete Buttons
+
+.dropdown-btn {
+    vertical-align: top;
+}
+
+button.dropdown-btn {
+    padding: .1em .6em;
+    background-color: $light-gray-back;
+    font-size: 1.7rem;
+    height: 4.4rem;
+    line-height: 1.3;
+    margin: 0.2em 0;
+    border-radius: 0px;
+    background: url('../img/arrow-down-white.png') no-repeat center;
+    width: 35px;
+}
+
+button.dropdown-btn:hover {
+}
+
+.top-margin {
+    margin-top: 10px;
+}
+
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid #5b616b;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    background-image: url("../img/arrow-down.svg");
+}
+
+input.dropdown-input {
+    background-color: $worker-blue;
+    border:0px;
+    color: $worker-white;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+}
+
+input.dropdown-input-index {
+    min-width: 250px;
+    background: transparent;
+    border: 0px;
+    color: $worker-white;
+    font-family: $header-font-family;
+
+}
+
+.awesomplete mark {
+    background-color: #a8d1ff;
+}
+
+.awesomplete li:hover mark {
+    background: #a8d1ff;
+}
+
+.profile-wrapper {
+    white-space: nowrap;
+    border-bottom: 1px dashed $worker-white;
+    margin: 0 20px;
+}
+
+.awesomplete > ul > li {
+    font-size: 16px;
+    font-family: $header-font-family;
+
+}
+
+input.dropdown-input-index::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input.dropdown-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $light-gray-back;
+}
+input.dropdown-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $light-gray-back;
+   opacity:  1;
+}
+input.dropdown-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $light-gray-back;
+   opacity:  1;
+}
+input.drop-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    $light-gray-back;
+}
+
+a.back {
+    font-size: .8em;
+}
+
+.steps img {
+}
+
+.steps li {
+    list-style: none;
+    padding: 5px;
+}
+
+.steps h4 {
+    clear: none;
+}
+
+.steps div.step-content {
+    margin-left: 90px;
+}
+
+.steps div.step-img {
+    float:left;
+    width:90px;
+}
+
+section.action-bar {
+    background-color: $light-gray-back;
+    text-align: right;
+}
+
