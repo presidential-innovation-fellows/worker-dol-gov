@@ -4,9 +4,7 @@ layout: default
 <section class="action-bar">
 	<div class="usa-grid">
 		<div class="usa-width-one-whole">
-			{% for file in page.file %}
-			<a href="{{ file.url }}"><button class="usa-button usa-button-secondary">{{ file.action-cta }}</button></a>
-			{% endfor %}
+			<a href="{{ page.exit }}" class="exit"><button class="usa-button usa-button-secondary">File a Claim</button></a>
 		</div>
 	</div>
 </section>
@@ -70,7 +68,7 @@ layout: default
 		<div class="usa-width-one-whole">
 			<div class="usa-grid">
 				<div class="usa-width-one-whole">
-					<a href="{{page.exit}}"><button class="usa-button-big usa-button-secondary">File Now</button></a>
+					<a href="{{page.exit}}" class="exit"><button class="usa-button-big usa-button-secondary">File Now</button></a>
 				</div>
 			</div>
 		</div>
