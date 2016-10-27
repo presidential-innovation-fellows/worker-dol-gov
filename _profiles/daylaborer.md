@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights
+title: Day Laborer Rights
 val: daylaborer
 layout: profiles
 name: Day Laborer

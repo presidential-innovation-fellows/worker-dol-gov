@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Union Engagement Violation
+title: Day Laborer Rights | Union Engagement Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being prevented from engaging with others to improve my working conditions"

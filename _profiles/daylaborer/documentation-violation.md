@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Documentation Violation
+title: Day Laborer Rights | Documentation Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being asked to show too much documentation."

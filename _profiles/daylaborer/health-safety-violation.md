@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Health Safety Violation
+title: Day Laborer Rights | Health Safety Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am working on machines that are unsafe."

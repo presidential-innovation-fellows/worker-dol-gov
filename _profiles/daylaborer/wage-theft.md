@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Wage Theft
+title: Day Laborer Rights | Wage Theft
 layout: entitlement
 name: Day Laborer
 experience: "I did not get paid for work I performed"

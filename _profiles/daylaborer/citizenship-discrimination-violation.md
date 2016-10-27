@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Citizenship Discrimination Violation
+title: Day Laborer Rights | Citizenship Discrimination Violation
 layout: entitlement
 name: Day Laborer
 experience: "I am being treated differently based on my citizenship or immigration status."

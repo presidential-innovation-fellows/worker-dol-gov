@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Hours Worked Violation
+title: Day Laborer Rights | Hours Worked Violation
 layout: entitlement
 name: Day Laborer
 experience: "I didn't get paid for work I performed."

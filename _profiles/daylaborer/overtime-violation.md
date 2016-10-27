@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Overtime Violation
+title: Day Laborer Rights | Overtime Violation
 layout: entitlement
 name: Day Laborer
 experience: "I didn't get paid overtime when I worked more than 40 hours in a 7-day period."

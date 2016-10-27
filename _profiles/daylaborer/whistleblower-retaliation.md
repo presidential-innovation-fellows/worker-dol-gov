@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Whistleblower Retaliation
+title: Day Laborer Rights | Whistleblower Retaliation
 layout: entitlement
 name: Day Laborer
 experience: "I’m afraid I’ll be fired for reporting a problem in my workplace."

@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Recordkeeping Violation
+title: Day Laborer Rights | Recordkeeping Violation
 layout: entitlement
 name: Day Laborer
 experience: "My employer is not keeping accurate records of my wages and hours."

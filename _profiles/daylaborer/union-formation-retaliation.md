@@ -1,5 +1,5 @@
 ---
-title: Daylaborer Rights | Union Formation Retaliation
+title: Day Laborer Rights | Union Formation Retaliation
 layout: entitlement
 name: Day Laborer
 experience: "I am being retaliated against for supporting an effort to bring in a union to improve my work situation."
