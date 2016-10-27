@@ -18,6 +18,7 @@ wage-rights:
 equality-rights:
   - { text: "I was discriminated against based on my age.", id: "discrimination-violation" }
   - { text: "My employer is doing business with the federal government and I was discriminated against.", id: "ofccp-violation" }
+  - { text: "I was told that women could not work in construction.", id: "womenconstruction-discrimination-violation" }
   - { text: "I am being treated differently based on my citizenship or immigration status.", id: "citizenship-discrimination-violation" }
 
 safety-rights:

@@ -1,8 +1,7 @@
 ---
-title: Construction Worker | Discrimination Violation
+title: Explore All Rights | Discrimination Violation
 layout: entitlement
-name: Construction Worker
-experience: "I was discriminated against based on my age"
+experience: "I was discriminated against based on my race."
 right: equality-rights
 
 entitlement:

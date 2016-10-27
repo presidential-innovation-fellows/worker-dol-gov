@@ -4,7 +4,7 @@ layout: process
 exit: https://apps.nlrb.gov/eservice/efileterm.aspx
 header: File a Claim with NLRB
 
-before-you-file-markup: "<p>If you have questions before filing a charge or petition, you can call us at 1-866-667-NLRB or find the office nearest you at Regional Offices</p>"
+before-you-file-markup: "<p>If you have questions before filing a charge or petition, you can call us at 1-866-667-NLRB or reach out to your nearest <a>Regional Office</a>.</p>"
 
 steps:
   - { text: "Fill out the form by hitting file now below or contact your regional office within 6 months of the perceived offense.", img: "/assets/img/icons/steps/Pencil_Icon.png" }

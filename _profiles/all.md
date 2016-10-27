@@ -12,7 +12,7 @@ wage-rights:
 
 equality-rights:
   - { text: "I was discriminated against and my employer does business with the federal government.", id: "ofccp-violation" }
-  - { text: "I was discriminated against based on my race.", id: "discrimination-violation" }
+  - { text: "I was discriminated against based on my race.", id: "race-discrimination-violation" }
   - { text: "I’m being asked to show too much documentation.", id: "documentation-violation" }
   - { text: "I am being treated differently based on my citizenship or immigration status.", id: "citizenship-discrimination-violation" }
   - { text: "I am being retaliated against because I complained about job discrimination, or assisted with a job discrimination investigation or lawsuit.", id: "job-discrimination" }

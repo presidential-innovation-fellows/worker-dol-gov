@@ -3,9 +3,9 @@ title: EEOC Claim
 layout: process
 exit: https://www.eeoc.gov/employees/howtofile.cfm
 header: File a Claim with EEOC
-before-you-file-markup: "<p>The information below is useful to know when filing a complaint with EEOC:</p><ul><li>The EEOC only accepts filing in person at any one of the EEOC's 53 field offices</li><li>In general, you need to file a charge within 180 calendar days from the day the discrimination took place</li><li>The name of the company where you work(ed)</li>"
+before-you-file-markup: "<p>The information below is useful to know when filing a complaint with EEOC:</p><ul><li>The EEOC accepts filing in person at any one of the EEOC's 53 field offices or by mail</li><li>In general, you need to file a charge within 180 calendar days from the day the discrimination took place</li><li>The name of the company where you work(ed)</li>"
 steps:
-  - { text: "Head to an EEOC office.", img: "/assets/img/icons/steps/SpeechBubble_Icon.png" }
+  - { text: "Head to an EEOC office or to the link below.", img: "/assets/img/icons/steps/SpeechBubble_Icon.png" }
   - { text: "At the time your charge is filed, we will give you a copy of your charge with your charge number.", img: "/assets/img/icons/steps/LegalForm_Icon.png" }
   - { text: "Within 10 days, we will also send a notice of the charge to the employer. Note: In some cases, we will ask both you and the employer to take part in our mediation program", img: "/assets/img/icons/steps/Pencil_Icon.png" }
   - { text: "You can check on the status of your charge anytime by visting our Online Charge Status System", img: "/assets/img/icons/steps/Website_Icon.png" }
