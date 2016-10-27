@@ -57,14 +57,12 @@ layout: default
 		<div class="usa-width-two-thirds">
 			<h2>{{ action.header }}</h2>
 			<p>{{ action.description }}</p>
-			<a href="/actions/{{ action.id }}.html">
-			<button class="usa-button-big usa-button-secondary">
+			<a href="/actions/{{ action.id }}.html" class="usa-button usa-button-big usa-button-secondary">
 				{% if action.cta %}
   					{{ action.cta }}
 				{% else %}
 					Take Action
 				{% endif %}	
-			</button>
 			</a>
 		</div>
 	</div>
