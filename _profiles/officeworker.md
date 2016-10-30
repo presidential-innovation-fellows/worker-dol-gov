@@ -21,7 +21,7 @@ equality-rights:
 
 safety-rights:
   - { text: "I am being kept from requesting an OSHA inspection, and speak to the inspector.", id: "inspector-safety-violation" }
-  - { text: "my employer blames me for getting hurt doing my job.", id: "injuryemployerblame" }
+  - { text: "My employer blames me for getting hurt doing my job.", id: "injuryemployerblame" }
   - { text: "I’m afraid I’ll be fired for reporting a problem in my workplace.", id: "whistleblower-retaliation" }
 
 organizing-rights:
