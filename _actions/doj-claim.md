@@ -4,7 +4,7 @@ layout: process
 exit: https://www.justice.gov/crt/filing-charge
 header: File a Claim with DOJ
 
-before-you-file-markup: "<p>If you believe you have been discriminated against based on your national origin or immigration status, here’s how to file a charge: </p>"
+before-you-file-markup: "<p>If you believe you have been discriminated against based on your citizenship, immigration status, or national origin, here’s how to file a charge: </p>"
 
 steps:
   - { text: "Fill out the form by hitting file now below or you can print out the form and send by mail, fax, or email.", img: "/assets/img/icons/steps/Pencil_Icon.png" }
