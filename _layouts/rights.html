@@ -45,7 +45,7 @@ layout: content
       			{% unless profile.name %}
       			{% if profile.right == page.right %}
 
-            		<li><a href="{{profile.url | prepend:site.baseurl }}">{{profile.experience}}</a></li>
+            		<li><a href="{{profile.url}}">{{profile.experience}}</a></li>
 
             	{% endif %}
       			{% endunless %}
