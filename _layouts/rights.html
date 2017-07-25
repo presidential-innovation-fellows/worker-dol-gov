@@ -7,17 +7,17 @@ layout: content
 		<div class="usa-width-one-third">
 			<div class="rights-grouping">
 				{% if page.right == "wage-rights" %}
-					<img src="{{ site.baseurl }}/assets/img/icons/right-wage-lg.png">
-					<a href="{{ site.baseurl }}/rights/wage-rights.html">my wage rights</a>
+					<img src="{{ "assets/img/icons/right-wage-lg.png" | prepend:site.baseurl }}">
+					<a href="{{ "rights/wage-rights.html" | prepend:site.baseurl }}">my wage rights</a>
 				{% elsif page.right == "equality-rights" %}
-					<img src="{{ site.baseurl }}/assets/img/icons/right-equality-lg.png">
-					<a href="{{ site.baseurl }}/rights/equality-rights.html">my equality rights</a>
+					<img src="{{ "assets/img/icons/right-equality-lg.png" | prepend:site.baseurl }}">
+					<a href="{{ "rights/equality-rights.html" | prepend:site.baseurl }}">my equality rights</a>
 				{% elsif page.right == "safety-rights" %}
-					<img src="{{ site.baseurl }}/assets/img/icons/right-safety-lg.png">
-					<a href="{{ site.baseurl }}/rights/safety-rights.html">my safety rights</a>
+					<img src="{{ "assets/img/icons/right-safety-lg.png" | prepend:site.baseurl }}">
+					<a href="{{ "rights/safety-rights.html" | prepend:site.baseurl }}">my safety rights</a>
 				{% elsif page.right == "organizing-rights" %}
-					<img src="{{ site.baseurl }}/assets/img/icons/right-organize-lg.png">
-					<a href="{{ site.baseurl }}/rights/organizing-rights.html">my organizing rights</a>
+					<img src="{{ "assets/img/icons/right-organize-lg.png" | prepend:site.baseurl }}">
+					<a href="{{ "rights/organizing-rights.html" | prepend:site.baseurl }}">my organizing rights</a>
 				{% endif %}
 
 				<br>
@@ -25,7 +25,7 @@ layout: content
 					More Rights:
       				{% for right in site.rights %}
       					{% if right.right != page.right %}
-      					<a href="{{ site.baseurl }}/rights/{{right.val}}.html">{{right.title}}</a>
+      					<a href="{{ site.baseurl }}rights/{{right.val}}.html">{{right.title}}</a>
       					{% if forloop.index == 4 %}
       					{% else %}
       					 |
@@ -45,7 +45,7 @@ layout: content
       			{% unless profile.name %}
       			{% if profile.right == page.right %}
 
-            		<li><a href="{{profile.url}}">{{profile.experience}}</a></li>
+            		<li><a href="{{profile.url | prepend:site.baseurl }}">{{profile.experience}}</a></li>
 
             	{% endif %}
       			{% endunless %}

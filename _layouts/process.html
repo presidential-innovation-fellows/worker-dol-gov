@@ -30,7 +30,7 @@ layout: default
 			  {% for step in page.steps %}
 				<li>
 					<div class="step-img">
-    					<img src="{{step.img}}"/>
+    					<img src="{{step.img | prepend: site.baseurl }}"/>
     				</div>
   					<div class="step-content">
     					<h4>Step {{ forloop.index }}</h4>
@@ -54,10 +54,10 @@ layout: default
 		<hr class="seperator">
 		<div class="worker-sidebar">
 		{% for profile in page.worker-profile %}
-			<img src="{{ profile.img }}">
+			<img src="{{ profile.img | prepend:site.baseurl }}">
 			<h4>Worker Profile</h4>
 			<p>{{ profile.description }}</p>
-			<a href="{{ site.baseurl }}/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
+			<a href="{{ site.baseurl }}worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
 		{% endfor %}
 		</div>
 		{% endif %}

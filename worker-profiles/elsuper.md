@@ -1,7 +1,7 @@
 ---
 title: Unionized Grocery Workers' Journey
 layout: worker-profile
-hero-img: "/assets/img/workers/ElSuper_Lg.jpg"
+hero-img: "assets/img/workers/ElSuper_Lg.jpg"
 header: "Unionized grocery workers find victory"
 
 journey-steps:
