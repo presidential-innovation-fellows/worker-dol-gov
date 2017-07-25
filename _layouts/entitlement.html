@@ -7,8 +7,8 @@ layout: default
 	<div class="usa-grid-one-whole">
 		<h1>
 			{% if page.name %}
-			I am a <span class="underline">{{ page.name }}</span> <br>and 
-			{% endif %}	
+			I am a <span class="underline">{{ page.name }}</span> <br>and
+			{% endif %}
 		<span class="underline">{{ page.experience }}</span>
 </div>
 </section>
@@ -21,18 +21,18 @@ layout: default
 		<div class="usa-width-one-third">
 			<div class="rights-grouping">
 				{% if page.right == "wage-rights" %}
-					<img src="/assets/img/icons/right-wage-lg.png">
-					<a href="/rights/wage-rights.html">my wage rights</a>
+					<img src="{{ site.baseurl }}/assets/img/icons/right-wage-lg.png">
+					<a href="{{ site.baseurl }}/rights/wage-rights.html">my wage rights</a>
 				{% elsif page.right == "equality-rights" %}
-					<img src="/assets/img/icons/right-equality-lg.png">
-					<a href="/rights/equality-rights.html">my equality rights</a>
+					<img src="{{ site.baseurl }}/assets/img/icons/right-equality-lg.png">
+					<a href="{{ site.baseurl }}/rights/equality-rights.html">my equality rights</a>
 				{% elsif page.right == "safety-rights" %}
-					<img src="/assets/img/icons/right-safety-lg.png">
-					<a href="/rights/safety-rights.html">my safety rights</a>
-				{% elsif page.right == "organizing-rights" %}				
-					<img src="/assets/img/icons/right-organize-lg.png">
-					<a href="/rights/organizing-rights.html">my organizing rights</a>
-				{% endif %}	
+					<img src="{{ site.baseurl }}/assets/img/icons/right-safety-lg.png">
+					<a href="{{ site.baseurl }}/rights/safety-rights.html">my safety rights</a>
+				{% elsif page.right == "organizing-rights" %}
+					<img src="{{ site.baseurl }}/assets/img/icons/right-organize-lg.png">
+					<a href="{{ site.baseurl }}/rights/organizing-rights.html">my organizing rights</a>
+				{% endif %}
 			</div>
 		</div>
 		<div class="usa-width-two-thirds">
@@ -47,7 +47,7 @@ layout: default
 </div>
 
 <div class="entitlement-action">
-	
+
 	{% for action in page.actions %}
 
 	<div class="usa-grid">
@@ -57,12 +57,12 @@ layout: default
 		<div class="usa-width-two-thirds">
 			<h2>{{ action.header }}</h2>
 			<p>{{ action.description }}</p>
-			<a href="/actions/{{ action.id }}.html" class="usa-button usa-button-big usa-button-secondary">
+			<a href="{{ site.baseurl }}/actions/{{ action.id }}.html" class="usa-button usa-button-big usa-button-secondary">
 				{% if action.cta %}
   					{{ action.cta }}
 				{% else %}
 					Take Action
-				{% endif %}	
+				{% endif %}
 			</a>
 		</div>
 	</div>
@@ -77,4 +77,3 @@ layout: default
 {{ content }}
 
 </section>
-
