@@ -4,55 +4,21 @@ layout: content
 
 <div class="entitlement">
 	<div class="usa-grid">
-		<div class="usa-width-one-third">
-			<div class="rights-grouping">
-				{% if page.right == "wage-rights" %}
-					<img src="{{ "assets/img/icons/right-wage-lg.png" | prepend:site.baseurl }}">
-					<a href="{{ "rights/wage-rights.html" | prepend:site.baseurl }}">my wage rights</a>
-				{% elsif page.right == "equality-rights" %}
-					<img src="{{ "assets/img/icons/right-equality-lg.png" | prepend:site.baseurl }}">
-					<a href="{{ "rights/equality-rights.html" | prepend:site.baseurl }}">my equality rights</a>
-				{% elsif page.right == "safety-rights" %}
-					<img src="{{ "assets/img/icons/right-safety-lg.png" | prepend:site.baseurl }}">
-					<a href="{{ "rights/safety-rights.html" | prepend:site.baseurl }}">my safety rights</a>
-				{% elsif page.right == "organizing-rights" %}
-					<img src="{{ "assets/img/icons/right-organize-lg.png" | prepend:site.baseurl }}">
-					<a href="{{ "rights/organizing-rights.html" | prepend:site.baseurl }}">my organizing rights</a>
-				{% endif %}
-
-				<br>
-				<div class="more-rights">
-					More Rights:
-      				{% for right in site.rights %}
-      					{% if right.right != page.right %}
-      					<a href="{{ site.baseurl }}rights/{{right.val}}.html">{{right.title}}</a>
-      					{% if forloop.index == 4 %}
-      					{% else %}
-      					 |
-      					{% endif %}
-      					{% endif %}
-      				{% endfor %}
-      			</div>
-			</div>
-		</div>
 		<div class="usa-width-two-thirds">
 			<div class="entitlement-description">
 				<h1>{{page.statement}}</h1>
 				<p>{{page.mission}}</p>
-				<ul>
-			    {% for profile in site.profiles %}
-      			{% if profile.layout != "profiles" %}
-      			{% unless profile.name %}
-      			{% if profile.right == page.right %}
-
-            		<li><a href="{{profile.url}}">{{profile.experience}}</a></li>
-
-            	{% endif %}
-      			{% endunless %}
-      			{% endif %}
-      			{% endfor %}
-
 			</div>
+		</div>
+		<div class="usa-width-one-third">
+			<h3>Examples</h3>
+			<ul>
+				{% for experience in page.experiences %}
+					{% if experience.show %}
+						<li>{{experience.text}}</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 </div>
