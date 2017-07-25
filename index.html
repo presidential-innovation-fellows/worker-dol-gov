@@ -11,18 +11,18 @@ title: Home
 <div class="index">
 
   <ul class="icons">
-          <li><img src="/assets/img/icons-workers.png" alt="Worker Icons"></li>
+          <li><img src="{{ "/assets/img/icons-workers.png" | prepend: site.baseurl }}" alt="Worker Icons"></li>
   </ul>
 
   <h1 class="page-heading">We work for you.</h1>
   <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
 
-  <div class="usa-grid">  
+  <div class="usa-grid">
     <div class="usa-width-one-whole">
         <label for="worker-profile">I am a:</label>
     </div>
   </div>
-  <div class="usa-grid">  
+  <div class="usa-grid">
     <div class="usa-width-two-thirds top-margin">
       <div class="profile-wrapper">
       <div class="awesomplete">
@@ -30,7 +30,7 @@ title: Home
       <datalist id="workerprofiles">
       {% for profile in site.profiles %}
       {% if profile.layout == "profiles" %}
-            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>        
+            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>
       {% endif %}
       {% endfor %}
     </ul>
@@ -38,7 +38,7 @@ title: Home
     <button class="dropdown-btn" type="button"></button></h1>
     </div>
     </div>
-    
+
     <div class="usa-width-one-third top-margin side-margin">
        <div class="button_wrapper">
         <a class="usa-button usa-button-big usa-button-secondary learn-rights" href="profiles/all.html">Learn My Rights</a>
