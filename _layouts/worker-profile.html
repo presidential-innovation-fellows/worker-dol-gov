@@ -7,7 +7,7 @@ layout: content
 
 		<a class="back" href="{{ site.baseurl }}actions/{{ page.action }}">< Back to my claim</a>
 
-		<img src="{{ page.hero-img }}">
+		<img src="{{ page.hero-img | prepend:site.baseurl }}">
 
 		<h4 style="margin-top: 30px">Worker Profile<h4>
 		<h1 style="line-height: 40px;">{{ page.header }}</h1>
