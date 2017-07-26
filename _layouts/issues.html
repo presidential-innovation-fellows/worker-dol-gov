@@ -12,7 +12,7 @@ layout: content
 				<h2>{{ right.title }}</h2>
 				<p>{{ right.statement }}</p>
 				<ul>
-			    {% for experience in right.experiences %}
+			    {% for experience in site.data.experiences %}
 						{% if experience.issue == page.issue %}
           		<li>{{experience.text}}</li>
 						{% endif %}
