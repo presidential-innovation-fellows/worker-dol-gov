@@ -3,18 +3,11 @@
 ---
 @charset "utf-8";
 
-// New fonts
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat-Regular.ttf);
-}
-
 
 // Our variables
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$header-font-family: 'Montserrat', "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+$base-font-family: Arial, Helvetica, sans-serif;
+$header-font-family: Arial, Helvetica,sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -32,7 +25,7 @@ $brand-color:      #ffffff;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-$worker-blue:	   #1766a3; 
+$worker-blue:	   #1766a3;
 $worker-blue-dark: #072849;
 $worker-light-blue:#5ca3dc;
 $worker-cta:	   #d0213d;
@@ -74,10 +67,6 @@ $on-laptop:        800px;
 
 // Header Styles
 
-.top-menu {
-    background: url('../img/icon-texture-tile.png') repeat-x bottom right,
-}
-
 .usa p {
     margin: 0;
     padding: 5px 0;
@@ -105,7 +94,7 @@ $on-laptop:        800px;
 }
 
 a.site-title img {
-    max-width:250px;
+    max-width:200px;
 }
 
 // Footer Styles
@@ -130,9 +119,8 @@ ul.agencies li {
 // Homepage Styles
 
 .home-page h1.page-heading {
-    text-transform: uppercase;
     font-family: $header-font-family;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .home-page a.explore-rights {
@@ -156,9 +144,13 @@ ul.agencies li {
     margin-top:0px;
 }
 
-ul.icons {
-    text-align: center;
-    list-style: none;
+.icons {
+  text-align: center;
+}
+
+.icons img {
+  padding: 18px;
+  width: 60%;
 }
 
 ul.agencies li {
@@ -172,8 +164,7 @@ ul.agencies li {
     text-align: center;
     background:
         linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
-        url('../img/icon-texture-tile.png') repeat top right,
-        linear-gradient(to bottom, $worker-blue 0%, 
+        linear-gradient(to bottom, $worker-blue 0%,
         lighten($worker-blue, 5%) 100%);
     padding-bottom: 50px;
 }
@@ -199,10 +190,9 @@ a.learn-rights {
     color: white;
     text-align: center;
     padding: 40px 0px;
-    background: 
+    background:
         linear-gradient(to top, $worker-blue 0%, rgba(23,102,163,0) 10%),
-        url('../img/icon-texture-tile.png') repeat top right,
-        linear-gradient(to bottom, $worker-blue 0%, 
+        linear-gradient(to bottom, $worker-blue 0%,
         lighten($worker-blue, 5%) 100%);
 }
 
@@ -261,7 +251,7 @@ div.priority-rights h1 {
 h3.usa-alert-heading {
     font-family: $header-font-family;
     font-size: 2rem;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 .experiences h1 {
@@ -285,8 +275,8 @@ p.mission {
 }
 
 .entitlement-action {
-    padding: 40px 0 60px 0; 
-    background: $light-gray-back;   
+    padding: 40px 0 60px 0;
+    background: $light-gray-back;
 }
 
 .entitlement .rights-grouping {
