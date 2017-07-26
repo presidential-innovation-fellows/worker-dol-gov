@@ -1,7 +1,7 @@
 ---
 title: Mr. Hursey's Worker Journey
 layout: worker-profile
-hero-img: "assets/img/workers/mrhursey.png"
+hero-img: "/assets/img/workers/mrhursey.png"
 header: "Looking out for Mr. Hursey"
 
 journey-steps:

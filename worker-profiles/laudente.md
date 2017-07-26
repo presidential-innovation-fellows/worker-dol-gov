@@ -1,7 +1,7 @@
 ---
 title: Laudente's Worker Journey
 layout: worker-profile
-hero-img: "assets/img/workers/laudente.png"
+hero-img: "/assets/img/workers/laudente.png"
 header: "Laudente's journey to fairness"
 
 journey-steps:

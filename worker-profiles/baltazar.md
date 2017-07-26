@@ -1,7 +1,7 @@
 ---
 title: Baltazar's Worker Journey
 layout: worker-profile
-hero-img: "assets/img/workers/BaltazarAndSon_Lg.jpg"
+hero-img: "/assets/img/workers/BaltazarAndSon_Lg.jpg"
 header: "Yuma construction workers rightfully receive back wages"
 
 journey-steps:
