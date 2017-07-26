@@ -136,7 +136,7 @@
   }
 
   button {
-    $button-vertical-offset: 36%;
+    $button-vertical-offset: 50%;
 
     @include button-unstyled;
     @include font-smoothing;
@@ -144,7 +144,7 @@
     padding: 1.4rem 1.5rem 1rem 1.8rem;
 
     @include media($nav-width) {
-      @include padding(null 3rem 3rem 1.5rem);
+      @include padding(null 3rem 1.7rem 1.5rem);
       color: $color-gray;
       font-size: $h5-font-size;
       font-weight: $font-bold;
@@ -169,7 +169,7 @@
       background-image: url('#{$image-path}/plus-alt.png');
       background-image: url('#{$image-path}/plus-alt.svg');
       background-repeat: no-repeat;
-      background-position: right 0 center;
+      background-position: right center;
       background-size: 1rem;
 
       @include media($nav-width) {

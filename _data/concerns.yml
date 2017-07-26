@@ -8,8 +8,33 @@
   detail: detail-equality-eeoc
   right: equality-rights
   text: "I was discriminated against because of my citizenship or immigration status"
-- concern: I can't get hired
+- concern: I was fired, not hired, or unfairly disciplined
   reason: supporting unions
   detail: detail-nlrb
   right: organizing-rights
   text: "I can't get hired because I'm a known union organizer"
+- concern: I was discriminated against
+  reason:
+  detail:
+  right:
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason:
+  detail:
+  right:
+  text:
+- concern: I wasn’t paid fairly
+  reason:
+  detail:
+  right:
+  text:
+- concern: I don’t feel safe at work
+  reason:
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason:
+  detail:
+  right:
+  text:
