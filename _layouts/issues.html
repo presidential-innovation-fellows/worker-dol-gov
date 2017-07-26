@@ -1,0 +1,30 @@
+---
+layout: content
+---
+
+<div class="entitlement">
+	<div class="usa-grid">
+		<div class="usa-width-two-thirds">
+			<div class="entitlement-description">
+				<h1>{{page.heading}}</h1>
+				<p>{{page.intro}}</p>
+				{% for right in site.rights %}
+				<h2>{{ right.title }}</h2>
+				<p>{{ right.statement }}</p>
+				<ul>
+			    {% for experience in right.experiences %}
+						{% if experience.issue == page.issue %}
+          		<li>{{experience.text}}</li>
+						{% endif %}
+    			{% endfor %}
+				</ul>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+{{ content }}
