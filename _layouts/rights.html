@@ -13,10 +13,8 @@ layout: content
 		<div class="usa-width-one-third">
 			<h3>Examples</h3>
 			<ul>
-				{% for experience in page.experiences %}
-					{% if experience.show %}
-						<li>{{experience.text}}</li>
-					{% endif %}
+				{% for experience in site.data.experiences %}
+					<li>{{experience.text}}</li>
 				{% endfor %}
 			</ul>
 		</div>

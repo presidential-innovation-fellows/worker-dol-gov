@@ -136,7 +136,7 @@
   details:
 - text: I was fired for chatting about my supervisor with other coworkers on Facebook.
   right: organizing-rights
-  issue:
+  issue: fired
   details:
 - text: I filed a charge with the NLRB and was demoted as a result.
   right: organizing-rights
@@ -164,7 +164,7 @@
   details:
 - text: I, on behalf of the nail techs, asked the nail salon owner to consider getting better ventilation to address the fumes from the polishes, gels and acetone, and I was fired.
   right: organizing-rights
-  issue:
+  issue: fired
   details:
 - text: I brought complaints to our union steward and/or foreman about the crew not having adequate safety equipment and they retaliated.
   right: organizing-rights
@@ -172,7 +172,7 @@
   details:
 - text: We were on strike and the employer fired and replaced us all.
   right: organizing-rights
-  issue:
+  issue: fired
   details:
 - text: I can’t get hired because the industry knows me as a union supporter.
   right: organizing-rights
