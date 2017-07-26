@@ -1,0 +1,30 @@
+---
+layout: default
+title: Workplace concerns
+---
+<div class="section">
+  <div class="usa-grid">
+      <h1>Workplace concerns</h1>
+  </div>
+  <div class="usa-grid">
+    {% assign concerns = site.data.concerns | map:'concern' | uniq %}
+    {% for concern in concerns %}
+      <button class="usa-button js-concern" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</button>
+    {% endfor %}
+  </div>
+</div>
+<div class="section bg-gray">
+  <div class="usa-grid">
+    <h1>Tell us more...</h1>
+  </div>
+  <div class="usa-grid">
+    {% for concern in concerns %}
+      <div class="concern__detail js-concern-details" id="{{ concern | slugify }}" hidden>
+        {% assign details = site.data.concerns | where:'concern',concern %}
+        {% for detail in details %}
+          <a class="usa-button" href="{{ site.baseurl }}/details/{{ detail.detail }}">{{ detail.reason }}</a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

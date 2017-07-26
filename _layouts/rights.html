@@ -10,18 +10,15 @@ layout: content
 				<p>{{page.mission}}</p>
 			</div>
 		</div>
-		<div class="usa-width-one-third">
+		<div class="usa-width-one-third box bg-light-blue">
 			<h3>Examples</h3>
 			<ul>
-				{% for experience in site.data.experiences %}
-					<li>{{experience.text}}</li>
+				{% for concern in site.data.concerns %}
+					{% if concern.right == page.right %}
+						<li><a href="{{ site.baseurl }}/details/{{ concern.detail }}">{{concern.text}}</a></li>
+					{% endif %}
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
 </div>
-
-
-
-
-{{ content }}

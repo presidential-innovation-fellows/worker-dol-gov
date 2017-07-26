@@ -1,0 +1,41 @@
+// Sections
+.section {
+  padding: 3.2rem 0;
+}
+
+.box {
+  padding: 1.6rem;
+}
+
+.flex--large {
+  @media (min-width: $large-screen) {
+    display: flex;
+  }
+}
+
+// Background colors
+.bg-light-blue {
+  background-color: $color-primary-alt-lightest;
+}
+
+.bg-gray {
+  background-color: $color-gray-warm-light;
+}
+
+.bg-gray-lightest {
+  background-color: $color-gray-lightest;
+}
+
+.bg-dark {
+  background-color: $color-gray-dark;
+  color: $color-white;
+}
+
+// Stacks items on small screens
+.small-stacked {
+  margin-bottom: 1.6rem;
+
+  @media (min-width: $medium-screen) {
+    margin-bottom: 0;
+  }
+}

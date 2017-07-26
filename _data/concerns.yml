@@ -1,0 +1,15 @@
+- concern: I was discriminated against
+  reason: gender identity
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text: "I was discriminated against because of my gender identity"
+- concern: I was discriminated against
+  reason: citizenship or immigration status
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text: "I was discriminated against because of my citizenship or immigration status"
+- concern: I can't get hired
+  reason: supporting unions
+  detail: detail-nlrb
+  right: organizing-rights
+  text: "I can't get hired because I'm a known union organizer"

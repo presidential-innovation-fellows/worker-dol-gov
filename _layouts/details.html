@@ -1,0 +1,29 @@
+---
+layout: content
+---
+
+<div class="usa-grid">
+	<div class="usa-width-two-thirds">
+		<div class="entitlement-description">
+			<h1>{{page.title}}</h1>
+			{{ page.content }}
+			{% if page.actions %}
+				{% for action in page.actions %}
+				<a class="usa-button" href="{{ site.baseurl }}/actions/{{ action.action }}.html">{{ action.label }}</a>
+				{% endfor %}
+			{% else %}
+				<a class="usa-button" href="{{ site.baseurl }}/actions/{{ page.action }}.html">{{ action.title }}</a>
+			{% endif %}
+		</div>
+	</div>
+	<div class="usa-width-one-third">
+		<div class="box bg-light-blue">
+			<h3>About this right</h3>
+			<p>something somethign</p>
+		</div>
+		<div class="box bg-light-blue">
+			<h3>More information</h3>
+			<p>something somethign</p>
+		</div>
+	</div>
+</div>

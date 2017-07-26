@@ -38,7 +38,7 @@
     <div class="usa-navbar">
       <button class="usa-menu-btn">Menu</button>
       <div class="usa-logo" id="logo">
-        <a class="site-title" accesskey="1" title="Home" href="{{ site.baseurl }}"><img src="{{ "/assets/img/logos/worker-banner-top.svg" | prepend: site.baseurl }}" alt="Worker.gov"></a>
+        <a accesskey="1" title="Home" href="{{ site.baseurl }}"><img src="{{ "/assets/img/logo.svg" | prepend: site.baseurl }}" alt="Worker.gov"></a>
       </div>
     </div>
     <nav role="navigation" class="usa-nav">
@@ -65,16 +65,9 @@
           </ul>
         </li>
         <li>
-          <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+          <a class="usa-nav-link" href="{{ "/concerns" | prepend: site.base_url }}">
             <span>Workplace concerns</span>
-          </button>
-          <ul id="sidenav-2" class="usa-nav-submenu">
-            {% for issue in site.issues %}
-            <li>
-              <a href="{{ site.baseurl }}/issues/{{ issue.issue }}">{{ issue.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+          </a>
         </li>
         <li>
           <a class="usa-nav-link" href="#">

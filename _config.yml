@@ -37,3 +37,5 @@ collections:
     output: true
   issues:
     output: true
+  details:
+    output: true

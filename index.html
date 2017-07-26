@@ -3,54 +3,38 @@ layout: default
 title: Home
 ---
 
-
-<div class="page-content home-page">
-
-<div class="wrapper">
-
-<div class="index">
-
-  <div class="icons">
-    <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
-  </div>
-
-  <h1 class="page-heading">We work for you.</h1>
-  <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
-
+<div class="page-content hero">
   <div class="usa-grid">
-    <div class="usa-width-one-whole">
-        <label for="worker-profile">I am a:</label>
+    <div class="index">
+      <div class="icons">
+        <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
+      </div>
+      <h1 class="page-heading">We work for you.</h1>
+      <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
+      <div class="usa-grid">
+      </div>
     </div>
   </div>
+</div>
+
+<section class="section">
+  <h2 class="usa-grid">Learn your rights</h2>
+  <div class="usa-grid flex">
+    {% for right in site.rights %}
+    <div class="usa-width-one-fourth box bg-light-blue small-stacked">
+      <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
+      <h3>{{ right.title }}</h3>
+      <p>{{ right.statement }}</p>
+      <a href="{{ right.url }}">Learn more</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section bg-dark">
   <div class="usa-grid">
-    <div class="usa-width-two-thirds top-margin">
-      <div class="profile-wrapper">
-      <div class="awesomplete">
-      <input list="workerprofiles" class="dropdown-input-index" autocomplete="off" aria-autocomplete="list" placeholder="enter your job title">
-      <datalist id="workerprofiles">
-      {% for profile in site.profiles %}
-      {% if profile.layout == "profiles" %}
-            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>
-      {% endif %}
-      {% endfor %}
-    </ul>
-    </div>
-    <button class="dropdown-btn" type="button"></button></h1>
-    </div>
-    </div>
-
-    <div class="usa-width-one-third top-margin side-margin">
-       <div class="button_wrapper">
-        <a class="usa-button usa-button-big usa-button-secondary learn-rights" href="profiles/all.html">Learn My Rights</a>
-       </div>
-    </div>
+    <h2>Have an issue in your work place?</h2>
+    <a class="usa-button" href="{{ "/concerns" | prepend:site.baseurl }}">Learn more</a>
   </div>
-  <a href="profiles/all.html" class="explore-rights">Explore all rights</a>
 
-</div>
-
-</div>
-
-</div>
-
-</div>
+</section>
