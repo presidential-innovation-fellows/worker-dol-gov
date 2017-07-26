@@ -1,14 +1,87 @@
-<header class="site-header">
-
-  	<aside class="usa">
-  		<p><img alt="US Flag" src="{{ "/assets/img/us_flag_small.png" | prepend: site.baseurl }}"> An official website of the United States Government. This site is a <a href="/playbook.html">work in progress</a>. If you don't find what you need, visit <a href="https://www.dol.gov/">dol.gov</a></p>
-  	</aside>
-
-<div class="top-menu">
-  	<div class="usa-grid">
-    	<div class="usa-width-one-whole">
-    		<a class="site-title" href="{{ site.baseurl }}"><img src="{{ "/assets/img/logos/worker-banner-top-highres.png" | prepend: site.baseurl }}" alt="Worker.gov"></a>
-    	</div>
-	</div>
-</div>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<header class="usa-header usa-header-basic" role="banner">
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner-header">
+        <div class="usa-grid usa-banner-inner">
+        <img src="{{ "/assets/img/us_flag_small.png" | prepend: site.baseurl }}" alt="U.S. flag">
+        <p>An official website of the United States government</p>
+        <button class="usa-accordion-button usa-banner-button"
+          aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner-button-text">Here's how you know</span>
+        </button>
+        </div>
+      </header>
+      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+        <div class="usa-banner-guidance-gov usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="{{ "/assets/uswds/img/icon-dot-gov.svg" | prepend: site.baseurl }}"alt="Dot gov">
+          <div class="usa-media_block-body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner-guidance-ssl usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="{{ "/assets/uswds/img/icon-https.svg" | prepend: site.baseurl }}" alt="SSL">
+          <div class="usa-media_block-body">
+            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gov banner END -->
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <button class="usa-menu-btn">Menu</button>
+      <div class="usa-logo" id="logo">
+        <a class="site-title" accesskey="1" title="Home" href="{{ site.baseurl }}"><img src="{{ "/assets/img/logos/worker-banner-top-highres.png" | prepend: site.baseurl }}" alt="Worker.gov"></a>
+      </div>
+    </div>
+    <nav role="navigation" class="usa-nav">
+      <button class="usa-nav-close">
+        <img src="{{ "/assets/uswds/img/close.svg" | prepend: site.baseurl }}" alt="close">
+      </button>
+      <ul class="usa-nav-primary usa-accordion">
+        <li>
+          <a class="usa-nav-link" href="/">
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <button class="
+          usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1">
+            <span>Your rights</span>
+          </button>
+          <ul id="side-nav-1" class="usa-nav-submenu">
+            {% for right in site.rights %}
+            <li>
+              <a href="{{ site.baseurl }}/rights/{{ right.right }}">{{ right.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
+          <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+            <span>Workplace concerns</span>
+          </button>
+          <ul id="sidenav-2" class="usa-nav-submenu">
+            {% for issue in site.issues %}
+            <li>
+              <a href="{{ site.baseurl }}/issues/{{ issue.issue }}">{{ issue.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li>
+          <a class="usa-nav-link" href="#">
+            <span>About</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
