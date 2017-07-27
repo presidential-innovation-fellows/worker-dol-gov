@@ -14,7 +14,7 @@ layout: content
 			<h3>Examples</h3>
 			<ul>
 				{% for concern in site.data.concerns %}
-					{% if concern.right == page.right %}
+					{% if concern.right == page.right and concern.text %}
 						<li><a href="{{ site.baseurl }}/details/{{ concern.detail }}">{{concern.text}}</a></li>
 					{% endif %}
 				{% endfor %}

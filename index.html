@@ -25,7 +25,7 @@ title: Home
       <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
       <h3>{{ right.title }}</h3>
       <p>{{ right.statement }}</p>
-      <a href="{{ right.url }}">Learn more</a>
+      <a href="{{ right.url | prepend:site.baseurl }}">Learn more</a>
     </div>
     {% endfor %}
   </div>
