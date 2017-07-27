@@ -24,7 +24,7 @@ permalink: /concerns/
       <div class="concern__detail js-concern-details" id="{{ concern | slugify }}" hidden>
         {% assign details = site.data.concerns | where:'concern',concern %}
         {% for detail in details %}
-          <a class="usa-button" href="{{ site.baseurl }}/details/{{ detail.detail }}">{{ detail.reason }}</a>
+          <a class="usa-button {% unless detail.detail %}usa-button-disabled{% endunless %}" {% if detail.detail %}href="{{ site.baseurl }}/details/{{ detail.detail }}"{% else %}disabled{% endif %}>{{ detail.reason }}</a>
         {% endfor %}
       </div>
     {% endfor %}
