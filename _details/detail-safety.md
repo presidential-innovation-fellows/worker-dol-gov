@@ -5,6 +5,7 @@ id: equality-doj
 actions:
   - action: eeoc-claim
   - label: File a claim
+  permalink: /details/safety/  
 ---
 
 Under federal law, you are entitled to a safe workplace. Your employer must provide a workplace free of known health and safety hazards. If you have concerns, you have the right to speak up about them without fear of retaliation. You also have the right to:

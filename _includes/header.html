@@ -59,7 +59,7 @@
           <ul id="side-nav-1" class="usa-nav-submenu">
             {% for right in site.rights %}
             <li>
-              <a href="{{ site.baseurl }}/rights/{{ right.right }}">{{ right.title }}</a>
+              <a href="{{ right.url | prepend: site.baseurl }}">{{ right.title }}</a>
             </li>
             {% endfor %}
           </ul>

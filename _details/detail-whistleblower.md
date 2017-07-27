@@ -5,6 +5,7 @@ id: whistleblower
 actions:
   - action: osha-whistleblower-claim
     label: File a claim
+  permalink: /details/detail-whistelblower/
 ---
 
 An employer cannot retaliate by taking "adverse action" against workers who report injuries, safety concerns, or other protected activity. You should not be discriminated for exercising your rights under the OSH Act. These rights include:
