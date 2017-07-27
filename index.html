@@ -17,7 +17,7 @@ title: Home
   </div>
 </div>
 
-<section class="section">
+<section class="section--spacious">
   <h2 class="usa-grid">Learn your rights</h2>
   <div class="usa-grid flex--large">
     {% for right in site.rights %}
@@ -31,10 +31,26 @@ title: Home
   </div>
 </section>
 
-<section class="section bg-dark">
+<section class="section--spacious bg-dark">
   <div class="usa-grid">
-    <h2>Have an issue in your work place?</h2>
-    <a class="usa-button" href="{{ "/concerns" | prepend:site.baseurl }}">Learn more</a>
+    <div class="usa-width-two-thirds">
+      <h2>Have an issue at work?</h2>
+      <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod.</p>
+      <strong><a href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns »</a></strong>
+    </div>
+    <div class="usa-width-one-third">
+      {% assign concerns = site.data.concerns | map:'concern' | uniq %}
+      <form action="{{ "/concerns" | prepend:site.baseurl }}" method="GET">
+        <label for="concerns"><h3>What's your concern?</h3></label>
+        <select name="concern" id="concerns">
+            <option value="">View all concerns</option>
+          {% for concern in concerns %}
+            <option value="{{ concern | slugify }}">{{ concern }}</option>
+          {% endfor %}
+        </select>
+        <button class="usa-button">Learn more</button>
+      </form>
+    </div>
   </div>
 
 </section>

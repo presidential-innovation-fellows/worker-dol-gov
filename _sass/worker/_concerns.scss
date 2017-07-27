@@ -1,0 +1,5 @@
+.concern-button {
+  &[aria-selected="true"] {
+    background-color: $color-primary-darkest;
+  }
+}

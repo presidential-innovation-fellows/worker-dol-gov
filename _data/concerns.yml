@@ -1,40 +1,242 @@
+# Structure:
+# - concern: top-level category of concern
+# - reason: detailed reason for the incident
+# - detail: the ID of the detail page this will send them to
+# - right: one of the 4 rigth buckets this pertains to
+# - text: sentence that combines the concern and reason
+
+# 1. Discriminated against
+- concern: I was discriminated against
+  reason: citizenship or immigration status
+  detail: detail-equality-doj
+  right: equality-rights
+  text: "I was discriminated against because of my citizenship or immigration status"
+- concern: I was discriminated against
+  reason: age
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: disability
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
 - concern: I was discriminated against
   reason: gender identity
   detail: detail-equality-eeoc
   right: equality-rights
   text: "I was discriminated against because of my gender identity"
 - concern: I was discriminated against
-  reason: citizenship or immigration status
+  reason: having an accent
   detail: detail-equality-eeoc
   right: equality-rights
-  text: "I was discriminated against because of my citizenship or immigration status"
+  text:
+- concern: I was discriminated against
+  reason: medical history or genetic information
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: national origin
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: sexual orientation
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: pregnancy
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: race or color
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: religion
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+- concern: I was discriminated against
+  reason: sex
+  detail: detail-equality-eeoc
+  right: equality-rights
+  text:
+
+# 2. Fired, not hired or unfairly disciplined
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: reporting discrimination
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: reporting harassment
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: reporting unfair wages or tips
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: reporting unsafe working conditions
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: talking to coworkers about wages or tips
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: talking to coworkers about working conditions
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: talking to coworkers about our supervisor
+  detail:
+  right: equality-rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: talking to coworkers about forming a union
+  detail:
+  right: organizing rights
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: talking to coworkers about working conditions
+  detail:
+  right:
+  text:
+- concern: I was fired, not hired, or unfairly disciplined
+  reason: going on strike
+  detail:
+  right: organizing rights
+  text:
 - concern: I was fired, not hired, or unfairly disciplined
   reason: supporting unions
   detail: detail-nlrb
   right: organizing-rights
-  text: "I can't get hired because I'm a known union organizer"
-- concern: I was discriminated against
-  reason:
-  detail:
-  right:
   text:
 - concern: I was fired, not hired, or unfairly disciplined
-  reason:
+  reason: being injured on the job
   detail:
-  right:
+  right: safety-rights
+  text:
+
+# 3. I wasn't paid fairly
+- concern: I wasn’t paid fairly
+  reason: minimum wage ($7.25 per hour)
+  detail:
+  right: wage-rights
   text:
 - concern: I wasn’t paid fairly
-  reason:
+  reason: overtime (more than 40 hours in a week)
   detail:
-  right:
+  right: wage-rights
+  text:
+- concern: I wasn’t paid fairly
+  reason: coworkers are paid more for the same work
+  detail:
+  right: wage-rights
+  text:
+- concern: I wasn’t paid fairly
+  reason: missing or late paychecks
+  detail:
+  right: wage-rights
+  text:
+- concern: I wasn’t paid fairly
+  reason: my employer doesn’t keep records of my hours
+  detail:
+  right: wage-rights
+  text:
+- concern: I wasn’t paid fairly
+  reason: my employer doesn’t allow us to talk to each other about wages
+  detail:
+  right: wage-rights
+  text:
+
+
+# 4. I don't feel safe at work
+- concern: I don’t feel safe at work
+  reason: being harassed
+  detail:
+  right: safety-rights
   text:
 - concern: I don’t feel safe at work
-  reason:
+  reason: machines are unsafe
+  detail:
+  right: safety-rights
+  text:
+- concern: I don’t feel safe at work
+  reason: not allowed to report a safety issue
+  detail:
+  right: safety-rights
+  text:
+- concern: I don’t feel safe at work
+  reason: my employer doesn’t allow us to talk to each other about working conditions
+  detail:
+  right: safety-rights
+  text:
+- concern: I don’t feel safe at work
+  reason: I wasn’t trained in a language I understand
+  detail:
+  right: safety-rights
+  text:
+- concern: I don’t feel safe at work
+  reason: I don’t have access to safety gear at work
+  detail:
+  right: safety-rights
+  text:
+
+# 5. I want to report a different issue
+- concern: I want to report a different issue
+  reason: child labor
   detail:
   right:
   text:
 - concern: I want to report a different issue
-  reason:
+  reason: being injured on the job
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: harassment
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: discrimination
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: family or medical leave
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: threats or retaliation
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: wages and tips
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: unsafe conditions
+  detail:
+  right:
+  text:
+- concern: I want to report a different issue
+  reason: unions
   detail:
   right:
   text:

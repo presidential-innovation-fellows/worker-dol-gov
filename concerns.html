@@ -9,7 +9,7 @@ title: Workplace concerns
   <div class="usa-grid">
     {% assign concerns = site.data.concerns | map:'concern' | uniq %}
     {% for concern in concerns %}
-      <button class="usa-button js-concern" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</button>
+      <button class="usa-button concern-button js-concern" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</button>
     {% endfor %}
   </div>
 </div>
@@ -28,3 +28,5 @@ title: Workplace concerns
     {% endfor %}
   </div>
 </div>
+
+<script src="{{ "/assets/js/concerns.js" | prepend: site.baseurl }}"></script>
