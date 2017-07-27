@@ -6,7 +6,7 @@ permalink: /concerns/
 
 <div class="section">
   <div class="usa-grid">
-      <h1>Workplace concerns</h1>
+    <h1>Workplace concerns</h1>
   </div>
   <div class="usa-grid">
     {% assign concerns = site.data.concerns | map:'concern' | uniq %}
@@ -15,20 +15,20 @@ permalink: /concerns/
     {% endfor %}
   </div>
 </div>
-<div class="section bg-gray">
-  <div class="usa-grid">
-    <h1>Tell us more...</h1>
-  </div>
-  <div class="usa-grid">
-    {% for concern in concerns %}
-      <div class="concern__detail js-concern-details" id="{{ concern | slugify }}">
+{% for concern in concerns %}
+  <div class="section concern__detail bg-gray js-concern-details" id="{{ concern | slugify }}">
+      <div class="usa-grid">
+        <h1>Tell us more...</h1>
+      </div>
+      <div class="usa-grid">
+      <div>
         {% assign details = site.data.concerns | where:'concern',concern %}
         {% for detail in details %}
           <a class="usa-button {% unless detail.detail %}usa-button-disabled{% endunless %}" {% if detail.detail %}href="{{ site.baseurl }}/details/{{ detail.detail }}"{% else %}disabled{% endif %}>{{ detail.reason }}</a>
         {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
-</div>
+{% endfor %}
 
 <script src="{{ "/assets/js/concerns.js" | prepend: site.baseurl }}"></script>

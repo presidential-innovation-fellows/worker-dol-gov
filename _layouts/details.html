@@ -6,26 +6,33 @@ layout: content
 	<div class="usa-width-two-thirds">
 		<div class="entitlement-description">
 			<h1>{{page.title}}</h1>
+			{% for blurb in site.blurbs %}
+				{% if blurb.slug == page.blurb %}
+					{{ blurb | markdownify }}
+				{% endif %}
+			{% endfor %}
 			{{ page.content }}
+
 			{% for action in page.actions %}
 			<a class="usa-button" href="{{ site.baseurl }}/actions/{{ action.action }}.html">{{ action.label }}</a>
 			{% endfor %}
 		</div>
 	</div>
 	<div class="usa-width-one-third">
+		{% if page.related_links %}
 		<div class="box bg-light-blue">
-			{% for right in site.rights %}
-				{% if right.right == page.right %}
-					<h3>About {{ right.title }}</h3>
-					<p>{{ right.mission }}</p>
-				{% endif %}
+			<h3>Related reading</h3>
+			<ul>
+			{% for link in page.related_links %}
+				<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}
-			<a href="{{ site.baseurl }}/rights">Learn about all your rights</a>
+			</ul>
 		</div>
+		{% endif %}
 		{% for sidebar in page.sidebars %}
 			{% assign box = site.sidebars | where:'key',sidebar %}
 			<div class="box bg-light-blue">
-				{{ box }}
+				{{ box | markdownify }}
 			</div>
 		{% endfor %}
 	</div>

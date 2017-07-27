@@ -40,3 +40,5 @@ collections:
     permalink: /:collection/:name
   sidebars:
     output: false
+  blurbs:
+    output: false

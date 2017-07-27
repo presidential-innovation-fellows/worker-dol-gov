@@ -8,17 +8,15 @@ layout: content
 			<div class="entitlement-description">
 				<h1>{{page.statement}}</h1>
 				<p>{{page.mission}}</p>
+				<h3>Examples</h3>
+				<ul>
+					{% for concern in site.data.concerns %}
+						{% if concern.right == page.right and concern.text %}
+							<li><a href="{{ site.baseurl }}/details/{{ concern.detail }}">{{concern.text}}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
 			</div>
-		</div>
-		<div class="usa-width-one-third box bg-light-blue">
-			<h3>Examples</h3>
-			<ul>
-				{% for concern in site.data.concerns %}
-					{% if concern.right == page.right and concern.text %}
-						<li><a href="{{ site.baseurl }}/details/{{ concern.detail }}">{{concern.text}}</a></li>
-					{% endif %}
-				{% endfor %}
-			</ul>
 		</div>
 	</div>
 </div>
