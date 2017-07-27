@@ -36,9 +36,12 @@ Employers are not allowed to discriminate against you based on the fact that:
 - you had an abortion, or are considering having an abortion
 
 ### Examples of discrimination
+
 In general, this means that you cannot be:
 
 - fired
 - rejected for a job or promotion
 - given lesser assignments
 - forced to take leave
+
+because of a pregnancy.

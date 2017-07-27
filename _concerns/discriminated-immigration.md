@@ -1,6 +1,6 @@
 ---
 # Page basics
-title: Immigration
+title: Citizenship and immigration status
 layout: concern-details
 
 # Metadata
@@ -10,13 +10,30 @@ right: equality-rights
 summary: "I was discriminated against because of my citizenship or immigration status"
 
 # Page content
-blurb:
+blurb: immigrant
 actions:
-  - action:
+  - action: doj-claim
     label: File a claim
 related_links:
-  - title:
-    url:
+  - title: Immigrant and Employee Rights
+    url: https://www.justice.gov/crt/immigrant-and-employee-rights-section
+  - title: Immigrants’ Employment Rights Under Federal Anti-Discrimination Laws
+    url: https://www.eeoc.gov/eeoc/publications/immigrants-facts.cfm
+  - title: Employment Rights of Immigrants Under Federal Anti-Discrimination Laws
+    url: https://www.eeoc.gov/eeoc/publications/brochure-immigrant_workers_rights.cfm
+  - title: Immigration Discrimination
+    url: https://www.dol.gov/general/topic/discrimination/immdisc
+
 ---
 
-Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+### Examples of discrimination
+
+In general, this means that you cannot be:
+
+- fired
+- rejected for a job or promotion
+- asked for unnecessary documentation
+- forced to take leave
+- threatened or retaliated against
+
+based on your national origin or immigration status.
