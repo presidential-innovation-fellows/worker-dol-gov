@@ -14,15 +14,15 @@ blurb: equality
 actions:
   - action: eeoc-claim
     label: File a claim
-    related_links:
-      - title: Pregnancy Discrimination, EEOC
-        url: https://www.eeoc.gov/laws/types/pregnancy.cfm
-      - title: Legal Rights for Workers Under Federal Law, EEOC
-        url: https://www.eeoc.gov/eeoc/publications/pregnant_workers.cfm
-      - title: Employment Protections for Workers Who are Pregnant or Nursing, DOL
-        url: https://www.dol.gov/wb/maps/
-      - title: What to Expect at Work When You’re Expecting, DOL
-        url: https://www.dol.gov/oasam/programs/crc/2011-pregnancy-discrimination.htm
+related_links:
+  - title: Pregnancy Discrimination, EEOC
+    url: https://www.eeoc.gov/laws/types/pregnancy.cfm
+  - title: Legal Rights for Workers Under Federal Law, EEOC
+    url: https://www.eeoc.gov/eeoc/publications/pregnant_workers.cfm
+  - title: Employment Protections for Workers Who are Pregnant or Nursing, DOL
+    url: https://www.dol.gov/wb/maps/
+  - title: What to Expect at Work When You’re Expecting, DOL
+    url: https://www.dol.gov/oasam/programs/crc/2011-pregnancy-discrimination.htm
 ---
 
 Employers are not allowed to discriminate against you based on the fact that:
