@@ -262,9 +262,10 @@ a.back {
     font-size: .8em;
 }
 
-section.action-bar {
-    background-color: $color-gray-light;
-    text-align: right;
+.action-bar {
+  background-color: $color-gray-lightest;
+  padding: .8rem 0;
+  text-align: right;
 }
 
 .bottom-margin {
