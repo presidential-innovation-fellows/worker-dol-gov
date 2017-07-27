@@ -10,7 +10,7 @@ layout: default
 </section>
 
 
-<section class="content">
+<section class="section">
 
 <div class="usa-grid">
 	<div class="usa-width-two-thirds">
@@ -30,7 +30,7 @@ layout: default
 			  {% for step in page.steps %}
 				<li>
 					<div class="step-img">
-    					<img src="{{step.img}}"/>
+    					<img src="{{step.img | prepend: site.baseurl }}"/>
     				</div>
   					<div class="step-content">
     					<h4>Step {{ forloop.index }}</h4>
@@ -43,7 +43,7 @@ layout: default
 	</div>
 
 	</div>
-	<div class="usa-width-one-third process-sidebar">
+	<div class="usa-width-one-third box bg-light-blue">
 		<h2>We're here to help</h2>
 		<ul>
 		{% for help in page.here-to-help %}
@@ -54,16 +54,16 @@ layout: default
 		<hr class="seperator">
 		<div class="worker-sidebar">
 		{% for profile in page.worker-profile %}
-			<img src="{{ profile.img }}">
+			<img src="{{ profile.img | prepend:site.baseurl }}">
 			<h4>Worker Profile</h4>
 			<p>{{ profile.description }}</p>
-			<a href="/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
+			<a href="{{ site.baseurl }}/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
 		{% endfor %}
 		</div>
 		{% endif %}
 	</div>
 </div>
-<div class="action-area">
+<div class="action-bar">
 	<div class="usa-grid">
 		<div class="usa-width-one-whole">
 			<div class="usa-grid">
@@ -79,4 +79,3 @@ layout: default
 {{ content }}
 
 </section>
-

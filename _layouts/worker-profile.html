@@ -5,9 +5,9 @@ layout: content
 <div class="usa-grid">
 	<div class="usa-width-two-thirds">
 
-		<a class="back" href="/actions/{{ page.action }}">< Back to my claim</a>
+		<a class="back" href="{{ site.baseurl }}/actions/{{ page.action }}">< Back to my claim</a>
 
-		<img src="{{ page.hero-img }}">
+		<img src="{{ page.hero-img | prepend:site.baseurl }}">
 
 		<h4 style="margin-top: 30px">Worker Profile<h4>
 		<h1 style="line-height: 40px;">{{ page.header }}</h1>
@@ -22,7 +22,6 @@ layout: content
 			<li>{{steps}}</li>
 		{% endfor %}
 		</ul>
-		<a href="/actions/{{ page.action }}.html"><button class="usa-button-big usa-button-secondary">File Now</button></a>
+		<a href="{{ site.baseurl }}/actions/{{ page.action }}.html"><button class="usa-button-big usa-button-secondary">File Now</button></a>
 	</div>
 </div>
-

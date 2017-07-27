@@ -1,0 +1,200 @@
+# Structure:
+# - concern: top-level category of concern
+# - detail: detailed reason for the incident
+# - detail: the ID of the detail page this will send them to
+# - right: one of the 4 rigth buckets this pertains to
+# - summary: sentence that combines the concern and reason
+
+# 1. Discriminated against
+- concern: I was discriminated against
+  detail: citizenship or immigration status
+  detail: detail-equality-doj
+  right: equality-rights
+  summary: "I was discriminated against because of my citizenship or immigration status"
+- concern: I was discriminated against
+  detail: age
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: disability
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: gender identity
+  right: equality-rights
+  summary: "I was discriminated against because of my gender identity"
+- concern: I was discriminated against
+  detail: having an accent
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: medical history or genetic information
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: national origin
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: sexual orientation
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: pregnancy
+  detail: detail-pregnancy
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: race or color
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: religion
+  right: equality-rights
+  summary:
+- concern: I was discriminated against
+  detail: sex
+  right: equality-rights
+  summary:
+
+# 2. Fired, not hired or unfairly disciplined
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: reporting discrimination
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: reporting harassment
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: reporting unfair wages or tips
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: reporting unsafe working conditions
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: talking to coworkers about wages or tips
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: talking to coworkers about working conditions
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: talking to coworkers about our supervisor
+  right: equality-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: talking to coworkers about forming a union
+  right: organizing rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: talking to coworkers about working conditions
+  right:
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: going on strike
+  right: organizing rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: supporting unions
+  detail: detail-nlrb
+  right: organizing-rights
+  summary:
+- concern: I was fired, not hired, or unfairly disciplined
+  detail: being injured on the job
+  right: safety-rights
+  summary:
+
+# 3. I wasn't paid fairly
+- concern: I wasn’t paid fairly
+  detail: minimum wage ($7.25 per hour)
+  right: wage-rights
+  summary:
+- concern: I wasn’t paid fairly
+  detail: overtime (more than 40 hours in a week)
+  right: wage-rights
+  summary:
+- concern: I wasn’t paid fairly
+  detail: coworkers are paid more for the same work
+  right: wage-rights
+  summary:
+- concern: I wasn’t paid fairly
+  detail: missing or late paychecks
+  right: wage-rights
+  summary:
+- concern: I wasn’t paid fairly
+  detail: my employer doesn’t keep records of my hours
+  right: wage-rights
+  summary:
+- concern: I wasn’t paid fairly
+  detail: my employer doesn’t allow us to talk to each other about wages
+  right: wage-rights
+  summary:
+
+
+# 4. I don't feel safe at work
+- concern: I don’t feel safe at work
+  detail: being harassed
+  right: safety-rights
+  summary:
+- concern: I don’t feel safe at work
+  detail: machines are unsafe
+  right: safety-rights
+  summary:
+- concern: I don’t feel safe at work
+  detail: not allowed to report a safety issue
+  right: safety-rights
+  summary:
+- concern: I don’t feel safe at work
+  detail: my employer doesn’t allow us to talk to each other about working conditions
+  right: safety-rights
+  summary:
+- concern: I don’t feel safe at work
+  detail: I wasn’t trained in a language I understand
+  right: safety-rights
+  summary:
+- concern: I don’t feel safe at work
+  detail: I don’t have access to safety gear at work
+  right: safety-rights
+  summary:
+
+# 5. I want to report a different issue
+- concern: I want to report a different issue
+  detail: child labor
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: being injured on the job
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: harassment
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: discrimination
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: family or medical leave
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: threats or retaliation
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: wages and tips
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: unsafe conditions
+  right:
+  summary:
+- concern: I want to report a different issue
+  detail: unions
+  right:
+  summary:
