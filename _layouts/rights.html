@@ -4,19 +4,17 @@ layout: content
 
 <div class="usa-grid">
 	<div class="usa-width-two-thirds">
-		<div class="entitlement-description">
-			<h1>{{page.title}}</h1>
-			<h2>{{ page.statement }}</h2>
-			<p>{{page.mission}}</p>
-			<h3>Examples</h3>
-			<ul>
-				{% for concern in site.concerns %}
-					{% if concern.right == page.right and concern.summary %}
-						<li><a href="{{ concern.url | prepend:site.baseurl }}">{{concern.summary}}</a></li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</div>
+		<h1>{{page.title}}</h1>
+		<h2>{{ page.statement }}</h2>
+		<p>{{page.mission}}</p>
+		<h3>Examples</h3>
+		<ul>
+			{% for concern in site.concerns %}
+				{% if concern.right == page.right and concern.summary %}
+					<li><a href="{{ concern.url | prepend:site.baseurl }}">{{concern.summary}}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
 	</div>
 	<div class="usa-width-one-third">
 		<img src="{{ page.icon | prepend: site.baseurl }}" alt="Icon representing {{ page.title }}">
