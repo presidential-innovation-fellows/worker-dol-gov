@@ -15,14 +15,8 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title:
-    url:
-  - title: Frequently Asked Questions: Sexual Orientation and Gender Identity
+  - title: "Frequently Asked Questions: Sexual Orientation and Gender Identity"
     url: https://www.dol.gov/ofccp/lgbt/lgbt_faqs.html
-  - title:
-    url:
-  - title:
-    url:
 sidebars:
   - contact-eeoc
 ---

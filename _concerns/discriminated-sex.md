@@ -17,12 +17,10 @@ actions:
 related_links:
   - title: Sex-Based Discrimination
     url: https://www.eeoc.gov/laws/types/sex.cfm
-  - title: Frequently Asked Questions: Discrimination on the Basis of Sex
+  - title: "Frequently Asked Questions: Discrimination on the Basis of Sex"
     url: https://www.dol.gov/ofccp/SexDiscrimination/sexdiscrimination_faqs.htm
   - title: Sexual Harassment
     url: https://www.eeoc.gov/laws/types/sexual_harassment.cfm
-  - title:
-    url:
 sidebars:
   - contact-eeoc
 ---
