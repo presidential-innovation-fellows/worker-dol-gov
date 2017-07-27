@@ -10,9 +10,9 @@ layout: content
 				<p>{{page.mission}}</p>
 				<h3>Examples</h3>
 				<ul>
-					{% for concern in site.data.concerns %}
-						{% if concern.right == page.right and concern.text %}
-							<li><a href="{{ site.baseurl }}/details/{{ concern.detail }}">{{concern.text}}</a></li>
+					{% for concern in site.concerns %}
+						{% if concern.right == page.right and concern.summary %}
+							<li><a href="{{ concern.url | prepend:site.baseurl }}">{{concern.summary}}</a></li>
 						{% endif %}
 					{% endfor %}
 				</ul>
