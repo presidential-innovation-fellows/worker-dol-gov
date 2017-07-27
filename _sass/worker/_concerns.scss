@@ -3,3 +3,11 @@
     background-color: $color-primary-darkest;
   }
 }
+
+.concern__detail {
+  display: none;
+
+  &:target {
+    display: block;
+  }
+}

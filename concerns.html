@@ -11,7 +11,7 @@ permalink: /concerns/
   <div class="usa-grid">
     {% assign concerns = site.data.concerns | map:'concern' | uniq %}
     {% for concern in concerns %}
-      <button class="usa-button concern-button js-concern" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</button>
+      <a class="usa-button concern-button js-concern" href="#{{ concern | slugify }}" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</a>
     {% endfor %}
   </div>
 </div>
@@ -21,7 +21,7 @@ permalink: /concerns/
   </div>
   <div class="usa-grid">
     {% for concern in concerns %}
-      <div class="concern__detail js-concern-details" id="{{ concern | slugify }}" hidden>
+      <div class="concern__detail js-concern-details" id="{{ concern | slugify }}">
         {% assign details = site.data.concerns | where:'concern',concern %}
         {% for detail in details %}
           <a class="usa-button {% unless detail.detail %}usa-button-disabled{% endunless %}" {% if detail.detail %}href="{{ site.baseurl }}/details/{{ detail.detail }}"{% else %}disabled{% endif %}>{{ detail.reason }}</a>

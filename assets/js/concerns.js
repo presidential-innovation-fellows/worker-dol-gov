@@ -19,10 +19,10 @@ function selectConcern(id) {
   document.getElementById(id).removeAttribute('hidden');
 }
 
-// If a query param was passed, go highlight the concerns
-if (window.location.search.length > 0) {
-  var q = window.location.search.split('?concern=')[1];
-  selectConcern(q);
+// If a hash was passed, go highlight the concerns
+if (window.location.hash) {
+  var hash = window.location.hash.split('#')[1];
+  selectConcern(hash);
 }
 
 // Attach event listeners to all concerns

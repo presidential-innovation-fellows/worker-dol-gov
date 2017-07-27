@@ -40,17 +40,32 @@ title: Home
     </div>
     <div class="usa-width-one-third">
       {% assign concerns = site.data.concerns | map:'concern' | uniq %}
-      <form action="{{ "/concerns" | prepend:site.baseurl }}" method="GET">
-        <label for="concerns"><h3>What's your concern?</h3></label>
-        <select name="concern" id="concerns">
-            <option value="">View all concerns</option>
+      <h3>What's your concern?</h3>
+      <select name="concern" id="concern-select">
+          <option value="">View all concerns</option>
+        {% for concern in concerns %}
+          <option value="{{ concern | slugify }}">{{ concern }}</option>
+        {% endfor %}
+      </select>
+      <a class="usa-button" id="concern-button" href="{{ site.baseurl }}/concerns">Learn more</a>
+      <noscript>
+        <ul>
           {% for concern in concerns %}
-            <option value="{{ concern | slugify }}">{{ concern }}</option>
+          <li><a href="{{ site.baseurl }}/concerns#{{ concern | slugify }}">{{ concern }}</a></li>
           {% endfor %}
-        </select>
-        <button class="usa-button">Learn more</button>
-      </form>
+        </ul>
+      </noscript>
     </div>
   </div>
 
 </section>
+
+<script>
+var select = document.getElementById('concern-select');
+select.addEventListener('change', function(e) {
+  var hash = e.target.value;
+  var a = document.getElementById('concern-button');
+  var url = a.getAttribute('href') + '#' + hash;
+  a.setAttribute('href', url);
+});
+</script>
