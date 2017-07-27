@@ -2,7 +2,9 @@
 title: You have the right to be protected from retaliation.
 layout: details
 id: whistleblower
-action: osha-whistleblower-claim
+actions:
+  - action: osha-whistleblower-claim
+    label: File a claim
 ---
 
 An employer cannot retaliate by taking "adverse action" against workers who report injuries, safety concerns, or other protected activity. You should not be discriminated for exercising your rights under the OSH Act. These rights include:
