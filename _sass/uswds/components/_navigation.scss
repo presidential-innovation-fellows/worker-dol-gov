@@ -368,86 +368,9 @@
   overflow: hidden;
 }
 
-// Navigation mega menu -------- //
+// Worker.gov styles
 
-@mixin outer-megamenu {
-  background-color: $color-primary-darkest;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 1000%;
-}
-
-.usa-megamenu {
-  @include media($nav-width) {
-    @include padding(3.15rem null); // XXX magic number
-    // XXX this is the difference between the 2rem padding-left
-    // of .usa-nav-inner and the $site-margins (3rem) padding-left
-    // of .usa-megamenu
-    left: -1rem;
-    width: 100%;
-  }
-
-  &::before {
-    @include media($nav-width) {
-      @include outer-megamenu;
-      right: 100%;
-    }
-  }
-
-  &::after {
-    @include media($nav-width) {
-      @include outer-megamenu;
-      left: 100%;
-    }
-  }
-}
-
-.usa-header-basic-megamenu {
-  .usa-nav {
-    @include media($nav-width) {
-      padding-left: 0;
-      padding-top: 0;
-      width: 100%;
-    }
-  }
-
-  .usa-nav-inner {
-    display: flex;
-    flex-direction: column;
-
-    @include media($nav-width) {
-      display: block;
-      float: right;
-      margin-top: -4.8rem;
-    }
-  }
-
-  .usa-nav-submenu {
-    .usa-grid-full {
-      @include media($nav-width) {
-        margin-left: -1.8rem; // XXX magic number
-      }
-    }
-  }
-}
-
-.usa-megamenu-col {
-  @include media($nav-width) {
-    @include span-columns(3);
-
-    &:nth-child(2n) {
-      @include span-columns(3);
-    }
-
-    &:nth-child(4n) {
-      margin-right: 0;
-    }
-  }
-
-  > ul {
-    @include unstyled-list;
-  }
+.usa-nav--current {
+  border-bottom: .7rem solid $color-secondary;
+  padding-bottom: 1rem;
 }

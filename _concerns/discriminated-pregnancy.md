@@ -1,6 +1,5 @@
 ---
 # Page basics
-title: Pregnancy
 layout: concern-details
 
 # Metadata
@@ -10,6 +9,7 @@ right: equality-rights
 summary: "I was discriminated against because of pregnancy"
 
 # Page content
+title: Pregnancy
 blurb: equality
 actions:
   - action: eeoc-claim
