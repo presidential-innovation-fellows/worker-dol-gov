@@ -1,13 +1,37 @@
-.concern-button {
+.concern__button,
+.concern__detail {
+  display: block;
+  margin-bottom: .8rem;
+  padding: .8rem 1.6rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.concern__button {
+  background-color: $color-cool-blue-lightest;
+  color: $color-base;
+
   &[aria-selected="true"] {
-    background-color: $color-primary-darkest;
+    background-color: $color-cool-blue;
+    color: $color-white;
   }
 }
 
-.concern__detail {
+.concern__heading {
+  background-color: $color-primary-darkest;
+  color: $color-white;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.concern__details {
   display: none;
 
   &:target {
     display: block;
   }
+}
+
+.concern__detail {
+  background-color: $color-gray-lightest;
 }
