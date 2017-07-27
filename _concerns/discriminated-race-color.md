@@ -17,7 +17,7 @@ actions:
 related_links:
   - title: Race/Color Discrimination
     url: https://www.eeoc.gov/laws/types/race_color.cfm
-  - title: Facts About Race/Color Discrimination
+  - title: Facts About Race / Color Discrimination
     url: https://www.eeoc.gov/eeoc/publications/fs-race.cfm
   - title: Questions and Answers About Race and Color Discrimination in Employment
     url: https://www.eeoc.gov/policy/docs/qanda_race_color.html

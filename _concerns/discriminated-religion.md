@@ -15,14 +15,18 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title:
-    url:
-  - title: Facts About the Americans with Disabilities Act
-    url: https://www.eeoc.gov/eeoc/publications/fs-ada.cfm
-  - title:
-    url:
-  - title:
-    url:
+  - title: Religious Discrimination
+    url: https://www.eeoc.gov/laws/types/religion.cfm
+  - title: Facts About Religious Discrimination
+    url: https://www.eeoc.gov/eeoc/publications/fs-religion.cfm
+  - title: Fact Sheet on Religious Garb and Grooming in the Workplace: Rights and Responsibilities
+    url: https://www.eeoc.gov/eeoc/publications/fs_religious_garb_grooming.cfm
+  - title: Religious Garb and Grooming in the Workplace: Rights and Responsibilities
+    url: https://www.eeoc.gov/eeoc/publications/qa_religious_garb_grooming.cfm
+  - title: Questions and Answers for Employees:
+Workplace Rights of Employees Who Are, or Are Perceived to Be,
+Muslim or Middle Eastern
+    url: https://www.eeoc.gov/eeoc/publications/muslim_middle_eastern_employees.cfm
 sidebars:
   - contact-eeoc
 ---
