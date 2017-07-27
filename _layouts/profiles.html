@@ -12,7 +12,7 @@ layout: default
 </div>
 </section>
 
-<section class="content">
+<section class="section">
 
 <div class="priority-rights">
 	<div class="usa-grid">
@@ -20,7 +20,7 @@ layout: default
 			<h1>Tell us what happened. We can help.</h1>
 			<ul class="experience-list">
 				{% for top-rights in page.priority-rights %}
-					<li><a href="{{ page.id }}/{{top-rights.id}}.html">{{ top-rights.text}}</a></li>
+					<li><a href="{{ site.baseurl }}/{{ page.id }}/{{top-rights.id}}.html">{{ top-rights.text}}</a></li>
   				{% endfor %}
 			</ul>
 		</div>
@@ -43,22 +43,22 @@ layout: default
 			<ul class="experience-list">
 			{% if right.val == "equality-rights" %}
 				{% for equality-right in page.equality-rights %}
-				<li><a href="{{ page.id }}/{{equality-right.id}}.html">{{ equality-right.text }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ page.id }}/{{equality-right.id}}.html">{{ equality-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "safety-rights" %}
 				{% for safety-right in page.safety-rights %}
-				<li><a href="{{ page.id }}/{{safety-right.id}}.html">{{ safety-right.text }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ page.id }}/{{safety-right.id}}.html">{{ safety-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "organizing-rights" %}
 				{% for organizing-right in page.organizing-rights %}
-				<li><a href="{{ page.id }}/{{organizing-right.id}}.html">{{ organizing-right.text }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ page.id }}/{{organizing-right.id}}.html">{{ organizing-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% elsif right.val == "wage-rights" %}
 				{% for wage-right in page.wage-rights %}
-				<li><a href="{{ page.id }}/{{wage-right.id}}.html">{{ wage-right.text }}</a></li>
+				<li><a href="{{ site.baseurl }}/{{ page.id }}/{{wage-right.id}}.html">{{ wage-right.text }}</a></li>
 				{% endfor %}
 			</ul>
 			{% endif %}
@@ -80,4 +80,3 @@ layout: default
 {{ content }}
 
 </section>
-

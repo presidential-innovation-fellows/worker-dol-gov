@@ -3,54 +3,69 @@ layout: default
 title: Home
 ---
 
-
-<div class="page-content home-page">
-
-<div class="wrapper">
-
-<div class="index">
-
-  <ul class="icons">
-          <li><img src="/assets/img/icons-workers.png" alt="Worker Icons"></li>
-  </ul>
-
-  <h1 class="page-heading">We work for you.</h1>
-  <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
-
-  <div class="usa-grid">  
-    <div class="usa-width-one-whole">
-        <label for="worker-profile">I am a:</label>
+<div class="page-content hero">
+  <div class="usa-grid">
+    <div class="index">
+      <div class="icons">
+        <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
+      </div>
+      <h1 class="page-heading">We work for you.</h1>
+      <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
+      <div class="usa-grid">
+      </div>
     </div>
   </div>
-  <div class="usa-grid">  
-    <div class="usa-width-two-thirds top-margin">
-      <div class="profile-wrapper">
-      <div class="awesomplete">
-      <input list="workerprofiles" class="dropdown-input-index" autocomplete="off" aria-autocomplete="list" placeholder="enter your job title">
-      <datalist id="workerprofiles">
-      {% for profile in site.profiles %}
-      {% if profile.layout == "profiles" %}
-            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>        
-      {% endif %}
-      {% endfor %}
-    </ul>
+</div>
+
+<section class="section--spacious">
+  <h2 class="usa-grid">Learn your rights</h2>
+  <div class="usa-grid flex--large">
+    {% for right in site.rights %}
+    <div class="usa-width-one-fourth box bg-light-blue small-stacked">
+      <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
+      <h3>{{ right.title }}</h3>
+      <p>{{ right.statement }}</p>
+      <a href="{{ right.url | prepend:site.baseurl }}">Learn more</a>
     </div>
-    <button class="dropdown-btn" type="button"></button></h1>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section--spacious bg-dark">
+  <div class="usa-grid">
+    <div class="usa-width-two-thirds">
+      <h2>Have an issue at work?</h2>
+      <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod.</p>
+      <strong><a href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns »</a></strong>
     </div>
-    </div>
-    
-    <div class="usa-width-one-third top-margin side-margin">
-       <div class="button_wrapper">
-        <a class="usa-button usa-button-big usa-button-secondary learn-rights" href="profiles/all.html">Learn My Rights</a>
-       </div>
+    <div class="usa-width-one-third">
+      {% assign concerns = site.data.concerns | map:'concern' | uniq %}
+      <h3>What's your concern?</h3>
+      <select name="concern" id="concern-select">
+          <option value="">View all concerns</option>
+        {% for concern in concerns %}
+          <option value="{{ concern | slugify }}">{{ concern }}</option>
+        {% endfor %}
+      </select>
+      <a class="usa-button" id="concern-button" href="{{ site.baseurl }}/concerns">Learn more</a>
+      <noscript>
+        <ul>
+          {% for concern in concerns %}
+          <li><a href="{{ site.baseurl }}/concerns#{{ concern | slugify }}">{{ concern }}</a></li>
+          {% endfor %}
+        </ul>
+      </noscript>
     </div>
   </div>
-  <a href="profiles/all.html" class="explore-rights">Explore all rights</a>
 
-</div>
+</section>
 
-</div>
-
-</div>
-
-</div>
+<script>
+var select = document.getElementById('concern-select');
+select.addEventListener('change', function(e) {
+  var hash = e.target.value;
+  var a = document.getElementById('concern-button');
+  var url = a.getAttribute('href') + '#' + hash;
+  a.setAttribute('href', url);
+});
+</script>

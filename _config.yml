@@ -35,3 +35,10 @@ collections:
     output: true
   worker-profiles:
     output: true
+  concerns:
+    output: true
+    permalink: /concerns/:slug
+  sidebars:
+    output: false
+  blurbs:
+    output: false
