@@ -48,13 +48,13 @@
       <ul class="usa-nav-primary usa-accordion">
         <li>
           <a class="usa-nav-link" href="{{ site.baseurl }}/">
-            <span>Home</span>
+            <span {% if page.title == 'Home' %}class="usa-nav--current"{% endif %}>Home</span>
           </a>
         </li>
         <li>
           <button class="
           usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1">
-            <span>Your rights</span>
+            <span {% if page.collection == 'rights' %}class="usa-nav--current"{% endif %}>Your rights</span>
           </button>
           <ul id="side-nav-1" class="usa-nav-submenu">
             {% for right in site.rights %}
@@ -66,12 +66,12 @@
         </li>
         <li>
           <a class="usa-nav-link" href="{{ site.baseurl }}/concerns">
-            <span>Workplace concerns</span>
+            <span {% if page.title == 'Workplace concerns' or page.collection == 'concerns' %}class="usa-nav--current"{% endif %}>Workplace concerns</span>
           </a>
         </li>
         <li>
           <a class="usa-nav-link" href="{{ site.baseurl }}/about">
-            <span>About</span>
+            <span {% if page.title == 'About' %}class="usa-nav--current"{% endif %}>About</span>
           </a>
         </li>
       </ul>
