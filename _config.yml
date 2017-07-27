@@ -37,7 +37,7 @@ collections:
     output: true
   concerns:
     output: true
-    permalink: /concerns/:slug
+    permalink: pretty
   sidebars:
     output: false
   blurbs:
