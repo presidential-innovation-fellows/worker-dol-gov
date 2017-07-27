@@ -1,7 +1,9 @@
 ---
 ---
 
-#### U.S. Equal Employment Opportunity Commission (EEOC)
+#### We’re here to help.
+
+U.S. Equal Employment Opportunity Commission (EEOC):
 
 - 1-800-669-4000
 - info@eeoc.gov
