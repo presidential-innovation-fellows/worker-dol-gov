@@ -5,7 +5,7 @@ layout: concern-details
 
 # Metadata
 concern: I was discriminated against
-detail: race-color
+detail: race or color
 right: equality-rights
 summary: "I was discriminated against because of my race or color"
 

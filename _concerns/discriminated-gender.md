@@ -5,9 +5,9 @@ layout: concern-details
 
 # Metadata
 concern: I was discriminated against
-detail: gender
+detail: gender identity
 right: equality-rights
-summary: "I was discriminated against because of my religion"
+summary: "I was discriminated against because of my gender identity"
 
 # Page content
 blurb: equality

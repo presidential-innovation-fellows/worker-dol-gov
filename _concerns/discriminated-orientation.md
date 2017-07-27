@@ -7,7 +7,7 @@ layout: concern-details
 concern: I was discriminated against
 detail: orientation
 right: equality-rights
-summary: "I was discriminated against because of my religion"
+summary: "I was discriminated against because of my sexual orientation"
 
 # Page content
 blurb: equality
