@@ -23,6 +23,8 @@ related_links:
     url: https://www.dol.gov/wb/maps/
   - title: What to Expect at Work When You’re Expecting, DOL
     url: https://www.dol.gov/oasam/programs/crc/2011-pregnancy-discrimination.htm
+sidebars:
+  - contact-eeoc
 ---
 
 Employers are not allowed to discriminate against you based on the fact that:

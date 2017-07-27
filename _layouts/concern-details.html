@@ -29,11 +29,13 @@ layout: content
 			</ul>
 		</div>
 		{% endif %}
-		{% for sidebar in page.sidebars %}
-			{% assign box = site.sidebars | where:'key',sidebar %}
-			<div class="box bg-light-blue">
-				{{ box | markdownify }}
+		{% for sidebar in site.sidebars %}
+			{% if page.sidebars contains sidebar.slug %}
+			<div class="box">
+				<h3>Questions?</h3>
+				{{ sidebar | markdownify }}
 			</div>
+		{% endif %}
 		{% endfor %}
 	</div>
 </div>
