@@ -4,10 +4,10 @@ title: Race or color
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: race or color
 right: equality-rights
-summary: "I was discriminated against because of my race or color"
+summary: "I was treated unfairly because of my race or color"
 
 # Page content
 blurb: equality
