@@ -5,7 +5,7 @@ layout: concern-details
 
 # Metadata
 concern: I was discriminated against
-detail: origin
+detail: national origin
 right: equality-rights
 summary: "I was discriminated against because of my national origin"
 
@@ -25,6 +25,7 @@ sidebars:
 
 Employers are not allowed to discriminate against you because of:
 
+- your national origin
 - your ethnicity
 - an accent
 - marriage or association with a person of a certain national origin
