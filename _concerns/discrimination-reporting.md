@@ -4,10 +4,10 @@ title:
 layout: concern-details
 
 # Metadata
-concern: I was fired, not hired, or unfairly disciplined
+concern: I was fired or not hired
 detail: reporting discrimination
 right: equality-rights
-summary: "I was fired, not hired or unfairly disciplined for reporting discrimination"
+summary: "I was fired or not hired for reporting discrimination"
 
 # Page content
 blurb:
