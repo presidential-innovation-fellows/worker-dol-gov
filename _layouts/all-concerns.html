@@ -4,29 +4,32 @@ layout: content
 
 <div class="usa-grid">
   <h1>Workplace concerns</h1>
+  <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.</p>
 </div>
 <div class="usa-grid section">
-  <div class="usa-width-one-half">
-    <header class="concern__heading">
-      1. What happened?
-    </header>
-    {% assign concerns = site.concerns | map:'concern' | uniq %}
-    {% for concern in concerns %}
-      <a class="concern__button js-concern" href="#{{ concern | slugify }}" aria-controls="{{ concern | slugify }}" aria-selected="false">{{ concern }}</a>
-    {% endfor %}
-  </div>
-  <div class="usa-width-one-half">
-    <header class="concern__heading">
-      2. Tell us more
-    </header>
-    {% for concern in concerns %}
-      <div class="concern__details js-concern-details" id="{{ concern | slugify }}">
-        {% assign details = site.concerns | where:'concern',concern %}
-        {% for detail in details %}
-          <a class="concern__detail" href="{{ detail.url | prepend:site.baseurl }}">{{ detail.detail | capitalize }} &raquo;</a>
-        {% endfor %}
-      </div>
-    {% endfor %}
+  <div class="usa-width-three-fourths">
+    <ul class="usa-accordion">
+      {% assign concerns = site.concerns | map:'concern' | uniq %}
+      {% for concern in concerns %}
+        <li>
+          <button class="usa-accordion-button concern__button" aria-controls="accordion-{{forloop.index}}">
+            <h3>{{ concern }}</h3>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </button>
+          <div class="concern__details usa-accordion-content js-concern-details" id="accordion-{{forloop.index}}">
+            {% assign details = site.concerns | where:'concern',concern %}
+            <ul>
+              {% for detail in details %}
+                <li><a class="concern__detail" href="{{ detail.url | prepend:site.baseurl }}">{{ detail.detail | capitalize }} &raquo;</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+
+      {% endfor %}
+
+
+    </div>
   </div>
 </div>
 

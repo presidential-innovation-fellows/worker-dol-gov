@@ -4,12 +4,22 @@
   padding-top: 3.2rem;
 }
 
+.section--bordered {
+  border-bottom: 2px solid $color-gray-light;
+}
+
 .section--spacious {
-  padding: 6.4rem 0;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
 }
 
 .box {
   padding: 1.6rem;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
 .flex--large {
@@ -24,7 +34,7 @@
 }
 
 .bg-gray {
-  background-color: $color-gray-warm-light;
+  background-color: $color-gray;
 }
 
 .bg-gray-lightest {

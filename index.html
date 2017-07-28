@@ -9,23 +9,31 @@ title: Home
       <div class="icons">
         <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
       </div>
-      <h1 class="page-heading">We work for you.</h1>
-      <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
+      <h1 class="page-heading">Worker protections</h1>
       <div class="usa-grid">
       </div>
     </div>
   </div>
 </div>
 
+<section>
+  <div class="usa-grid section--spacious section--bordered">
+    <div class="usa-width-two-thirds">
+      <h2>You have the right to a fair, safe and healthy working environment that is free from harassment and discrimination.</h2>
+      <h3>This site covers common workplace concerns and the federal laws that protect you.</h3>
+    </div>
+  </div>
+</section>
+
 <section class="section--spacious">
-  <h2 class="usa-grid">Learn your rights</h2>
+  <h2 class="usa-grid">Learn about your rights</h2>
   <div class="usa-grid flex--large">
     {% for right in site.rights %}
     <div class="usa-width-one-fourth box bg-light-blue small-stacked">
       <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
       <h3>{{ right.title }}</h3>
       <p>{{ right.statement }}</p>
-      <a href="{{ right.url | prepend:site.baseurl }}">Learn more</a>
+      <a href="{{ right.url | prepend:site.baseurl }}">Learn more &raquo;</a>
     </div>
     {% endfor %}
   </div>
@@ -57,7 +65,15 @@ title: Home
       </noscript>
     </div>
   </div>
+</section>
 
+<section class="section--spacious">
+  <div class="usa-grid">
+    <div class="usa-width-two-thirds">
+      <h2>Looking for a job?</h2>
+      <p>Visit <a href"https://www.careeronestop.org/">CareerOneStop</a> to find job opportunities, career options, training, skills assessments, and other free resources. CareerOneStop is a free online resource sponsored by the Department of Labor.</p>
+    </div>
+  </div>
 </section>
 
 <script>

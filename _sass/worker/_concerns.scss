@@ -1,37 +1,48 @@
-.concern__button,
-.concern__detail {
-  display: block;
-  margin-bottom: .8rem;
-  padding: .8rem 1.6rem;
-  text-decoration: none;
-  width: 100%;
-}
-
 .concern__button {
   background-color: $color-cool-blue-lightest;
   color: $color-base;
+  display: block;
+  margin-top: .8rem;
+  position: relative;
+  width: 100%;
+  background-position: right 1.5rem top 1.5rem;
 
-  &[aria-selected="true"] {
-    background-color: $color-cool-blue;
-    color: $color-white;
+  p {
+    font-weight: normal;
+    display: block;
+    width: 75%;
   }
-}
 
-.concern__heading {
-  background-color: $color-primary-darkest;
-  color: $color-white;
-  padding: 1.6rem;
-  margin-bottom: 1.6rem;
+  &:hover {
+    background-color: $color-cool-blue-lighter;
+  }
+
+  &::before {
+    content: 'See all';
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: $color-primary;
+    position: absolute;
+    top: 1.5rem;
+    right: 4rem;
+  }
+
+  &[aria-expanded="true"] {
+    &::before {
+      content: 'Close';
+    }
+  }
 }
 
 .concern__details {
-  display: none;
+  background-color: $color-cool-blue-lightest;
 
-  &:target {
-    display: block;
+  ul {
+    list-style-type: none;
   }
-}
 
-.concern__detail {
-  background-color: $color-gray-lightest;
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
