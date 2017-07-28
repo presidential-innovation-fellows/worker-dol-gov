@@ -5,7 +5,7 @@ layout: concern-details
 
 # Metadata
 concern: I was discriminated against
-detail: orientation
+detail: sexual orientation
 right: equality-rights
 summary: "I was discriminated against because of my sexual orientation"
 
@@ -23,7 +23,7 @@ sidebars:
 
 Employers are not allowed to discriminate against you based on the fact that you:
 
-
+-
 
 ### Examples of discrimination
 
