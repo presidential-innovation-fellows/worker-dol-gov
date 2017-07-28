@@ -9,8 +9,8 @@ title: Home
       <div class="icons">
         <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
       </div>
-      <h1 class="page-heading">We work for you.</h1>
-      <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
+      <h1 class="page-heading">Worker protections</h1>
+      <h4>You have the right to a fair, safe, and healthy working environment that is free from harassment and discrimination. This site covers common workplace concerns and the federal laws that protect you.</h4>
       <div class="usa-grid">
       </div>
     </div>
@@ -18,7 +18,7 @@ title: Home
 </div>
 
 <section class="section--spacious">
-  <h2 class="usa-grid">Learn your rights</h2>
+  <h2 class="usa-grid">Learn about your rights</h2>
   <div class="usa-grid flex--large">
     {% for right in site.rights %}
     <div class="usa-width-one-fourth box bg-light-blue small-stacked">
@@ -35,12 +35,12 @@ title: Home
   <div class="usa-grid">
     <div class="usa-width-two-thirds">
       <h2>Have an issue at work?</h2>
-      <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod.</p>
+      <p>See how federal laws protect you from common workplace concerns, and learn about how to take action if you believe your rights were violated.</p>
       <strong><a href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns »</a></strong>
     </div>
     <div class="usa-width-one-third">
       {% assign concerns = site.data.concerns | map:'concern' | uniq %}
-      <h3>What's your concern?</h3>
+      <h3>Workplace concerns:</h3>
       <select name="concern" id="concern-select">
           <option value="">View all concerns</option>
         {% for concern in concerns %}
