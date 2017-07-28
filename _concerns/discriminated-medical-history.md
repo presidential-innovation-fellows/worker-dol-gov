@@ -5,7 +5,7 @@ layout: concern-details
 
 # Metadata
 concern: I was discriminated against
-detail: genetic
+detail: family medical history or genetic information
 right: equality-rights
 summary: "I was discriminated against because of my medical history"
 
