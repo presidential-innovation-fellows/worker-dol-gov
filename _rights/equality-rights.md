@@ -1,5 +1,5 @@
 ---
-title: Equality Rights
+title: Equality rights
 layout: rights
 right: equality-rights
 statement: You have the right to be treated equally.
