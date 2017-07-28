@@ -4,10 +4,10 @@ title: Citizenship and immigration status
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: citizenship or immigration status
 right: equality-rights
-summary: "I was discriminated against because of my citizenship or immigration status"
+summary: "I was treated unfairly because of my citizenship or immigration status"
 
 # Page content
 blurb: immigrant
