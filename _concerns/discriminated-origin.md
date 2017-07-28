@@ -4,10 +4,10 @@ title: National origin
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: national origin
 right: equality-rights
-summary: "I was discriminated against because of my national origin"
+summary: "I was treated unfairly because of my national origin"
 
 # Page content
 blurb: equality
