@@ -4,10 +4,10 @@ title: Sexual orientation
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: sexual orientation
 right: equality-rights
-summary: "I was discriminated against because of my sexual orientation"
+summary: "I was treated unfairly because of my sexual orientation"
 
 # Page content
 blurb: equality
