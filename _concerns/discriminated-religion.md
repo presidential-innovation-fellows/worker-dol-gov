@@ -1,13 +1,13 @@
 ---
 # Page basics
-title: Pregnancy
+title: Religion
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: religion
 right: equality-rights
-summary: "I was discriminated against because of my religion"
+summary: "I was treated unfairly because of my religion"
 
 # Page content
 blurb: equality

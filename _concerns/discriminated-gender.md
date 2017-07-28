@@ -4,10 +4,10 @@ title: Gender identity
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: gender identity
 right: equality-rights
-summary: "I was discriminated against because of my gender identity"
+summary: "I was treated unfairly because of my gender identity"
 
 # Page content
 blurb: equality

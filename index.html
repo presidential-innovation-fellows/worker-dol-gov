@@ -43,12 +43,12 @@ title: Home
   <div class="usa-grid">
     <div class="usa-width-two-thirds">
       <h2>Have an issue at work?</h2>
-      <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod.</p>
+      <p>See how federal laws protect you from common workplace concerns, and learn about how to take action if you believe your rights were violated.</p>
       <strong><a href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns »</a></strong>
     </div>
     <div class="usa-width-one-third">
       {% assign concerns = site.data.concerns | map:'concern' | uniq %}
-      <h3>What's your concern?</h3>
+      <h3>Workplace concerns</h3>
       <select name="concern" id="concern-select">
           <option value="">View all concerns</option>
         {% for concern in concerns %}

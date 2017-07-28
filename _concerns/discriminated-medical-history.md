@@ -4,10 +4,10 @@ title: Family medical history or genetic information
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
-detail: genetic
+concern: I was treated unfairly
+detail: family medical history or genetic information
 right: equality-rights
-summary: "I was discriminated against because of my medical history"
+summary: "I was treated unfairly because of my medical history"
 
 # Page content
 blurb: equality

@@ -4,10 +4,10 @@ title: National origin
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
-detail: origin
+concern: I was treated unfairly
+detail: national origin
 right: equality-rights
-summary: "I was discriminated against because of my national origin"
+summary: "I was treated unfairly because of my national origin"
 
 # Page content
 blurb: equality
@@ -25,6 +25,7 @@ sidebars:
 
 Employers are not allowed to discriminate against you because of:
 
+- your national origin
 - your ethnicity
 - an accent
 - marriage or association with a person of a certain national origin

@@ -4,10 +4,10 @@ title: Disability
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: disability
 right: equality-rights
-summary: "I was discriminated against because of my disability"
+summary: "I was treated unfairly because of my disability"
 
 # Page content
 blurb: equality

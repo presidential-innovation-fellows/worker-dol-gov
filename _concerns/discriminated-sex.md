@@ -4,10 +4,10 @@ title: Sex
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: sex
 right: equality-rights
-summary: "I was discriminated against because of my sex"
+summary: "I was treated unfairly because of my sex"
 
 # Page content
 blurb: equality

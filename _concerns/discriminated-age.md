@@ -4,10 +4,10 @@ title: Age
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: age
 right: equality-rights
-summary: "I was discriminated against because of my age"
+summary: "I was treated unfairly because of my age"
 
 # Page content
 blurb: equality

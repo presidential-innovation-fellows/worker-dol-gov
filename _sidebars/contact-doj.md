@@ -6,7 +6,7 @@
 Please contact the Immigrant and Employee Rights Section of the Department of Justice:
 
 - 1-800-255-7688
-- ier@usdoj.gov
+- <ier@usdoj.gov>
 
 Interpretation is available in many languages.
 

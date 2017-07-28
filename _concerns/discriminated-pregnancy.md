@@ -3,10 +3,10 @@
 layout: concern-details
 
 # Metadata
-concern: I was discriminated against
+concern: I was treated unfairly
 detail: pregnancy
 right: equality-rights
-summary: "I was discriminated against because of pregnancy"
+summary: "I was treated unfairly because of pregnancy"
 
 # Page content
 title: Pregnancy
