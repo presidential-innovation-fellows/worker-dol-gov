@@ -40,7 +40,7 @@ title: Home
     </div>
     <div class="usa-width-one-third">
       {% assign concerns = site.data.concerns | map:'concern' | uniq %}
-      <h3>Workplace concerns:</h3>
+      <h3>Workplace concerns</h3>
       <select name="concern" id="concern-select">
           <option value="">View all concerns</option>
         {% for concern in concerns %}
