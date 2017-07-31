@@ -15,9 +15,9 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Religious Discrimination
+  - title: "Religious Discrimination"
     url: https://www.eeoc.gov/laws/types/religion.cfm
-  - title: Facts About Religious Discrimination
+  - title: "Facts About Religious Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-religion.cfm
   - title: "Fact Sheet on Religious Garb and Grooming in the Workplace: Rights and Responsibilities"
     url: https://www.eeoc.gov/eeoc/publications/fs_religious_garb_grooming.cfm

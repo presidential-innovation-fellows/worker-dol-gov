@@ -15,11 +15,11 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Age Discrimination
+  - title: "Age Discrimination"
     url: https://www.eeoc.gov/laws/types/age.cfm
-  - title: Facts About Age Discrimination
+  - title: "Facts About Age Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/age.cfm
-  - title: Age Discrimination
+  - title: "Age Discrimination"
     url: https://www.dol.gov/general/topic/discrimination/agedisc
 sidebars:
   - contact-eeoc

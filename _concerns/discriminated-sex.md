@@ -15,19 +15,25 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Sex-Based Discrimination
+  - title: "Sex-Based Discrimination"
     url: https://www.eeoc.gov/laws/types/sex.cfm
   - title: "Frequently Asked Questions: Discrimination on the Basis of Sex"
     url: https://www.dol.gov/ofccp/SexDiscrimination/sexdiscrimination_faqs.htm
-  - title: Sexual Harassment
+  - title: "Sexual Harassment"
     url: https://www.eeoc.gov/laws/types/sexual_harassment.cfm
+  - title: "Bathroom / Facility Access and Transgender Employees"
+    url: https://www.eeoc.gov/eeoc/publications/fs-bathroom-access-transgender.cfm
 sidebars:
   - contact-eeoc
 ---
 
-Employers are not allowed to discriminate against you based on the fact that you:
+Employers are not allowed to discriminate against you because of:
 
-
+- your sex
+- your gender identity
+- your transgender status
+- medical information related to your sex
+- marriage or association with a same-sex partner
 
 ### Examples of discrimination
 

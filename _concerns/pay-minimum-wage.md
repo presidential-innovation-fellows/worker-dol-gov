@@ -1,22 +1,30 @@
 ---
 # Page basics
-title:
+title: Minimum wage
 layout: concern-details
 
 # Metadata
 concern: I wasn’t paid fairly
 detail: minimum wage ($7.25 per hour)
 right: wage-rights
-summary: "I Wasn't paid the minimum wage"
+summary: "I wasn’t paid the minimum wage"
 
 # Page content
-blurb:
+blurb: pay
 actions:
-  - action:
+  - action: whd-claim
     label: File a claim
 related_links:
-  - title:
-    url:
+  - title: "Minimum Wage"
+    url: https://www.dol.gov/general/topic/wages/minimumwage
+  - title: "Wage and Hour Division: Minumum Wage"
+    url: https://www.dol.gov/whd/minimumwage.htm
+  - title: "Minimum Wage Laws in the States"
+    url: https://www.dol.gov/whd/minwage/america.htm
+  - title: "Minimum Wages for Tipped Employees"
+    url: https://www.dol.gov/whd/state/tipped.htm
+  - title: "Minimum Wages for Workers with Disabilities"
+    url: https://www.dol.gov/whd/workerswithdisabilities/RightsForWorkersWithDisabilities.pdf
+sidebars:
+  - whd-claim
 ---
-
-Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.

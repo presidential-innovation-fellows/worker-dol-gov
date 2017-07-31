@@ -10,18 +10,18 @@ right: equality-rights
 summary: "I was treated unfairly because of my citizenship or immigration status"
 
 # Page content
-blurb: immigrant
+blurb: immigration
 actions:
   - action: doj-claim
     label: File a claim
 related_links:
-  - title: Immigrant and Employee Rights
+  - title: "Immigrant and Employee Rights"
     url: https://www.justice.gov/crt/immigrant-and-employee-rights-section
-  - title: Immigrants’ Employment Rights Under Federal Anti-Discrimination Laws
+  - title: "Immigrants’ Employment Rights Under Federal Anti-Discrimination Laws"
     url: https://www.eeoc.gov/eeoc/publications/immigrants-facts.cfm
-  - title: Employment Rights of Immigrants Under Federal Anti-Discrimination Laws
+  - title: "Employment Rights of Immigrants Under Federal Anti-Discrimination Laws"
     url: https://www.eeoc.gov/eeoc/publications/brochure-immigrant_workers_rights.cfm
-  - title: Immigration Discrimination
+  - title: "Immigration Discrimination"
     url: https://www.dol.gov/general/topic/discrimination/immdisc
 sidebars:
   - contact-doj
@@ -38,4 +38,4 @@ In general, this means that you cannot be:
 - forced to take leave
 - threatened or retaliated against
 
-based on your national origin or immigration status.
+based on your citizenship or immigration status.
