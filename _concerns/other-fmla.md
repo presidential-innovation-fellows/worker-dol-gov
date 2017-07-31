@@ -1,11 +1,11 @@
 ---
 # Page basics
-title: Minimum wage
+title: Family medical leave
 layout: concern-details
 
 # Metadata
 concern: I want to report a different issue
-detail: fmla
+detail: family medical leave
 right: fmla
 summary: "I’m not getting the family or medical leave I’m entitled to"
 
