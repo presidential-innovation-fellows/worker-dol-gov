@@ -6,11 +6,11 @@ layout: concern-details
 # Metadata
 concern: I want to report a different issue
 detail: child labor
-right: children
+right: pay
 summary: "I think someone is employing children unlawfully"
 
 # Page content
-blurb:
+blurb: children
 actions:
   - action: whd-claim
     label: File a claim
