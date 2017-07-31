@@ -6,104 +6,104 @@
 # - summary: sentence that combines the concern and reason
 
 # 1. Discriminated against
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: citizenship or immigration status
   detail: detail-equality-doj
   right: equality-rights
   summary: "I was discriminated against because of my citizenship or immigration status"
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: age
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: disability
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: gender identity
   right: equality-rights
   summary: "I was discriminated against because of my gender identity"
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: having an accent
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: medical history or genetic information
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: national origin
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: sexual orientation
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: pregnancy
   detail: detail-pregnancy
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: race or color
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: religion
   right: equality-rights
   summary:
-- concern: I was discriminated against
+- concern: I was treated unfairly
   detail: sex
   right: equality-rights
   summary:
 
 # 2. Fired, not hired or unfairly disciplined
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: reporting discrimination
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: reporting harassment
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: reporting unfair wages or tips
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: reporting unsafe working conditions
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: talking to coworkers about wages or tips
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: talking to coworkers about working conditions
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: talking to coworkers about our supervisor
   right: equality-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: talking to coworkers about forming a union
   right: organizing rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: talking to coworkers about working conditions
   right:
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: going on strike
   right: organizing rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: supporting unions
   detail: detail-nlrb
   right: organizing-rights
   summary:
-- concern: I was fired, not hired, or unfairly disciplined
+- concern: I was fired or not hired
   detail: being injured on the job
   right: safety-rights
   summary:
