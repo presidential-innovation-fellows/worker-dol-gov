@@ -15,11 +15,11 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Race/Color Discrimination
+  - title: "Race / Color Discrimination"
     url: https://www.eeoc.gov/laws/types/race_color.cfm
-  - title: Facts About Race / Color Discrimination
+  - title: "Facts About Race / Color Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-race.cfm
-  - title: Questions and Answers About Race and Color Discrimination in Employment
+  - title: "Questions and Answers About Race and Color Discrimination in Employment"
     url: https://www.eeoc.gov/policy/docs/qanda_race_color.html
 sidebars:
   - contact-eeoc
@@ -37,7 +37,7 @@ Employers are not allowed to discriminate against you because of:
 - cultural practices or characteristics often linked to race or ethnicity, such as cultural dress or manner of speech
 - medical conditions that predominantly affect one race
 
-Discrimination on the basis of an immutable characteristic associated with race, such as skin color, hair texture, or certain facial features violates the law, even though not all members of the race share the same characteristic.
+Discrimination on the basis of an immutable characteristic associated with race—such as skin color, hair texture, or certain facial features—violates the law, even though not all members of the race share the same characteristic.
 
 Even though race and color overlap, they are not synonymous. Color discrimination can occur between people of different races or ethnicities, or between people of the same race or ethnicity.
 

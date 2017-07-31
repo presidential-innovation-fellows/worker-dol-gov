@@ -15,9 +15,9 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Equal Pay / Compensation Discrimination
+  - title: "Equal Pay / Compensation Discrimination"
     url: https://www.eeoc.gov/laws/types/equalcompensation.cfm
-  - title: Facts About Equal Pay and Compensation Discrimination
+  - title: "Facts About Equal Pay and Compensation Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-epa.cfm
 sidebars:
   - contact-eeoc

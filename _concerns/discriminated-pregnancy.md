@@ -6,7 +6,7 @@ layout: concern-details
 concern: I was treated unfairly
 detail: pregnancy
 right: equality-rights
-summary: "I was treated unfairly because of pregnancy"
+summary: "I was treated unfairly because of my pregnancy"
 
 # Page content
 title: Pregnancy
@@ -15,15 +15,15 @@ actions:
   - action: eeoc-claim
     label: File a claim
 related_links:
-  - title: Pregnancy Discrimination
+  - title: "Pregnancy Discrimination"
     url: https://www.eeoc.gov/laws/types/pregnancy.cfm
-  - title: Facts About Pregnancy Discrimination
+  - title: "Facts About Pregnancy Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-preg.cfm
-  - title: Legal Rights for Workers Under Federal Law
+  - title: "Legal Rights for Workers Under Federal Law"
     url: https://www.eeoc.gov/eeoc/publications/pregnant_workers.cfm
-  - title: Employment Protections for Workers Who are Pregnant or Nursing
+  - title: "Employment Protections for Workers Who are Pregnant or Nursing"
     url: https://www.dol.gov/wb/maps/
-  - title: What to Expect at Work When You’re Expecting
+  - title: "What to Expect at Work When You’re Expecting"
     url: https://www.dol.gov/oasam/programs/crc/2011-pregnancy-discrimination.htm
 sidebars:
   - contact-eeoc

@@ -1,22 +1,28 @@
 ---
 # Page basics
-title:
+title: Child labor
 layout: concern-details
 
 # Metadata
 concern: I want to report a different issue
 detail: child labor
-right:
-summary:
+right: children
+summary: "I think someone is employing children unlawfully"
 
 # Page content
 blurb:
 actions:
-  - action:
+  - action: whd-claim
     label: File a claim
 related_links:
-  - title:
-    url:
+  - title: "Child Labor"
+    url: https://www.dol.gov/whd/childlabor.htm
+  - title: "Basic Information: Wage and Hour Division"
+    url: https://www.dol.gov/whd/regs/compliance/whd_fs.pdf
+  - title: "Youth Rules!"
+    url: https://youthrules.dol.gov/
+  - title: "State Child Labor Laws"
+    url: https://www.youthrules.gov/law-library/state-laws/index.htm
+sidebars:
+  - contact-wage-hour
 ---
-
-Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
