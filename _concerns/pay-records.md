@@ -5,7 +5,7 @@ layout: concern-details
 
 # Metadata
 concern: I wasn’t paid fairly
-detail: records
+detail: recordkeeping
 right: wage-rights
 summary: "My employer isn’t keeping records of my hours or pay"
 
