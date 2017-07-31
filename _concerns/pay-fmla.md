@@ -15,9 +15,9 @@ actions:
   - action: whd-claim
     label: File a claim
 related_links:
-  - title: "Family and Medical Leave Act (FMLA)"
+  - title: "Family and Medical Leave Act"
     url: https://www.dol.gov/whd/fmla/
-  - title: "FMLA Frequently Asked Questions"
+  - title: "Family and Medical Leave Act FAQ"
     url: https://www.dol.gov/whd/fmla/fmla-faqs.htm
   - title: "Fact Sheet: the Family and Medical Leave Act"
     url: https://www.dol.gov/whd/regs/compliance/whdfs28.htm
