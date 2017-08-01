@@ -28,6 +28,8 @@ sidebars:
 
 ---
 
+### What this means for you
+
 You can choose which of the acceptable [Form I-9](https://www.uscis.gov/i-9) documents to show to verify your employment eligibility.
 
 The law prohibits employers from hiring only U.S. citizens or lawful permanent residents unless required to do so by law, regulation or government contract. Employers may not refuse to accept lawful documentation that establishes your employment eligibility, or demand additional documentation beyond what is legally required, when verifying employment eligibility (completing the [Form I-9](https://www.uscis.gov/i-9)), based on your national origin or citizenship status.
