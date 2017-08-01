@@ -25,6 +25,8 @@ sidebars:
   - contact-eeoc
 ---
 
+### What this means for you
+
 Employers are not allowed to discriminate against you because of:
 
 - your race
@@ -40,7 +42,6 @@ Employers are not allowed to discriminate against you because of:
 Discrimination on the basis of an immutable characteristic associated with race—such as skin color, hair texture, or certain facial features—violates the law, even though not all members of the race share the same characteristic.
 
 Even though race and color overlap, they are not synonymous. Color discrimination can occur between people of different races or ethnicities, or between people of the same race or ethnicity.
-
 
 ### Examples of discrimination
 
