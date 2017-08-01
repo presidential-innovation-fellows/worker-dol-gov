@@ -11,12 +11,12 @@ layout: content
     <ul class="usa-accordion">
       {% assign concerns = site.concerns | map:'concern' | uniq %}
       {% for concern in concerns %}
-        <li>
-          <button class="usa-accordion-button concern__button" aria-controls="accordion-{{forloop.index}}">
+        <li id="{{ concern | slugify }}">
+          <button class="usa-accordion-button concern__button js-concern-button" aria-controls="accordion-{{ concern | slugify }}">
             <h3>{{ concern }}</h3>
             <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
           </button>
-          <div class="concern__details usa-accordion-content js-concern-details" id="accordion-{{forloop.index}}">
+          <div class="concern__details usa-accordion-content js-concern-details" id="accordion-{{ concern | slugify }}">
             {% assign details = site.concerns | where:'concern',concern %}
             <ul>
               {% for detail in details %}
