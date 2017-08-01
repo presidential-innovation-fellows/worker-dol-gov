@@ -16,264 +16,85 @@
 @import "worker/process";
 @import "worker/concerns";
 
-// Other Styles
-.mad-lib {
-    background-color: $color-primary;
-    color: white;
-    text-align: center;
-    padding: 40px 0px;
-    background:
-        linear-gradient(to top, $color-primary 0%, rgba(23,102,163,0) 10%),
-        linear-gradient(to bottom, $color-primary 0%,
-        lighten($color-primary, 5%) 100%);
+body {
+  color: $color-base;
 }
 
-.mad-lib h1 {
-    font-size: 30px;
-    line-height: 50px;
-    font-family: $font-sans;
+main {
+  padding-bottom: 8rem;
 }
 
-span.underline {
+a {
+  text-decoration: none;
+
+  &:hover {
     text-decoration: underline;
+  }
 }
 
-.content h1 {
-    color: $color-primary;
-    font-family: $font-sans;
-    font-size: 28px;
-    line-height: 52px;
+// Typography helpers
+.t-display {
+  font-size: 6rem;
+  font-weight: bold;
 }
 
-.content h2 {
-    color: $color-primary;
-    font-family: $font-sans;
-    font-size: 25px;
-    line-height: 37px;
+.t-big {
+  font-size: 2.2rem;
 }
 
-div.priority-rights {
-    margin: 50px 0;
-/*    background: url('../img/workers/ElSuper.png') no-repeat bottom right; */
+.t-medium {
+  font-size: 1.8rem;
 }
 
-div.priority-rights h1 {
-    margin-left: 68px;
+.t-h1 {
+  @include h1();
 }
 
-.content ul.experience-list {
-    list-style: none;
-    margin-left: 68px;
-}
-
-.experiences {
-    padding: 40px 0;
-    background: $color-gray-light;
-}
-
-.experiences img {
-    padding-right: 10px;
+// List styles
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 
-h3.usa-alert-heading {
-    font-family: $font-sans;
-    font-size: 2rem;
-    font-weight: 700;
+// Sidebars
+.sidebar__box {
+  padding: 2rem;
+}
+.sidebar__box--gray {
+  border-left: 4px solid $color-gray-lightest;
 }
 
-.experiences h1 {
-    padding-left: 68px;
-    text-indent: -68px;
-    line-height: 40px;
+// Home page
+.features {
+  padding: 3rem;
+
+  .usa-grid {
+    padding: 0;
+  }
 }
 
-p.mission {
-    font-size: 0.85em;
-}
+.feature {
+  background-color: $color-white;
+  padding: 2rem 1rem 4rem 1rem;
+  position: relative;
 
-.usa-grid.seperator {
-    padding: 25px 0;
-}
+  img {
+    margin-bottom: 2rem;
+  }
 
-// Entitlement
+  h3 {
+    margin-bottom: 1rem;
+  }
 
-.entitlement {
-    padding: 40px 0;
-}
+  p,
+  a {
+    font-size: 1.5rem;
+  }
 
-.entitlement-action {
-    padding: 40px 0 60px 0;
-    background: $color-gray-light;
-}
-
-.entitlement .rights-grouping {
-    margin: 30px auto;
-    text-align: center;
-}
-
-.entitlement .rights-grouping a {
-    font-size: .9em;
-}
-
-.entitlement .rights-grouping div.more-rights {
-    margin: 25px 5px;
-    font-size: .8em;
-}
-
-
-.entitlement .rights-grouping img {
-    display:block;
-    margin: auto auto;
-}
-
-.entitlement .entitlement-description h1 {
-    font-size: 25px;
-    line-height: 37px;
-}
-
-
-.action-area {
-    background-color: #fadee2;
-    margin: 5px 0;
-    padding: 20px 0;
-}
-
-.content h4{
-    font-family: $font-sans;
-    font-size: 14px;
-    line-height: 31px;
-    margin-bottom:0px;
-    color: $color-cool-blue;
-    text-transform: uppercase;
-    font-weight: 800;
-}
-
-hr.seperator {
-    margin: 20px 0;
-    height: 0px;
-    border-top: 1px solid #e8e8e8;
-}
-
-
-
-div.worker-sidebar {
-    margin: 10px 10px 10px 30px;
-}
-
-// Autocomplete Buttons
-
-.dropdown-btn {
-    vertical-align: top;
-}
-
-button.dropdown-btn {
-    padding: .1em .6em;
-    background-color: $color-gray-light;
-    font-size: 1.7rem;
-    height: 4.4rem;
-    line-height: 1.3;
-    margin: 0.2em 0;
-    border-radius: 0px;
-    background: url('../img/arrow-down-white.png') no-repeat center;
-    width: 35px;
-}
-
-button.dropdown-btn:hover {
-}
-
-.top-margin {
-    margin-top: 10px;
-}
-
-
-.caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px solid #5b616b;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-    background-image: url("../img/arrow-down.svg");
-}
-
-input.dropdown-input {
-    background-color: $color-primary;
-    border:0px;
-    color: $color-white;
-    font-size: 30px;
-    line-height: 50px;
-    font-weight: 400;
-    font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
-}
-
-input.dropdown-input-index {
-    min-width: 250px;
-    background: transparent;
-    border: 0px;
-    color: $color-white;
-    font-family: $font-sans;
-
-}
-
-.awesomplete mark {
-    background-color: #a8d1ff;
-}
-
-.awesomplete li:hover mark {
-    background: #a8d1ff;
-}
-
-.profile-wrapper {
-    white-space: nowrap;
-    border-bottom: 1px dashed $color-white;
-    margin: 0 20px;
-}
-
-.awesomplete > ul > li {
-    font-size: 16px;
-    font-family: $font-sans;
-
-}
-
-input.dropdown-input-index::-webkit-calendar-picker-indicator {
-  display: none;
-}
-
-input.dropdown-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    $color-gray-light;
-}
-input.dropdown-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    $color-gray-light;
-   opacity:  1;
-}
-input.dropdown-input::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    $color-gray-light;
-   opacity:  1;
-}
-input.drop-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    $color-gray-light;
-}
-
-a.back {
-    font-size: .8em;
-}
-
-.action-bar {
-  background-color: $color-gray-lightest;
-  padding: .8rem 0;
-  text-align: right;
-}
-
-.bottom-margin {
-    margin-bottom:1.5em;
-}
-
-.footer-warning {
-    margin-top: 0px;
-    background-color: #e7e7e8;
-
+  a {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+  }
 }

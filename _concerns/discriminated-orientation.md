@@ -17,11 +17,11 @@ actions:
 related_links:
   - title: "Sexual Orientation and Gender Identity Discrimination"
     url: https://www.dol.gov/ofccp/regs/compliance/factsheets/FACT_LGBT-Sept16_ENGESQA508c.pdf
-    - title: "Frequently Asked Questions: Sexual Orientation and Gender Identity"
+  - title: "Frequently Asked Questions: Sexual Orientation and Gender Identity"
     url: https://www.dol.gov/ofccp/lgbt/lgbt_faqs.html
-    - title: "What You Should Know About EEOC and the Enforcement Protections for LGBT Workers"
+  - title: "What You Should Know About EEOC and the Enforcement Protections for LGBT Workers"
     url: https://www.eeoc.gov/eeoc/newsroom/wysk/enforcement_protections_lgbt_workers.cfm
-    - title: "Bathroom / Facility Access and Transgender Employees"
+  - title: "Bathroom / Facility Access and Transgender Employees"
     url: https://www.eeoc.gov/eeoc/publications/fs-bathroom-access-transgender.cfm
 sidebars:
   - contact-eeoc

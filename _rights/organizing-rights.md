@@ -2,7 +2,8 @@
 title: Organizing rights
 layout: rights
 right: organizing-rights
-statement: You have the right to organize with coworkers to improve wages and working conditions.
+statement: The right to organize with coworkers
 mission: We protect the rights of private sector employees to join together, with or without a union, to improve their wages and working conditions.
-icon: "/assets/img/icons/right-organize-sm.png"
+summary: Labor laws protect your right to unionize and discuss shared interests with your coworkers, including wages and working conditions.
+icon: "/assets/img/icons/icon-organize-red.svg"
 ---

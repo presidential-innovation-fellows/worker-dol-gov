@@ -20,7 +20,7 @@ layout: content
             {% assign details = site.concerns | where:'concern',concern %}
             <ul>
               {% for detail in details %}
-                <li><a class="concern__detail" href="{{ detail.url | prepend:site.baseurl }}">{{ detail.detail | capitalize }} &raquo;</a></li>
+                <li><a class="concern__detail" href="{{ detail.url | prepend:site.baseurl }}">{{ detail.summary }} &raquo;</a></li>
               {% endfor %}
             </ul>
           </div>

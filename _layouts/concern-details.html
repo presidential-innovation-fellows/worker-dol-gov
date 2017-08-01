@@ -4,19 +4,27 @@ layout: content
 
 <div class="usa-grid">
 	<div class="usa-width-two-thirds">
-		<div class="entitlement-description">
-			<h1>{{page.title}}</h1>
-			{% for blurb in site.blurbs %}
-				{% if blurb.slug == page.blurb %}
-					{{ blurb | markdownify }}
-				{% endif %}
-			{% endfor %}
-			{{ page.content }}
+		<h1>{{page.title}}</h1>
+		{% for blurb in site.blurbs %}
+			{% if blurb.slug == page.blurb %}
+				{{ blurb | markdownify }}
+			{% endif %}
+		{% endfor %}
+		{{ page.content }}
 
-			{% for action in page.actions %}
-			<a class="usa-button" href="{{ site.baseurl }}/actions/{{ action.action }}.html">{{ action.label }}</a>
-			{% endfor %}
-		</div>
+		{% for sidebar in site.sidebars %}
+			{% if page.sidebars contains sidebar.slug %}
+			<div class="section">
+				<h3>Questions?</h3>
+				{{ sidebar | markdownify }}
+			</div>
+		{% endif %}
+		{% endfor %}
+
+		{% for action in page.actions %}
+		<a class="usa-button" href="{{ site.baseurl }}/actions/{{ action.action }}.html">{{ action.label }}</a>
+		{% endfor %}
+
 	</div>
 	<div class="usa-width-one-third">
 		{% if page.related_links %}
@@ -29,13 +37,5 @@ layout: content
 			</ul>
 		</div>
 		{% endif %}
-		{% for sidebar in site.sidebars %}
-			{% if page.sidebars contains sidebar.slug %}
-			<div class="box">
-				<h3>Questions?</h3>
-				{{ sidebar | markdownify }}
-			</div>
-		{% endif %}
-		{% endfor %}
 	</div>
 </div>

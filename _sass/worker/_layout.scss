@@ -4,21 +4,23 @@
   padding-top: 3.2rem;
 }
 
-.section--bordered {
-  border-bottom: 2px solid $color-gray-light;
-}
-
 .section--spacious {
-  padding-top: 6.4rem;
-  padding-bottom: 6.4rem;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 }
 
 .box {
-  padding: 1.6rem;
+  padding: 3rem;
 
   a {
     text-decoration: none;
     font-weight: bold;
+  }
+
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
   }
 }
 
@@ -30,7 +32,7 @@
 
 // Background colors
 .bg-light-blue {
-  background-color: $color-primary-alt-lightest;
+  background-color: $w-light-blue;
 }
 
 .bg-gray {
@@ -41,9 +43,23 @@
   background-color: $color-gray-lightest;
 }
 
+.bg-gray {
+  background-color: $color-gray-medium;
+}
+
 .bg-dark {
   background-color: $color-gray-dark;
   color: $color-white;
+
+  a,
+  a:visited {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}
+
+.bg-white {
+  background-color: $color-white;
 }
 
 // Stacks items on small screens
