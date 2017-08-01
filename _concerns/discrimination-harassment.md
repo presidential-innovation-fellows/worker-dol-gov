@@ -23,6 +23,8 @@ related_links:
     url: https://www.eeoc.gov/eeoc/publications/fs-sex.cfm
 ---
 
+### What this means for you
+
 Petty slights, annoyances, and isolated incidents (unless extremely serious) will not rise to the level of illegality. To be unlawful, the conduct must create a work environment that would be intimidating, hostile, or offensive to reasonable people.
 
 Offensive conduct may include, but is not limited to, offensive jokes, slurs, epithets or name calling, physical assaults or threats, intimidation, ridicule or mockery, insults or putdowns, offensive objects or pictures, and interference with work performance. Harassment can occur in a variety of circumstances, including:
