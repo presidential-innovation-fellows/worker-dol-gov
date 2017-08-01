@@ -1,11 +1,11 @@
 ---
 # Page basics
-title: Protection against retaliation
+title: Wages and tips
 layout: concern-details
 
 # Metadata
 concern: I was harassed, threatened, or retaliated against
-detail: unsafe machines
+detail: tip policy
 right: organizing-rights
 summary: "We complained about the tip policy and our boss threatened to fire us"
 
