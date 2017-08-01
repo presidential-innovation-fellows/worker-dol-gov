@@ -22,3 +22,7 @@ related_links:
 sidebars:
   - contact-eeoc
 ---
+
+### What this means for you
+
+Women and men have the right to receive equal pay if they perform equal work in the same workplace. You have a right to complain about discrimination, file a charge of discrimination, and participate in an employment discrimination investigation or lawsuit.
