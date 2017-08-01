@@ -23,6 +23,8 @@ sidebars:
   - contact-eeoc
 ---
 
+### What this means for you
+
 Employers are not allowed to discriminate against you because of:
 
 - your national origin
