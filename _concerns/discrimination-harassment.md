@@ -4,7 +4,7 @@ title: Harassment
 layout: concern-details
 
 # Metadata
-concern: I’m being treated unfairly
+concern: I was treated unfairly
 detail: being harassed
 right: equality-rights
 summary: "I’m being harassed by my supervisor or coworker"
