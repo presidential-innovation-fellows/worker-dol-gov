@@ -1,6 +1,6 @@
 ---
 # Page basics
-title: Retaliation for reporting discrimination
+title: Protection against retaliation
 layout: concern-details
 
 # Metadata
