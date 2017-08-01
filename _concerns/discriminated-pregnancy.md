@@ -29,6 +29,8 @@ sidebars:
   - contact-eeoc
 ---
 
+### What this means for you
+
 Employers are not allowed to discriminate against you based on the fact that:
 
 - you are pregnant
