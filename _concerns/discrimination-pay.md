@@ -22,16 +22,3 @@ related_links:
 sidebars:
   - contact-eeoc
 ---
-
-Some states have laws that protect younger workers from age discrimination.
-
-### Examples of discrimination
-
-In general, this means that you cannot be:
-
-- fired
-- rejected for a job or promotion
-- given lesser assignments
-- forced to take leave
-
-because of your age, if you’re over 40.
