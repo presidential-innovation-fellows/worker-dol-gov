@@ -1,8 +1,8 @@
 ---
 ---
 
-### Want help looking for a new job?
+### Looking for a new job?
 
-Interested in training opportunities or changing careers?
+Visit <a href="https://www.careeronestop.org/">CareerOneStop</a> to find job opportunities, career options, training, skills assessments, and workforce services in your neighborhood.
 
-Visit [CareerOneStop](https://www.careeronestop.org/) to learn about resources available in your community. CareerOneStop is sponsored by the Department of Labor.
+CareerOneStop is a free online resource sponsored by the Department of Labor.
