@@ -13,7 +13,7 @@ summary: "I didn’t get paid for time I worked"
 blurb: pay
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Fact Sheet: Hours Worked Under the Fair Labor Standards Act"
     url: https://www.dol.gov/whd/regs/compliance/whdfs22.htm

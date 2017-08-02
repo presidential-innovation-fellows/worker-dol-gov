@@ -13,7 +13,7 @@ summary: "I was treated unfairly because I am a veteran"
 blurb: veteran
 actions:
   - action: ofccp-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Am I a Protected Veteran?"
     url: https://www.dol.gov/ofccp/posters/Infographics/files/ProtectedVet-2016-11x17_ENGESQA508c.pdf

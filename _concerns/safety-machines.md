@@ -13,7 +13,7 @@ summary: "I’m working on machines that are unsafe"
 blurb: safety
 actions:
   - action: osha-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Workers’ Right to Refuse Dangerous Work"
     url: https://www.osha.gov/right-to-refuse.html

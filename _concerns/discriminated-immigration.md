@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my citizenship or immigration status
 blurb: immigration
 actions:
   - action: doj-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Immigrant and Employee Rights"
     url: https://www.justice.gov/crt/immigrant-and-employee-rights-section

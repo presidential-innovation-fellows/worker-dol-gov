@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my age"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Age Discrimination"
     url: https://www.eeoc.gov/laws/types/age.cfm

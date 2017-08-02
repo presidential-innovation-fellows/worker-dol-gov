@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my sexual orientation"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Sexual Orientation and Gender Identity Discrimination"
     url: https://www.dol.gov/ofccp/regs/compliance/factsheets/FACT_LGBT-Sept16_ENGESQA508c.pdf

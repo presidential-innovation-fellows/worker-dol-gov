@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my national origin"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "National Origin Discrimination"
     url: https://www.eeoc.gov/laws/types/nationalorigin.cfm

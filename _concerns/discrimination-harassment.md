@@ -13,7 +13,7 @@ summary: "I’m being harassed by my supervisor or coworker"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Harassment"
     url: https://www.eeoc.gov/laws/types/harassment.cfm

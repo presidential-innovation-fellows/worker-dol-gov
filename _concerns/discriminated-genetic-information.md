@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my family medical history"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Genetic Information Discrimination"
     url: https://www.eeoc.gov/laws/types/genetic.cfm

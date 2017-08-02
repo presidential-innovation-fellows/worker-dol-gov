@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my religion"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Religious Discrimination"
     url: https://www.eeoc.gov/laws/types/religion.cfm

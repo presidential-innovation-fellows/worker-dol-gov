@@ -13,7 +13,7 @@ summary: "I was fired or threatened for reporting a safety issue"
 blurb: protection
 actions:
   - action: osha-whistleblower
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Protection from Workplace Retaliation"
     url: https://www.whistleblowers.gov/know_your_rights.html

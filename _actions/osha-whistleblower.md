@@ -2,7 +2,7 @@
 title: OSHA Claim
 layout: process
 exit: http://www.whistleblowers.gov/complaint_page.html
-header: File a Complaint with OSHA
+header: Filing a complaint with OSHA
 
 before-you-file-markup: "<p>If you have been punished or retaliated against for exercising your rights under the OSH Act, you must file a complaint with OSHA within 30 days of the alleged reprisal.</p>"
 
@@ -14,7 +14,7 @@ steps:
   - { text: "If evidence supports a claim of discrimination, OSHA can require the employer to reinstate the employee, pay back wages, restore benefits, and other possible remedies to make the employee whole.", img: "/assets/img/icons/steps/Gavel_Icon.png" }
 
 here-to-help:
-  - All services are free and confidential, whether you are documented or not.
-  - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with OSHA.
-  
+  - All services are free and confidential, whether you’re documented or not. We will not disclose any information to your employer unless you decide to file a formal complaint.
+  - Please note that it is illegal for your employer to fire, demote, harass, or otherwise retaliate against you for filing a complaint with OSHA.
+
 ---

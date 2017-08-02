@@ -13,7 +13,7 @@ summary: "I’m afraid to request a safety inspection or speak with an inspector
 blurb: safety
 actions:
   - action: osha-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Worker Rights"
     url: https://www.osha.gov/workers/index.html

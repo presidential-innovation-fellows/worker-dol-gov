@@ -13,7 +13,7 @@ title: Pregnancy
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Pregnancy Discrimination"
     url: https://www.eeoc.gov/laws/types/pregnancy.cfm
