@@ -48,7 +48,7 @@ title: Home
       <strong><a class="t-medium" href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns »</a></strong>
     </div>
     <div class="usa-width-one-third sidebar__box sidebar__box--gray">
-      {% assign concerns = site.data.concerns | map:'concern' | uniq %}
+      {% assign concerns = site.concerns | map:'concern' | uniq %}
       <h3>Workplace concerns</h3>
       <ul class="no-bullets">
         {% for concern in concerns %}
