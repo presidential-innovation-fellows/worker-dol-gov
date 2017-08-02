@@ -19,8 +19,6 @@ related_links:
     url: https://www.dol.gov/ofccp/posters/Infographics/files/ProtectedVet-2016-11x17_ENGESQA508c.pdf
   - title: "Veteran Discrimination"
     url: https://www.dol.gov/general/topic/discrimination/vetsdisc
-  - title: "Facts About Age Discrimination"
-    url: https://www.eeoc.gov/eeoc/publications/age.cfm
   - title: "Understanding Your Employment Rights Under the Americans with Disabilities Act: A Guide for Veterans"
     url: https://www.eeoc.gov/eeoc/publications/ada_veterans.cfm
 sidebars:
