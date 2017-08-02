@@ -1,9 +1,6 @@
 ---
 ---
 
-
-#### We’re here to help.
-
 Please contact the Equal Employment Opportunity Commission (EEOC):
 
 - 1-800-669-4000
