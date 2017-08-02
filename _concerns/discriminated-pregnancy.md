@@ -26,7 +26,7 @@ related_links:
   - title: "What to Expect at Work When You’re Expecting"
     url: https://www.dol.gov/oasam/programs/crc/2011-pregnancy-discrimination.htm
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you
