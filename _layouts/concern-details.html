@@ -2,9 +2,21 @@
 layout: content
 ---
 
-<div class="usa-grid">
-	<div class="usa-width-two-thirds">
-		<h1>{{page.title}}</h1>
+<div class="usa-grid section">
+	<p class="right__statement">
+		{% for right in site.rights %}
+			{% if right.right == page.right %}
+				<img width="55" height="55" src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
+			{% endif %}
+		{% endfor %}
+		{% for blurb in site.blurbs %}
+			{% if blurb.slug == page.blurb %}
+				{{ blurb.statement }}
+			{% endif %}
+		{% endfor %}
+	</p>
+	<h1>{{page.title}}</h1>
+	<div class="main-content">
 		{% for blurb in site.blurbs %}
 			{% if blurb.slug == page.blurb %}
 				{{ blurb | markdownify }}
@@ -15,7 +27,7 @@ layout: content
 		{% for sidebar in site.sidebars %}
 			{% if page.sidebars contains sidebar.slug %}
 			<div class="section">
-				<h3>Questions?</h3>
+				<h2>Questions? We’re here to help.</h2>
 				{{ sidebar | markdownify }}
 			</div>
 		{% endif %}
@@ -26,16 +38,21 @@ layout: content
 		{% endfor %}
 
 	</div>
-	<div class="usa-width-one-third">
+	<div class="sidebar">
 		{% if page.related_links %}
-		<div class="box bg-light-blue">
-			<h3>Related reading</h3>
-			<ul>
+		<aside class="sidebar__box sidebar__box--blue">
+			<h3>Related links</h3>
+			<ul class="no-bullets">
 			{% for link in page.related_links %}
 				<li><a href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}
 			</ul>
-		</div>
+		</aside>
+
+		<aside class="sidebar__box sidebar__box--gray">
+			<h3>Looking for a job?</h3>
+			<p>Visit <a href"https://www.careeronestop.org/">CareerOneStop</a> to find job opportunities, career options, training, skills assessments, and workforce services in your neighborhood. CareerOneStop is a free online resource sponsored by the Department of Labor.</p>
+		</aside>
 		{% endif %}
 	</div>
 </div>

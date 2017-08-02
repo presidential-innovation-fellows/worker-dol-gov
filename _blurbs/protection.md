@@ -1,8 +1,7 @@
 ---
 layout: content
+statement: You have the right to be protected from retaliation.
 ---
-## You have the right to be protected from retaliation.
-
 An employer cannot retaliate by taking _adverse action_ against workers who report injuries, safety concerns, or other protected activities. You should not be discriminated for exercising your rights, including your right to:
 
 - file an OSHA complaint

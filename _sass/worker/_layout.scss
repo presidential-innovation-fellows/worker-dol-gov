@@ -24,12 +24,6 @@
   }
 }
 
-.flex--large {
-  @media (min-width: $large-screen) {
-    display: flex;
-  }
-}
-
 // Background colors
 .bg-light-blue {
   background-color: $w-light-blue;
@@ -62,11 +56,36 @@
   background-color: $color-white;
 }
 
-// Stacks items on small screens
-.small-stacked {
-  margin-bottom: 1.6rem;
-
-  @media (min-width: $medium-screen) {
-    margin-bottom: 0;
+// Sidebars & main content layout
+@include media($medium-screen) {
+  .sidebar {
+    @include span-columns(4);
+    @include shift(1);
   }
+
+  .main-content {
+    @include span-columns(7);
+  }
+}
+
+.sidebar__box {
+  font-size: 1.5rem;
+  padding: 2rem;
+
+  h3 {
+    font-size: 1.7rem;
+    color: $w-gray-2;
+  }
+
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+.sidebar__box--gray {
+  border-left: 4px solid $color-gray-lightest;
+}
+
+.sidebar__box--blue {
+  border-left: 4px solid $w-light-blue;
 }

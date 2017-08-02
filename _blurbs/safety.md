@@ -1,8 +1,7 @@
 ---
 layout: content
+statement: You have the right to a safe and healthy work environment.
 ---
-## You have the right to a safe and healthy work environment.
-
 Under federal law, you are entitled to a safe workplace. Your employer must provide a workplace free of known health and safety hazards. If you have concerns, you have the right to speak up about them without fear of retaliation.
 
 You also have the right to:
