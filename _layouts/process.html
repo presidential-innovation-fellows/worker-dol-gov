@@ -5,10 +5,8 @@ layout: default
 <section class="section">
 
 	<div class="usa-grid">
-		<div class="usa-width-two-thirds">
-
-			<h1>{{page.header}}</h1>
-
+		<h1>{{page.header}}</h1>
+		<div class="main-content">
 			{% if page.before-you-file-markup %}
 				<h2>Before you file</h2>
 				{{ page.before-you-file-markup }}
@@ -30,7 +28,7 @@ layout: default
 					</ul>
 				</div>
 			</div>
-			<aside class="sidebar sidebar__box sidebar__box--blue">
+			<aside class="sidebar sidebar__box sidebar__box--gray">
 				<h3>We're here to help</h3>
 				<ul class="no-bullets">
 				{% for help in page.here-to-help %}
@@ -43,7 +41,7 @@ layout: default
 		<div class="usa-width-one-whole">
 			<div class="usa-grid">
 				<div class="usa-width-one-whole">
-					<a class="usa-button usa-button-big usa-button-secondary" href="{{page.exit}}" class="exit">File Now</a>
+					<a class="usa-button usa-button-big" href="{{page.exit}}" class="exit">File Now</a>
 				</div>
 			</div>
 		</div>
