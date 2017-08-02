@@ -26,7 +26,7 @@ related_links:
   - title: "Your Employment Rights as an Individual With a Disability"
     url: https://www.eeoc.gov/facts/ada18.html
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you

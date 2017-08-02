@@ -21,6 +21,9 @@ related_links:
     url: https://www.eeoc.gov/laws/types/sexual_harassment.cfm
   - title: "Facts About Sexual Harassment"
     url: https://www.eeoc.gov/eeoc/publications/fs-sex.cfm
+sidebars:
+  - contact-eeoc-ofccp
+
 ---
 
 ### What this means for you

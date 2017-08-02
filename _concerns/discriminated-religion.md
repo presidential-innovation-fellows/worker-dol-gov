@@ -26,7 +26,7 @@ related_links:
   - title: "Questions and Answers for Employees: Workplace Rights of Employees Who Are, or Are Perceived to Be, Muslim or Middle Eastern"
     url: https://www.eeoc.gov/eeoc/publications/muslim_middle_eastern_employees.cfm
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you

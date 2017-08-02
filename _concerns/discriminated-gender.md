@@ -24,7 +24,7 @@ related_links:
   - title: "Bathroom / Facility Access and Transgender Employees"
     url: https://www.eeoc.gov/eeoc/publications/fs-bathroom-access-transgender.cfm
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you

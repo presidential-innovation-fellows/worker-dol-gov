@@ -20,7 +20,7 @@ related_links:
   - title: "Facts About Equal Pay and Compensation Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-epa.cfm
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you

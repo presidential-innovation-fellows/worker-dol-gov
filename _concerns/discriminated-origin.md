@@ -20,7 +20,7 @@ related_links:
   - title: "Facts About National Origin Discrimination"
     url: https://www.eeoc.gov/eeoc/publications/fs-nator.cfm
 sidebars:
-  - contact-eeoc
+  - contact-eeoc-ofccp
 ---
 
 ### What this means for you
