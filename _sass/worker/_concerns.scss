@@ -1,11 +1,11 @@
 .concern__button {
-  background-color: $w-light-blue;
   background-position: right 1.5rem top 1.5rem;
+  border-left: 10px solid $w-light-blue;
   color: $color-base;
   display: block;
   margin-top: .8rem;
   position: relative;
-  transition: background-color .2s ease-in;
+  transition: border-color, background-color .1s ease-out;
   width: 100%;
 
   p {
@@ -14,8 +14,10 @@
     width: 75%;
   }
 
-  &:hover {
-    background-color: darken($w-light-blue, 10%);
+  &:hover,
+  &:focus {
+    border-color: $w-blue;
+    background-color: darken($color-gray-lightest, 5%);
   }
 
   &::before {
@@ -29,6 +31,8 @@
   }
 
   &[aria-expanded="true"] {
+    border-color: $w-blue;
+
     &::before {
       content: 'Close';
     }
@@ -37,6 +41,7 @@
 
 .concern__details {
   background-color: $color-gray-lightest;
+  border-left: 10px solid $w-light-blue;
   padding: 2rem;
 
   ul {
