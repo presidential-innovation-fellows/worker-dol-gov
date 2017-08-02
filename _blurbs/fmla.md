@@ -1,8 +1,7 @@
 ---
 layout: content
+statement: You have the right to take unpaid leave.
 ---
-## You have the right to take unpaid leave.
-
 You have the right to (eligible employees of covered employers) take unpaid, job-protected leave for specified family and medical reasons with continuation of group health insurance coverage under the same terms and conditions as if the employee had not taken leave.
 
 If you are eligible, you have 12 workweeks of leave in a 12-month period:

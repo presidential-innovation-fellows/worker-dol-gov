@@ -1,11 +1,12 @@
 .concern__button {
-  background-color: $color-cool-blue-lightest;
+  background-color: $w-light-blue;
+  background-position: right 1.5rem top 1.5rem;
   color: $color-base;
   display: block;
   margin-top: .8rem;
   position: relative;
+  transition: background-color .2s ease-in;
   width: 100%;
-  background-position: right 1.5rem top 1.5rem;
 
   p {
     font-weight: normal;
@@ -14,7 +15,7 @@
   }
 
   &:hover {
-    background-color: $color-cool-blue-lighter;
+    background-color: darken($w-light-blue, 10%);
   }
 
   &::before {
@@ -35,8 +36,8 @@
 }
 
 .concern__details {
-  background-color: $color-cool-blue-lightest;
-  padding: 0 2rem 2rem 2rem;
+  background-color: $color-gray-lightest;
+  padding: 2rem;
 
   ul {
     list-style-type: none;

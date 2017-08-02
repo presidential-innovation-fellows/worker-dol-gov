@@ -27,9 +27,9 @@ title: Home
 <section>
   <div class="usa-grid features bg-light-blue">
     <h2 class="usa-grid">Learn about your rights</h2>
-    <div class="usa-grid flex--large">
+    <div class="usa-grid features__grid">
       {% for right in site.rights %}
-      <div class="usa-width-one-fourth feature">
+      <div class="feature">
         <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
         <h3>{{ right.statement }}</h3>
         <p>{{ right.summary }}</p>

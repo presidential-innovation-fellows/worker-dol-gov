@@ -2,21 +2,23 @@
 layout: content
 ---
 
-<div class="usa-grid">
+<div class="usa-grid section">
 	<div class="usa-width-two-thirds">
+		<p class="right__statement">
+			<img width="55" height="55" src="{{ page.icon | prepend: site.baseurl }}" alt="Icon representing {{ page.title }}">
+			{{ page.statement }}
+		</p>
 		<h1>{{page.title}}</h1>
-		<h2>{{ page.statement }}</h2>
 		<p>{{page.mission}}</p>
-		<h3>Examples</h3>
-		<ul>
-			{% for concern in site.concerns %}
-				{% if concern.right == page.right and concern.summary %}
-					<li><a href="{{ concern.url | prepend:site.baseurl }}">{{concern.summary}}</a></li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
-	<div class="usa-width-one-third">
-		<img src="{{ page.icon | prepend: site.baseurl }}" alt="Icon representing {{ page.title }}">
+		<div class="sidebar__box sidebar__box--blue">
+			<h3>Examples</h3>
+			<ul>
+				{% for concern in site.concerns %}
+					{% if concern.right == page.right and concern.summary %}
+						<li><a href="{{ concern.url | prepend:site.baseurl }}">{{concern.summary}}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </div>

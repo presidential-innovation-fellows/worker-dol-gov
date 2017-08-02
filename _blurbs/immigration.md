@@ -1,8 +1,7 @@
 ---
 layout: content
+statement: You have the right to be treated equally.
 ---
-## You have the right to be treated equally.
-
 An employer cannot refuse to hire you, or fire you, because of your citizenship, immigration status, or national origin.
 
 Discrimination can include requests for specific or extra documents to show you are allowed to work in the U.S. or to complete the [Form I-9](https://www.uscis.gov/i-9). For example, if you present your state-issued driver’s license and unrestricted Social Security card, an employer cannot require you to produce your work permit or Permanent Resident Card.

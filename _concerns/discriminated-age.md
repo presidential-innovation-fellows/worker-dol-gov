@@ -29,7 +29,7 @@ Some states have laws that protect younger workers from age discrimination.
 
 ### Examples of discrimination
 
-In general, this means that you cannot be:
+**In general, this means that you cannot be:**
 
 - fired
 - rejected for a job or promotion
