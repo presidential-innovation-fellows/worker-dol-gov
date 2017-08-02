@@ -26,5 +26,5 @@ related_links:
   - title: "Minimum Wages for Workers with Disabilities"
     url: https://www.dol.gov/whd/workerswithdisabilities/RightsForWorkersWithDisabilities.pdf
 sidebars:
-  - whd-claim
+  - contact-wage-hour
 ---
