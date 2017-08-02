@@ -13,7 +13,7 @@ summary: "I think someone is employing children unlawfully"
 blurb: children
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Child Labor"
     url: https://www.dol.gov/whd/childlabor.htm

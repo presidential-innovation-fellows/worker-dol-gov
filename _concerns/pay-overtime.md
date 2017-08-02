@@ -13,7 +13,7 @@ summary: "I wasn’t paid for my overtime"
 blurb: pay
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Overtime Pay"
     url: https://www.dol.gov/whd/overtime_pay.htm

@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my sex"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Sex-Based Discrimination"
     url: https://www.eeoc.gov/laws/types/sex.cfm

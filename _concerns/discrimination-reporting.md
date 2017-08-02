@@ -13,7 +13,7 @@ summary: "I was fired or not hired for reporting discrimination"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title:
     url:

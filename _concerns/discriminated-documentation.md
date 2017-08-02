@@ -13,7 +13,7 @@ summary: "I was asked to show more documentation than other people"
 blurb: immigration
 actions:
   - action: doj-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Immigrant and Employee Rights"
     url: https://www.justice.gov/crt/immigrant-and-employee-rights-section

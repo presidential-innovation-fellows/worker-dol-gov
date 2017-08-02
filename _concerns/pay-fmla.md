@@ -13,7 +13,7 @@ summary: "I’m not getting the family or medical leave I’m entitled to"
 blurb: fmla
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Family and Medical Leave Act"
     url: https://www.dol.gov/whd/fmla/

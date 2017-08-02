@@ -13,7 +13,7 @@ summary: "My employer blames me for being injured on the job"
 blurb: safety
 actions:
   - action: osha-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Worker Rights"
     url: https://www.osha.gov/workers/index.html

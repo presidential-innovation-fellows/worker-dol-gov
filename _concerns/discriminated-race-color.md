@@ -13,7 +13,7 @@ summary: "I was treated unfairly because of my race or color"
 blurb: equality
 actions:
   - action: eeoc-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Race / Color Discrimination"
     url: https://www.eeoc.gov/laws/types/race_color.cfm

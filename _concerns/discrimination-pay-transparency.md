@@ -13,7 +13,7 @@ summary: "I was treated unfairly because I discussed my pay"
 blurb: veteran
 actions:
   - action: ofccp-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Pay Transparency"
     url: https://www.dol.gov/ofccp/regs/compliance/factsheets/FACT_PayTransparency-Sept16_ENGESQA508c.pdf

@@ -13,7 +13,7 @@ summary: "I wasn’t paid the minimum wage"
 blurb: pay
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Minimum Wage"
     url: https://www.dol.gov/general/topic/wages/minimumwage

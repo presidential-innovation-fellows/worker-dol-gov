@@ -13,7 +13,7 @@ summary: "I wasn’t trained in a language I understand"
 blurb: safety
 actions:
   - action: osha-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Worker Rights"
     url: https://www.osha.gov/workers/index.html

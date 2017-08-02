@@ -13,7 +13,7 @@ summary: "My employer isn’t keeping records of my hours or pay"
 blurb: records
 actions:
   - action: whd-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Recordkeeping Requirements under the Fair Labor Standards Act"
     url: https://www.dol.gov/whd/regs/compliance/whdfs21.htm

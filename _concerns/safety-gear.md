@@ -13,7 +13,7 @@ summary: "No one is giving me required safety gear (such as gloves or a harness 
 blurb: safety
 actions:
   - action: osha-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Workers’ Right to Refuse Dangerous Work"
     url: https://www.osha.gov/right-to-refuse.html

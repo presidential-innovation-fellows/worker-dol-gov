@@ -13,7 +13,7 @@ summary: "Our boss threatened to fire us after we complained about the tip polic
 blurb: organizing
 actions:
   - action: nlrb-claim
-    label: File a claim
+    label: Learn more
 related_links:
   - title: "Employee Rights"
     url: https://www.nlrb.gov/rights-we-protect/employee-rights
@@ -22,5 +22,5 @@ related_links:
   - title: "Employer / Union Rights and Obligations"
     url: https://www.nlrb.gov/rights-we-protect/employerunion-rights-and-obligations
 sidebars:
-  - contact-nlrb 
+  - contact-nlrb
 ---
