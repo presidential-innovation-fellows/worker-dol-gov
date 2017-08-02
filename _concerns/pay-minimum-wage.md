@@ -4,7 +4,7 @@ title: Minimum wage
 layout: concern-details
 
 # Metadata
-concern: I wasn’t paid fairly
+concern: I wasn’t paid properly
 detail: minimum wage ($7.25 per hour)
 right: wage-rights
 summary: "I wasn’t paid the minimum wage"
