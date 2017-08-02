@@ -1,7 +1,7 @@
 ---
 layout: content
+statement: You have the right to be treated equally.
 ---
-## You have the right to be treated equally.
 
 You have the right to be treated equally by an employer that is a federal contractor or subcontractor regardless of your race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran. 
  
