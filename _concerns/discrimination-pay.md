@@ -4,7 +4,7 @@ title: Equal pay
 layout: concern-details
 
 # Metadata
-concern: I wasn’t paid fairly
+concern: I wasn’t paid properly
 detail: compensation
 right: equality-rights
 summary: "I’m not receiving equal pay for equal work"
