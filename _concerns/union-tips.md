@@ -7,7 +7,7 @@ layout: concern-details
 concern: I was harassed, threatened, or retaliated against
 detail: tip policy
 right: organizing-rights
-summary: "We complained about the tip policy and our boss threatened to fire us"
+summary: "Our boss threatened to fire us after we complained about the tip policy"
 
 # Page content
 blurb: organizing
@@ -21,4 +21,6 @@ related_links:
     url: https://www.nlrb.gov/rights-we-protect/whats-law/employees
   - title: "Employer / Union Rights and Obligations"
     url: https://www.nlrb.gov/rights-we-protect/employerunion-rights-and-obligations
+sidebars:
+  - contact-nlrb 
 ---
