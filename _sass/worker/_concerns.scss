@@ -32,6 +32,7 @@
 
   &[aria-expanded="true"] {
     border-color: $w-blue;
+    background-color: darken($color-gray-lightest, 5%);
 
     &::before {
       content: 'Close';
