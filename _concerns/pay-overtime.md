@@ -4,7 +4,7 @@ title: Overtime
 layout: concern-details
 
 # Metadata
-concern: I wasn’t paid fairly
+concern: I wasn’t paid properly
 detail: overtime
 right: wage-rights
 summary: "I wasn’t paid for my overtime"
