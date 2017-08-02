@@ -1,8 +1,6 @@
 ---
 ---
 
-#### We’re here to help.
-
 Please call the National Labor Relations Board (NLRB):
 
 - 1-844-762-NLRB (1-844-762-6572)
