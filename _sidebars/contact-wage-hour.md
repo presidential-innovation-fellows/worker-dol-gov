@@ -1,8 +1,6 @@
 ---
 ---
 
-#### We’re here to help.
-
 Please call the Wage and Hour Division of the Department of Labor:
 
 - 1-866-4-US-WAGE (1-866-487-9243)

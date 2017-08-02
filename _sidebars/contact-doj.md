@@ -1,8 +1,6 @@
 ---
 ---
 
-#### We’re here to help.
-
 Please contact the Immigrant and Employee Rights Section of the Department of Justice:
 
 - 1-800-255-7688
