@@ -5,8 +5,9 @@
 }
 
 .section--spacious {
-  padding-bottom: 8rem;
-  padding-top: 8rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  margin-bottom: 8rem;
 }
 
 .box {
@@ -25,8 +26,8 @@
 }
 
 // Background colors
-.bg-light-blue {
-  background-color: $w-light-blue;
+.bg-lighter-blue {
+  background-color: $w-lighter-blue;
 }
 
 .bg-gray {
@@ -69,12 +70,12 @@
 }
 
 .sidebar__box {
+  border-left: .3rem solid $color-white;
   font-size: 1.5rem;
   padding: 2rem;
 
   h3 {
-    font-size: 1.7rem;
-    color: $w-gray-2;
+    font-size: 2.2rem;
   }
 
   & + & {
