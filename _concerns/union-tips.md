@@ -9,7 +9,7 @@ concern:
   - I was threatened or retaliated against
 detail: tip policy
 right: organizing-rights
-summary: "Our boss threatened to fire us after we complained about the tip policy"
+summary: "Our boss threatened to fire us for complaining about the tip policy"
 
 # Page content
 blurb: organizing
