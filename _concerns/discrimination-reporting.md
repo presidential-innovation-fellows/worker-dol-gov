@@ -19,6 +19,8 @@ actions:
 related_links:
   - title: "Facts About Retaliation"
     url: https://www.eeoc.gov/laws/types/retaliation.cfm
+  - title: "Retaliation - Making it Personal"
+    url: https://www.eeoc.gov/laws/types/retaliation_considerations.cfm
 ---
 
 ### What this means for you
