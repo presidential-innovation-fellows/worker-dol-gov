@@ -9,7 +9,7 @@ concern:
   - I was threatened or retaliated against
 detail: strike
 right: organizing-rights
-summary: "Our boss fired us for going on strike"
+summary: "I was fired after going on strike"
 
 # Page content
 blurb: organizing
