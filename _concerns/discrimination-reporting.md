@@ -4,7 +4,9 @@ title: Protection against retaliation
 layout: concern-details
 
 # Metadata
-concern: I was fired or not hired
+concern:
+ - I was treated unfairly
+ - I was fired or not hired
 detail: reporting discrimination
 right: equality-rights
 summary: "I was fired or not hired for reporting discrimination"
