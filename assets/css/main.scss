@@ -38,6 +38,10 @@ a {
   font-weight: bold;
 }
 
+.t-bigger {
+  font-size: 2.7rem;
+}
+
 .t-big {
   font-size: 2.2rem;
 }
@@ -50,6 +54,10 @@ a {
   @include h1();
 }
 
+.bg-lighter-blue a {
+  color: $color-primary-medium;
+}
+
 // List styles
 .no-bullets {
   list-style-type: none;
@@ -59,11 +67,16 @@ a {
 
 // Home page
 .features {
+  margin-bottom: 8rem;
   padding: 3rem;
 
   .usa-grid {
     padding: 0;
   }
+}
+
+.features h2 {
+  margin-bottom: 3rem;
 }
 
 .features__grid {
@@ -73,13 +86,13 @@ a {
 }
 
 .feature {
-  background-color: $color-white;
+  background-color: $color-gray-lightest;
   margin-bottom: 2rem;
-  padding: 2rem 1rem 4rem 1rem;
+  padding: 2rem 2rem 4rem 2rem;
   position: relative;
 
   img {
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
   }
 
   h3 {
@@ -95,7 +108,7 @@ a {
     position: absolute;
     bottom: 2rem;
     font-weight: bold;
-    left: 1rem;
+    left: 2rem;
   }
 
   @include media($large-screen) {
