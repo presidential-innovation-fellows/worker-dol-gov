@@ -9,7 +9,7 @@ concern:
   - I was threatened or retaliated against
 detail: safety
 right: organizing-rights
-summary: "My boss threatened me after asking for better ventilation on behalf of the team"
+summary: "My employer threatened me after I asked for better ventilation for the team"
 
 # Page content
 blurb: organizing
