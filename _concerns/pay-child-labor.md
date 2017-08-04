@@ -4,7 +4,9 @@ title: Child labor
 layout: concern-details
 
 # Metadata
-concern: I want to report a different issue
+concern:
+  - I want to report a different issue
+  - I wasn’t paid properly
 detail: child labor
 right: pay
 summary: "I think someone is employing children unlawfully"
