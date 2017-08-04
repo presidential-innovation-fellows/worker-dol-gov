@@ -9,7 +9,7 @@ concern:
   - I wasn’t paid properly
 detail: employee handbook
 right: organizing-rights
-summary: "I’m afraid to talk with coworkers about our wages because our employee handbook prohibits it"
+summary: "I’m afraid to talk with my coworkers about wages because our handbook prohibits it"
 
 # Page content
 blurb: organizing
