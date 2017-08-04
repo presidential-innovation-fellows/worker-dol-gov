@@ -9,7 +9,7 @@ concern:
   - I was threatened or retaliated against
 detail: forming a union
 right: organizing-rights
-summary: "I was demoted for filing a complaint with the NLRB"
+summary: "I was demoted after filing a complaint with the NLRB"
 
 # Page content
 blurb: organizing
