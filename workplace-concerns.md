@@ -14,4 +14,6 @@ concerns:
 
 ---
 
-Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.
+Explore common workplace concerns and learn about the differnt options you have if you believe your rights were violated.
+
+
