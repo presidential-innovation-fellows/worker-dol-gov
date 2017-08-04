@@ -5,8 +5,8 @@ layout: concern-details
 
 # Metadata
 concern:
-  - I want to report a different issue
   - I wasn’t paid properly
+  - I want to report a different issue
 detail: family medical leave
 right: fmla
 summary: "I’m not getting the family or medical leave I’m entitled to"
