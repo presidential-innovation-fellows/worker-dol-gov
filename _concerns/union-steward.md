@@ -9,7 +9,7 @@ concern:
   - I was threatened or retaliated against
 detail: union steward
 right: organizing-rights
-summary: "I was threatened after complaining about working conditions to supervisor or union steward"
+summary: "I was threatened after complaining about working conditions to my union steward"
 
 # Page content
 blurb: organizing
