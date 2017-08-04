@@ -14,6 +14,6 @@ concerns:
 
 ---
 
-Explore common workplace concerns and learn about the differnt options you have if you believe your rights were violated.
+Explore common workplace concerns and learn about the different options you may have if you believe your rights were violated.
 
 
