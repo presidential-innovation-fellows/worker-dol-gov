@@ -11,3 +11,36 @@ if (window.location.hash) {
   document.querySelector('[aria-controls="'+ id +'"]').setAttribute('aria-expanded', 'true');
   document.getElementById(id).removeAttribute('hidden');
 }
+
+function expandAll() {
+  [].forEach.call(details, function(detail) {
+    detail.setAttribute('aria-hidden', 'false');
+  });
+
+  [].forEach.call(concerns, function(concern) {
+    concern.setAttribute('aria-expanded', 'true');
+  });
+}
+
+function collapseAll() {
+  [].forEach.call(details, function(detail) {
+    detail.setAttribute('aria-hidden', 'true');
+  });
+
+  [].forEach.call(concerns, function(concern) {
+    concern.setAttribute('aria-expanded', 'false');
+  });
+}
+
+document.getElementById('toggle-all').addEventListener('click', function(e) {
+  var toggleButton = e.target;
+  if (toggleButton.dataset.action == 'expand') {
+    expandAll();
+    toggleButton.dataset.action = 'collapse';
+    toggleButton.innerText = 'Collapse all';
+  } else {
+    collapseAll();
+    toggleButton.dataset.action = 'expand';
+    toggleButton.innerText = 'Expand all';
+  }
+});
