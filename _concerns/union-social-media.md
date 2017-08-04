@@ -9,7 +9,7 @@ concern:
   - I was fired or not hired
 detail: social media
 right: organizing-rights
-summary: "I was fired for chatting with my coworkers about our supervisor  on Facebook"
+summary: "I was fired for chatting about my supervisor with coworkers on Facebook"
 
 # Page content
 blurb: organizing
