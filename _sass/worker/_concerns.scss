@@ -54,3 +54,22 @@
     text-decoration: none;
   }
 }
+
+.toggle-button {
+  float: right;
+  font-weight: normal;
+  background: none;
+  color: $color-primary;
+  padding: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: none;
+    color: $color-primary-darker;
+  }
+}
+
+.accordion-controls {
+  padding: 0 0 1rem 0;
+}

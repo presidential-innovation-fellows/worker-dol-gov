@@ -44,9 +44,13 @@ title: Home
         <strong><a class="t-medium" href="{{ "/concerns" | prepend:site.baseurl }}">View all concerns</a></strong>
       </div>
       <div class="usa-width-one-third sidebar__box">
-        {% assign concerns = site.concerns | map:'concern' | uniq %}
         <h3>Workplace concerns</h3>
         <ul class="no-bullets t-medium">
+          {% for page in site.pages %}
+            {% if page.name == 'workplace-concerns.md' %}
+              {% assign concerns = page.concerns %}
+            {% endif %}
+          {% endfor %}
           {% for concern in concerns %}
           <li><a href="{{ site.baseurl }}/concerns#{{ concern | slugify }}">{{ concern }}</a></li>
           {% endfor %}
@@ -63,13 +67,3 @@ title: Home
       </div>
     </div>
   </section>
-
-<script>
-var select = document.getElementById('concern-select');
-select.addEventListener('change', function(e) {
-  var hash = e.target.value;
-  var a = document.getElementById('concern-button');
-  var url = a.getAttribute('href') + '#' + hash;
-  a.setAttribute('href', url);
-});
-</script>

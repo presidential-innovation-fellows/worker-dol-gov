@@ -3,31 +3,33 @@ layout: content
 ---
 
 <div class="usa-grid">
-  <h1>Workplace concerns</h1>
-  {{ page.content }}
+  <div class="usa-width-three-fourths">
+    <h1>Workplace concerns</h1>
+    {{ page.content }}
+  </div>
 </div>
 <div class="usa-grid section">
   <div class="usa-width-three-fourths">
+    <div class="usa-grid accordion-controls">
+      <button class="toggle-button" id="toggle-all" data-action="expand">Expand all</button>
+    </div>
     <ul class="usa-accordion">
-      {% assign concerns = site.concerns | map:'concern' | uniq %}
-      {% for concern in concerns %}
+      {% for concern in page.concerns %}
         <li id="{{ concern | slugify }}">
           <button class="usa-accordion-button concern__button js-concern-button" aria-controls="accordion-{{ concern | slugify }}">
             <h3>{{ concern }}</h3>
           </button>
           <div class="concern__details usa-accordion-content js-concern-details" id="accordion-{{ concern | slugify }}">
-            {% assign details = site.concerns | where:'concern',concern %}
             <ul>
-              {% for detail in details %}
+              {% for detail in site.concerns %}
+                {% if detail.concern contains concern or detail.concern == concern %}
                 <li><a class="concern__detail" href="{{ detail.url | prepend:site.baseurl }}">{{ detail.summary }} &raquo;</a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
         </li>
-
       {% endfor %}
-
-
     </div>
   </div>
 </div>

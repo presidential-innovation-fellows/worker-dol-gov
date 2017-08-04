@@ -3,32 +3,36 @@ layout: default
 ---
 
 <section class="section">
-
-	<div class="usa-grid">
+	<div class="usa-grid section">
 		<h1>{{page.header}}</h1>
-		<div class="main-content">
+		<div class="main-content section">
 			{% if page.before-you-file-markup %}
 				<h2>Before you file</h2>
 				{{ page.before-you-file-markup }}
 			{% endif %}
-				<h2>What can I expect?</h2>
-				<div class="steps">
-					<ul class="usa-unstyled-list">
-					  {% for step in page.steps %}
-						<li>
-							<div class="step-img">
-			  					<img src="{{step.img | prepend: site.baseurl }}"/>
-			  				</div>
-								<div class="step-content">
-			  					<h4>Step {{ forloop.index }}</h4>
-			  					<p>{{step.text}}</p>
-								</div>
-						</li>
-				   {% endfor %}
-					</ul>
+				<div class="section">
+					<h2>What can I expect?</h2>
+					<div class="steps">
+						<ul class="usa-unstyled-list">
+						  {% for step in page.steps %}
+							<li>
+								<div class="step-img">
+				  					<img src="{{step.img | prepend: site.baseurl }}"/>
+				  				</div>
+									<div class="step-content">
+				  					<h4>Step {{ forloop.index }}</h4>
+				  					<p>{{step.text}}</p>
+									</div>
+							</li>
+					   {% endfor %}
+						</ul>
+						<div class="step-content">
+							<a class="usa-button usa-button-big" href="{{page.exit}}" class="exit">File Now</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<aside class="sidebar sidebar__box sidebar__box--gray">
+			<aside class="sidebar sidebar__box sidebar__box--blue">
 				<h3>We're here to help</h3>
 				<ul class="no-bullets">
 				{% for help in page.here-to-help %}
@@ -37,16 +41,6 @@ layout: default
 				</ul>
 			</aside>
 		</div>
-	<div class="usa-grid">
-		<div class="usa-width-one-whole">
-			<div class="usa-grid">
-				<div class="usa-width-one-whole">
-					<a class="usa-button usa-button-big" href="{{page.exit}}" class="exit">File Now</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	{{ content }}
 
 </section>
