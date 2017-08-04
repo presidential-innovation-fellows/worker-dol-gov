@@ -6,7 +6,7 @@ layout: concern-details
 # Metadata
 concern:
  - I was treated unfairly
- - I was harassed, threatened, or retaliated against
+ - I was threatened or retaliated against
 detail: reporting discrimination
 right: equality-rights
 summary: "I was treated unfairly because I discussed my pay"
