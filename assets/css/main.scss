@@ -170,6 +170,25 @@ a {
   }
 }
 
+// About page
+.main-content--about {
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 + p {
+    margin-top: 0;
+  }
+
+  @include media($medium-screen) {
+    @include span-columns(9);
+  }
+}
 // Partner logos
 .partner-logo {
   display: block;
@@ -180,6 +199,6 @@ a {
     display: inline-block;
     float: left;
     margin-right: 4rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
   }
 }
