@@ -58,7 +58,7 @@
 }
 
 // Sidebars & main content layout
-@include media($large-screen) {
+@include media($medium-screen) {
   .sidebar {
     @include span-columns(4);
     @include shift(1);
@@ -66,6 +66,16 @@
 
   .main-content {
     @include span-columns(7);
+  }
+}
+
+.main-content {
+  h2 {
+    padding-top: 4rem;
+  }
+
+  h3 {
+    padding-top: 2rem;
   }
 }
 
