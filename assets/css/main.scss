@@ -51,6 +51,14 @@ a {
   font-size: 2.2rem;
 }
 
+.t-big a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .t-medium {
   font-size: 1.8rem;
 }
