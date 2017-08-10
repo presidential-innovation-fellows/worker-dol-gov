@@ -24,5 +24,5 @@ related_links:
   - title: "Worker Rights Booklet"
     url: https://www.osha.gov/Publications/osha3021.pdf
 sidebars:
-  - contact-osha
+  - contact-osha-retaliation
 ---
