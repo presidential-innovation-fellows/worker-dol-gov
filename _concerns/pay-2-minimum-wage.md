@@ -17,7 +17,7 @@ actions:
 related_links:
   - title: "Minimum Wage"
     url: https://www.dol.gov/general/topic/wages/minimumwage
-  - title: "Wage and Hour Division: Minumum Wage"
+  - title: "Wage and Hour Division: Minimum Wage"
     url: https://www.dol.gov/whd/minimumwage.htm
   - title: "Minimum Wage Laws in the States"
     url: https://www.dol.gov/whd/minwage/america.htm

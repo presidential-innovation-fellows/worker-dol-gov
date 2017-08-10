@@ -57,7 +57,7 @@
             <span {% if page.collection == 'rights' %}class="usa-nav--current"{% endif %}>Your rights</span>
           </button>
           <ul id="side-nav-1" class="usa-nav-submenu">
-            {% for right in site.rights %}
+            {% for right in site.rights | sort:'name' %}
             <li>
               <a href="{{ right.url | prepend: site.baseurl }}">{{ right.title }}</a>
             </li>
