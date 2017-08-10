@@ -1,0 +1,39 @@
+// Homepage Styles
+
+.hero {
+  background-color: $color-primary;
+  color: $color-white;
+  margin: 0 0 8rem 0;
+  padding: 7rem 0 5rem 0;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+
+  .icons {
+    text-align: center;
+
+    img {
+      margin-left: 15px;
+      width: 80%;
+    }
+  }
+
+  h1 {
+    margin: 2rem 0;
+  }
+
+  p {
+    margin: .5rem 0 4rem 0;
+  }
+
+  @include media($medium-screen) {
+    .icons {
+      img {
+        width: 35%;
+      }      
+    }
+
+    h1 {
+      margin: .75rem 0 0 0;
+    }
+  }
+}

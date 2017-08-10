@@ -1,11 +1,11 @@
 ---
-title: Wage Rights
+title: Wage rights
 layout: rights
-val: wage-rights
 right: wage-rights
-statement: You have the right to be paid.
+statement: The right to be paid properly
 mission: We are committed to ensuring that workers in this country are paid properly and for all the hours they work, regardless of immigration status.
-icon: "/assets/img/icons/right-wage-sm.png"
-
+summary: Labor laws establish standards for the minimum wage, overtime pay, recordkeeping, family medical leave, and youth employment.
+icon: "/assets/img/icons/icon-payment-red.svg"
+page_icon: "/assets/img/icons/icon-payment-red-uncropped.svg"
+order: 1
 ---
-

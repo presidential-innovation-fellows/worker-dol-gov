@@ -1,0 +1,119 @@
+// Sections
+.section {
+  padding-bottom: 3.2rem;
+  padding-top: 3.2rem;
+}
+
+.section--spacious {
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  margin-bottom: 8rem;
+}
+
+.box {
+  padding: 3rem;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+// Background colors
+.bg-lighter-blue {
+  background-color: $w-lighter-blue;
+}
+
+.bg-gray {
+  background-color: $color-gray;
+}
+
+.bg-gray-lightest {
+  background-color: $color-gray-lightest;
+}
+
+.bg-gray {
+  background-color: $color-gray-medium;
+}
+
+.bg-dark {
+  background-color: $color-gray-dark;
+  color: $color-white;
+
+  a,
+  a:visited {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}
+
+.bg-white {
+  background-color: $color-white;
+}
+
+// Sidebars & main content layout
+@include media($medium-screen) {
+  .sidebar {
+    @include span-columns(4);
+    @include shift(1);
+  }
+
+  .main-content {
+    @include span-columns(7);
+  }
+}
+
+.main-content {
+  h2 {
+    padding-top: 4rem;
+  }
+
+  h3 {
+    padding-top: 2rem;
+  }
+}
+
+.sidebar__box {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 2rem;
+
+  h3 {
+    color: $w-gray-2;
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+  }
+
+  h3 + p {
+    margin-top: 0;
+  }
+
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+.sidebar__box--gray {
+  border-left: 4px solid $color-gray-lightest;
+}
+
+.sidebar__box--blue {
+  border-left: 4px solid $w-light-blue;
+}
+
+.sidebar__box--white {
+  border-top: .3rem solid $color-white;
+  margin-top: 2rem;
+
+  @include media($medium-screen) {
+    border-left: .3rem solid $color-white;
+    border-top: none;
+    margin-top: 0;
+  }
+}

@@ -2,8 +2,10 @@
 title: OFCCP Claim
 layout: process
 exit: https://www.dol.gov/ofccp/regs/compliance/pdf/pdfstart.htm
-header: File a Claim with OFCCP
+header: Filing a claim with OFCCP
+
 before-you-file-markup: "<p>We at the Office of Federal Contract Compliance Programs enforce, for the benefit of job seekers and wage earners, the contractual promise of affirmative action and equal employment opportunity required of those who do business with the Federal government.</p>"
+
 steps:
   - { text: "Download the form in the language you prefer
 English
@@ -18,9 +20,9 @@ Vietnamese
   - { text: "We will review your complaint form, or letter of complaint, and contact you if we need more information", img: "/assets/img/icons/steps/Phone_Icon.png" }
   - { text: "We will work with you to answer your questions and determine if setting up an investigation is the best course of action", img: "/assets/img/icons/steps/SpeechBubble_Icon.png" }
   - { text: "If an investigation is set up and finds sufficient evidence, you may be entitled to monetary relief and/or other remedies", img: "/assets/img/icons/steps/Check_Icon.png" }
+  
 here-to-help:
-  - All services are free and confidential, whether you are documented or not. Information obtained from individuals who contact OFCCP will not be revealed to the employer until the individual files a charge of discrimination.
-  - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with OFCCP.
-worker-profile:
-  - { description: "Mr. Hursey was discriminated against based on his race and we got him back wages.", img: "/assets/img/workers/mrhursey.png", cta: "Read Mr. Hursey's Story", id: "mrhursey"}
+  - All services are free and confidential, whether you’re documented or not. We will not disclose any information to your employer unless you decide to file a formal complaint.
+  - Please note that it is illegal for your employer to fire, demote, harass, or otherwise retaliate against you for filing a complaint with the OFCCP.
+
 ---

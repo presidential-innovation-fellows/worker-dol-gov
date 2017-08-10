@@ -1,0 +1,30 @@
+
+// Footer Styles
+footer {
+  font-size: 1.5rem;
+  padding: 5rem 0;
+  -webkit-font-smoothing: antialiased;
+
+  p, ul {
+    color: $color-gray-light;
+  }
+
+  ul {
+    margin-bottom: 3rem;
+  }
+
+}
+
+
+.footer-heading {
+  font-size: 14px;
+}
+
+.agencies {
+  text-align: left;
+}
+
+.agencies li {
+  display: inline-block;
+  max-width: 75px;
+}

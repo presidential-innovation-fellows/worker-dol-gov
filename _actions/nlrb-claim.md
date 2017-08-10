@@ -2,7 +2,7 @@
 title: NLRB Claim
 layout: process
 exit: https://apps.nlrb.gov/eservice/efileterm.aspx
-header: File a Claim with NLRB
+header: Filing a claim with NLRB
 
 before-you-file-markup: "<p>If you have questions before filing a charge or petition, you can call us at 1-866-667-NLRB or reach out to your nearest <a href='https://www.nlrb.gov/who-we-are/regional-offices'>Regional Office</a>.</p>"
 
@@ -13,10 +13,7 @@ steps:
   - { text: "If there is no settlement, a complaint will be issued to be heard by an Administrative Law Judge.  The NLRB will represent the charging party.", img: "/assets/img/icons/steps/Gavel_Icon.png" }
 
 here-to-help:
-  - All services are free and confidential, whether you are documented or not.
-  - Please remember that your employer cannot terminate you or in any other manner discriminate against you for filing a complaint with NLRB.
+  - All services are free and confidential, whether you’re documented or not. We will not disclose any information to your employer unless you decide to file a formal complaint.
+  - Please note that it is illegal for your employer to fire, demote, harass, or otherwise retaliate against you for filing a complaint with the NLRB.
 
-worker-profile:
-  - { description: "These workers went through something similar and stopped retaliation against unionized workers.", img: "/assets/img/workers/ElSuper_Thumb.jpg", cta: "Read Their Story", id: "elsuper"}
-  
 ---

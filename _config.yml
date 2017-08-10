@@ -31,7 +31,16 @@ collections:
     output: true
   actions:
     output: true
+    permalink: /:collection/:path/
   rights:
     output: true
+    permalink: /:collection/:path/
   worker-profiles:
     output: true
+  concerns:
+    output: true
+    permalink: /:collection/:path/
+  sidebars:
+    output: false
+  blurbs:
+    output: false

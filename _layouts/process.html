@@ -1,82 +1,46 @@
 ---
 layout: default
 ---
-<section class="action-bar">
-	<div class="usa-grid">
-		<div class="usa-width-one-whole">
-			<a href="{{ page.exit }}" class="usa-button usa-button-secondary exit">File a Claim</a>
-		</div>
-	</div>
-</section>
 
-
-<section class="content">
-
-<div class="usa-grid">
-	<div class="usa-width-two-thirds">
-
+<section class="section">
+	<div class="usa-grid section">
 		<h1>{{page.header}}</h1>
-
-{% if page.before-you-file-markup %}
-	<div class="process-section">
-		<h2>Before you file</h2>
-		{{ page.before-you-file-markup }}
-	</div>
-{% endif %}
-	<div class="process-section">
-		<h2>What can I expect?</h2>
-		<div class="steps">
-			<ul class="usa-unstyled-list">
-			  {% for step in page.steps %}
-				<li>
-					<div class="step-img">
-    					<img src="{{step.img}}"/>
-    				</div>
-  					<div class="step-content">
-    					<h4>Step {{ forloop.index }}</h4>
-    					<p>{{step.text}}</p>
-  					</div>
-				</li>
-  			   {% endfor %}
-			</ul>
-		</div>
-	</div>
-
-	</div>
-	<div class="usa-width-one-third process-sidebar">
-		<h2>We're here to help</h2>
-		<ul>
-		{% for help in page.here-to-help %}
-			<li>{{help}}</li>
-		{% endfor %}
-		</ul>
-		{% if page.worker-profile %}
-		<hr class="seperator">
-		<div class="worker-sidebar">
-		{% for profile in page.worker-profile %}
-			<img src="{{ profile.img }}">
-			<h4>Worker Profile</h4>
-			<p>{{ profile.description }}</p>
-			<a href="/worker-profiles/{{profile.id}}.html" class="usa-button usa-button-primary">{{ profile.cta }}</a>
-		{% endfor %}
-		</div>
-		{% endif %}
-	</div>
-</div>
-<div class="action-area">
-	<div class="usa-grid">
-		<div class="usa-width-one-whole">
-			<div class="usa-grid">
-				<div class="usa-width-one-whole">
-					<a class="usa-button usa-button-big usa-button-secondary" href="{{page.exit}}" class="exit">File Now</a>
+		<div class="main-content section">
+			{% if page.before-you-file-markup %}
+				<h2>Before you file</h2>
+				{{ page.before-you-file-markup }}
+			{% endif %}
+				<div class="section">
+					<h2>What can I expect?</h2>
+					<div class="steps">
+						<ul class="usa-unstyled-list">
+						  {% for step in page.steps %}
+							<li>
+								<div class="step-img">
+				  					<img src="{{step.img | prepend: site.baseurl }}"/>
+				  				</div>
+									<div class="step-content">
+				  					<h4>Step {{ forloop.index }}</h4>
+				  					<p>{{step.text}}</p>
+									</div>
+							</li>
+					   {% endfor %}
+						</ul>
+						<div class="step-content">
+							<a class="usa-button usa-button-big" href="{{page.exit}}" class="exit">File Now</a>
+						</div>
+					</div>
 				</div>
 			</div>
+			<aside class="sidebar sidebar__box sidebar__box--blue">
+				<h3>We’re here to help</h3>
+				<ul class="no-bullets">
+				{% for help in page.here-to-help %}
+					<li>{{help}}</li>
+				{% endfor %}
+				</ul>
+			</aside>
 		</div>
-	</div>
-</div>
-
-
-{{ content }}
+	{{ content }}
 
 </section>
-

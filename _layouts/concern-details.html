@@ -1,0 +1,56 @@
+---
+layout: content
+---
+
+<div class="usa-grid section">
+	<p class="right__statement">
+		{% for right in site.rights %}
+			{% if right.right == page.right %}
+				<img width="55" height="55" src="{{ right.page_icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
+			{% endif %}
+		{% endfor %}
+		{% for blurb in site.blurbs %}
+			{% if blurb.slug == page.blurb %}
+				{{ blurb.statement }}
+			{% endif %}
+		{% endfor %}
+	</p>
+	<h1>{{page.title}}</h1>
+	<div class="main-content">
+		{% for blurb in site.blurbs %}
+			{% if blurb.slug == page.blurb %}
+				{{ blurb | markdownify }}
+			{% endif %}
+		{% endfor %}
+		{{ page.content }}
+
+		{% for sidebar in site.sidebars %}
+			{% if page.sidebars contains sidebar.slug %}
+			<h2>Questions? We’re here to help.</h2>
+			{{ sidebar | markdownify }}
+		{% endif %}
+		{% endfor %}
+
+		{% for action in page.actions %}
+		<a class="usa-button" href="{{ site.baseurl }}/actions/{{ action.action }}">{{ action.label }}</a>
+		{% endfor %}
+
+	</div>
+	<div class="sidebar">
+		{% if page.related_links %}
+		<aside class="sidebar__box sidebar__box--blue">
+			<h3>Related links</h3>
+			<ul class="no-bullets">
+			{% for link in page.related_links %}
+				<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</aside>
+
+		<aside class="sidebar__box sidebar__box--gray">
+			<h3>Looking for a job?</h3>
+			<p>Visit <a href"https://www.careeronestop.org/">CareerOneStop</a> to find job opportunities, career options, training, skills assessments, and workforce services in your neighborhood. CareerOneStop is a free online resource sponsored by the Department of Labor.</p>
+		</aside>
+		{% endif %}
+	</div>
+</div>

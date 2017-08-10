@@ -3,54 +3,68 @@ layout: default
 title: Home
 ---
 
-
-<div class="page-content home-page">
-
-<div class="wrapper">
-
-<div class="index">
-
-  <ul class="icons">
-          <li><img src="/assets/img/icons-workers.png" alt="Worker Icons"></li>
-  </ul>
-
-  <h1 class="page-heading">We work for you.</h1>
-  <h4>You have rights. We’ll help you exercise them. This site is dedicated to the needs of workers and is designed to improve based on your input.</h4>
-
-  <div class="usa-grid">  
-    <div class="usa-width-one-whole">
-        <label for="worker-profile">I am a:</label>
+<div class="hero">
+  <div class="usa-grid">
+    <div class="index">
+      <div class="icons">
+        <img src="{{ "/assets/img/icons-3-workers.svg" | prepend: site.baseurl }}" alt="Icons of a cook, desk worker, and road worker">
+      </div>
+      <h1 class="t-display">Worker protections</h1>
+      <p class="t-big">This site covers common workplace concerns and <br>the federal laws that protect you.</p>
+      <div class="usa-grid">
+        <a href="#content"><img src="{{ "/assets/img/down-arrow.svg" | prepend: site.baseurl }}" alt="Down arrow"></a>
+      </div>
     </div>
   </div>
-  <div class="usa-grid">  
-    <div class="usa-width-two-thirds top-margin">
-      <div class="profile-wrapper">
-      <div class="awesomplete">
-      <input list="workerprofiles" class="dropdown-input-index" autocomplete="off" aria-autocomplete="list" placeholder="enter your job title">
-      <datalist id="workerprofiles">
-      {% for profile in site.profiles %}
-      {% if profile.layout == "profiles" %}
-            <option value="{{ profile.name }}" data-url="/profiles/{{ profile.val}}.html">{{ profile.name }}</option>        
-      {% endif %}
-      {% endfor %}
-    </ul>
-    </div>
-    <button class="dropdown-btn" type="button"></button></h1>
-    </div>
-    </div>
-    
-    <div class="usa-width-one-third top-margin side-margin">
-       <div class="button_wrapper">
-        <a class="usa-button usa-button-big usa-button-secondary learn-rights" href="profiles/all.html">Learn My Rights</a>
-       </div>
+</div>
+
+<section>
+  <div id="content">
+    <div class="usa-grid features">
+      <h2 class="usa-grid">Learn about your rights</h2>
+      <div class="usa-grid features__grid">
+        {% assign rights = site.rights | sort: 'order' %}
+        {% for right in rights %}
+        <div class="feature">
+          <img src="{{ right.icon | prepend: site.baseurl }}" alt="Icon representing {{ right.title }}">
+          <h3>{{ right.statement }}</h3>
+          <p>{{ right.summary }}</p>
+          <a href="{{ right.url | prepend:site.baseurl }}">Learn more &raquo;</a>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  <a href="profiles/all.html" class="explore-rights">Explore all rights</a>
+</section>
 
-</div>
+  <section class="section--spacious bg-lighter-blue">
+    <div class="usa-grid">
+      <div class="usa-width-two-thirds">
+        <h2>Having an issue at work?</h2>
+        <p class="t-big">See how federal laws protect you from common workplace concerns, and learn about how to take action if you believe your rights were violated.</p>
+        <strong><a class="t-medium" href="{{ "/concerns" | prepend:site.baseurl }}">View all workplace concerns</a></strong>
+      </div>
+      <div class="usa-width-one-third sidebar__box sidebar__box--white">
+        <h3>Workplace concerns</h3>
+        <ul class="no-bullets t-medium">
+          {% for page in site.pages %}
+            {% if page.name == 'workplace-concerns.md' %}
+              {% assign concerns = page.concerns %}
+            {% endif %}
+          {% endfor %}
+          {% for concern in concerns %}
+          <li><a href="{{ site.baseurl }}/concerns#{{ concern | slugify }}">{{ concern }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
 
-</div>
-
-</div>
-
-</div>
+  <section>
+    <div class="usa-grid box">
+      <div class="usa-width-three-fourths">
+        <h2>Find a new job or learn new skills</h2>
+        <p class="t-big">Visit <a href="https://www.careeronestop.org/">CareerOneStop</a> to find job opportunities, career options, training, skills assessments, and workforce services in your neighborhood. CareerOneStop is a free online resource sponsored by the Department of Labor.</p>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,63 @@
+.concern__button {
+  background-position: right 2.5rem top 50%;
+  border-left: 10px solid $w-light-blue;
+  color: $color-base;
+  display: block;
+  margin-top: .8rem;
+  padding-left: 2rem;
+  position: relative;
+  transition: border-color, background-color .1s ease-out;
+  width: 100%;
+
+  p {
+    font-weight: normal;
+    display: block;
+    width: 75%;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $w-blue;
+    background-color: darken($color-gray-lightest, 5%);
+  }
+}
+
+.concern__details {
+  background-color: $color-gray-lightest;
+  border-left: 10px solid $w-light-blue;
+  padding: 2rem;
+
+  ul {
+    list-style-type: none;
+    margin-bottom: .5rem;
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.toggle-button {
+  float: right;
+  font-weight: normal;
+  background: none;
+  color: $color-primary;
+  padding: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: none;
+    color: $color-primary-darker;
+  }
+}
+
+.accordion-controls {
+  padding: 0 0 1rem 0;
+}
