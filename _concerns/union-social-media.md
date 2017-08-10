@@ -28,5 +28,3 @@ related_links:
 sidebars:
   - contact-nlrb
 ---
-
-Federal law protects your right to act together with other employees to address conditions at work, with or without a union. This protection extends to certain work-related conversations conducted on social media, such as Facebook and Twitter.
