@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Worker.gov was created by the [Department of Labor](https://www.dol.gov/) to provide information about worker’s rights and common workplace concerns. The website covers topics and laws enforced by several federal agencies, including the U.S. Department of Labor, U.S. Equal Employment Opportunity Commission, the National Labor Relations Board, and the U.S. Department of Justice’s Civil Rights Division.
+Worker.gov was created by the [Department of Labor](https://www.dol.gov/) to provide information about worker’s rights and common workplace concerns. The website covers topics and laws enforced by several federal agencies:
 
 ### [![Department of Labor logo]({{ site.baseurl }}/assets/img/logos/DOL-logo.jpg){:class="partner-logo"}](https://www.dol.gov/)DOL
 The [U.S. Department of Labor](https://www.dol.gov/)’s mission is to foster, promote, and develop the welfare of the wage earners, job seekers, and retirees of the United States; improve working conditions; advance opportunities for profitable employment; and assure work-related benefits and rights.
